@@ -2,7 +2,7 @@
 layout: home
 title: Samen onder Handbereik
 permalink: /
-cover: https://samen-onder-handbereik.github.io/afsprakenstelsel/assets/handenblauwlogo.png
+cover: https://samen-onder-handbereik.github.io/afsprakenstelsel/assets/handenblauwlogosmall.png
 ---
 
 Netwerksamenwerking onder de vingertoppen
