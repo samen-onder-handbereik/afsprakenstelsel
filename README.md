@@ -2,7 +2,7 @@
 layout: home
 title: Samen onder Handbereik
 permalink: /
-cover: https://sighingnow.github.io/jekyll-gitbook/assets/soh.svg
+cover: https://samen-onder-handbereik.github.io/afsprakenstelsel/assets/handenblauwlogo.png
 ---
 
 Netwerksamenwerking onder de vingertoppen
