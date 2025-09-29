@@ -6,7 +6,7 @@ category: Jekyll
 layout: post
 ---
 
-> ##### In Consultatie
+> ##### Consultatie
 {: .block-warning }
 
 We zijn niet de enige die de beweging naar het netwerkmodel maken. Op verschillende plaatsen binnen de Nederlandse overheid zie je die technologie beweging van berichtenverkeer naar APIs en gebeurtenissen technologie. In de gemeentewereld onder de Common Ground vlak. In de zorgwereld. We willen in het netwerk optimaal gebruik maken van overheidsbrede afspraken, standaarden en voorzieningen. 
@@ -24,6 +24,10 @@ In dit hoofdstuk werken we vooral aanvullende thema’s en principes uit. Thema�
 
 Thema's
 -------------
+
+> ##### Concept
+{: .block-danger }
+
 Maatschappelijke, juridische en digitale overheidskaders waarbinnen de oplossing welke het afsprakenkader biedt moet passen zijn samen te vatten in 4 kernthema’s:
 
 1.    **Zelfredzaamheid ondersteund**: Hier komen de ontwikkelingen mensgerichtheid, doenvermogen, digitalisering, arbeidsmarkt en de inzet van Hervormingsagenda Jeugd/Toekomstscenario bij elkaar. Het voorkomt veel leed door problematiek in een vroeg stadium te (helpen) verhelpen. En met digitale preventieve oplossingen kan de beperkt beschikbare professionele aandacht worden gereserveerd voor waar ze echt nodig is.
@@ -67,6 +71,10 @@ De specifieke principes voor dit thema zijn daarom:
 | Implicaties | - |
 
 ### Transparantie voor de burger
+
+> ##### Concept
+{: .block-danger }
+
 We werken nauw en transparant samen met de burger en zijn/haar gezin. Transparantie is voor de jeugd, zorg en veiligheid een belangrijk thema. Doel is om de burger en zijn/haar gezinssysteem meer inzicht te geven in hun gegevens en de status van hun zaken, aansluitend bij hun perspectief en vanuit één ingang. Zodat de burger zelf de regie kan (terug)pakken en zijn bijdrage in de samenwerking kan leveren.
 
 Basisprincipes voor dit thema zijn afkomstig van 3 bronnen: de NORA, de Gemma, de MIDO en het FDS.
@@ -111,6 +119,10 @@ We hanteren 4 eigen aanvullende principes:
 | Implicaties | -        Als burger wordt ik actief digitaal op de hoogte gesteld van wat er van mij wordt verwacht.-        Als burger heb ik invloed op met wie en wanneer mijn gegevens gedeeld worden. |
 
 ### Integraal samenwerken
+
+> ##### Concept
+{: .block-danger }
+
 In het domein van jeugd, zorg en veiligheid werken veel professionals die elk hun eigen taken uitvoeren voor het gezin. Die taken zijn vaak (bewust of onbewust) afhankelijk van taken of informatie van andere professionals. Daarom is het van belang dat een professional niet alleen zicht heeft op wat in de interne bedrijfsvoering van de organisatie waar die werkt bekend is. Maar dat er ook zicht is op informatie en over taken die door professionals van andere organisaties worden gedaan. Die informatie over de samenwerking moet gedeeld worden, zodat organisaties in staat worden gesteld ze ook onder de vingertoppen van hun professional te brengen . We werken vanuit eigen taak(systeem) en verantwoordelijkheid in een gezamenlijk proces en sturingskader. Er is een flexibel inzetbaar samenwerkproces met ondersteuning voor daarin benodigde vaardigheden / bouwstenen. Focus is op het gezin(ssysteem), het samenbrengen van de relevante partners, komen tot een gedeeld beeld, een gedeeld plan en  duidelijke regie**.**
 
 Basisprincipes voor dit thema zijn afkomstig van 1 bron: de NORA. Van de GEMMA, de MIDO en het FDS zijn geen principes geoogst.
@@ -142,9 +154,16 @@ Specifieke principes voor dit thema rond samenwerken:
 | Implicaties | -        In verzoeken om informatie en de digitale uitwisseling moet voldoende gespecificeerd zijn over de rol en functie van de betrokkene, de wettelijke taak, de doelbinding en de informatiebehoefte voor de professional om te beoordelen of tot verstrekking wordt overgegaan.-        Verzoeken tot samenwerking en inzage/verstrekking van informatie kunnen worden geweigerd. Dat kan zowel geautomatiseerd collectief (bijv. voor een bepaald type verzoek van een bepaalde organisatie) of individueel door een professional-        Voor het verzamelen van data en monitoren van de samenwerking is behoefte aan een standaard-        Op verschillende niveaus kunnen gegevens bevraagd worden c.q. informatieproducten geleverd worden-        Evalueren onderdeel en cyclisch verbeteren maakt onderdeel uit van het proces-        Behoefte aan een monitor om de resultaten inzichtelijk te maken |
 
 ### Informatie gedreven
+
+> ##### Concept
+{: .block-danger }
+
 We maken als ketenpartners informatie by design betekenisvol, duurzaam en privaat voor de samenwerking beschikbaar. Na de digitalisering van bestaande (papier)stromen tussen 2 partijen maken we de volgende sprong. Er ontstaat een virtueel samenwerkplatform van informatiediensten. Daarin is helder wie verantwoordelijk is voor welke informatie en wat de betekenis van de gegevens is. Daarbij is gegevensbescherming in het platform “by design” ingebed en werken we op basis van overheid brede afspraken.
+
 Vanuit het perspectief van een ketenpartner verschuift het paradigma van keteninformatievoorziening hiermee van het verplicht aansluiten op ketenvoorzieningen naar het verzamelen en aanbieden van functionaliteit en gegevens aan elkaar met gegevensbescherming en verantwoording in het hart. Dat versterkt de samenwerking.
+
 Hierop hanteren we geen eigen principes, maar hanteren we de principes van 3 bronnen: de NORA, de GEMMA, de MIDO en het FDS.
+
 Voor de NORA/GEMMA hanteren we principes:
 ·       NAP/GAP08 Standaardiseer waar mogelijk: reduceer varieteit en kosten, zorg voor een betere interoperabiliteit.
 ·       NAP/GAP10 Neem gegevens als fundament: de kwaliteit, toegankelijkheid en zorgvuldig beheer van ontstaan tot vernieuwing van gegevens zijn het fundament voor waardevolle diensten
@@ -158,6 +177,7 @@ De MIDO Domeinarchitectuur Gegevensuitwisseling (paragraaf 4.2). Met name:
 ·       Principes m.b.t. toepassing van (open) standaarden (1.2)
 
 En als derde bron de principes van toepassing van het Federatief Datastelsel. Met name:
+
 ·       Data blijft bij de bron, de bronhouder is soeverein, heeft zeggenschap en autoriseert de toegang tot data
 ·       Zorgvuldige omgang met beveiliging en privacy
 ·       Toepassing van afspraken boven standaarden en voorzieningen
