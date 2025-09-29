@@ -30,13 +30,10 @@ Thema's
 
 Maatschappelijke, juridische en digitale overheidskaders waarbinnen de oplossing welke het afsprakenkader biedt moet passen zijn samen te vatten in 4 kernthema’s:
 
-1.    **Zelfredzaamheid ondersteund**: Hier komen de ontwikkelingen mensgerichtheid, doenvermogen, digitalisering, arbeidsmarkt en de inzet van Hervormingsagenda Jeugd/Toekomstscenario bij elkaar. Het voorkomt veel leed door problematiek in een vroeg stadium te (helpen) verhelpen. En met digitale preventieve oplossingen kan de beperkt beschikbare professionele aandacht worden gereserveerd voor waar ze echt nodig is.
-
-2.    **Transparantie voor de burger**: Hier komen de ontwikkelingen rechtsbescherming, rechtsstatelijkheid, digitaal doenvermogen, omnichannel, digibeter, de EU datawetten en de Wembv bij elkaar. Door inzicht in het proces voor de betrokkenen, transparant en accountable, met de mogelijkheden om te participeren (zienswijze en bezwaar inbrengen) en met de zorgplicht voor minder digitaal vaardigen krijgt de burger een centrale rol.
-
-3.    **Integraal Samenwerken**: Hier komen de ontwikkelingen Systemisch, Digitalisering, Arbeidsmarkt, Interbestuurlijke datastrategie, moderne koppelvlakken en de landelijke agenda zorg en veiligheid bij elkaar. Focus is op het gezin(ssysteem), het samenbrengen van de relevante partners, komen tot een gedeeld beeld, een gedeeld plan en  duidelijke regie**.**
-
-4.    **Informatie gedreven**: Hier komende ontwikkelingen Datagedreven, Privacy, Federatief Datastelsel, Common/Public Ground, I-Strategie en Moderne Architectuur bij elkaar. Ketenpartners bieden functionaliteit en gegevens aan elkaar met gegevensbescherming en verantwoording in het hart.
+1. **Zelfredzaamheid ondersteund**: Hier komen de ontwikkelingen mensgerichtheid, doenvermogen, digitalisering, arbeidsmarkt en de inzet van Hervormingsagenda Jeugd/Toekomstscenario bij elkaar. Het voorkomt veel leed door problematiek in een vroeg stadium te (helpen) verhelpen. En met digitale preventieve oplossingen kan de beperkt beschikbare professionele aandacht worden gereserveerd voor waar ze echt nodig is.
+2. **Transparantie voor de burger**: Hier komen de ontwikkelingen rechtsbescherming, rechtsstatelijkheid, digitaal doenvermogen, omnichannel, digibeter, de EU datawetten en de Wembv bij elkaar. Door inzicht in het proces voor de betrokkenen, transparant en accountable, met de mogelijkheden om te participeren (zienswijze en bezwaar inbrengen) en met de zorgplicht voor minder digitaal vaardigen krijgt de burger een centrale rol.
+3. **Integraal Samenwerken**: Hier komen de ontwikkelingen Systemisch, Digitalisering, Arbeidsmarkt, Interbestuurlijke datastrategie, moderne koppelvlakken en de landelijke agenda zorg en veiligheid bij elkaar. Focus is op het gezin(ssysteem), het samenbrengen van de relevante partners, komen tot een gedeeld beeld, een gedeeld plan en  duidelijke regie**.**
+4. **Informatie gedreven**: Hier komende ontwikkelingen Datagedreven, Privacy, Federatief Datastelsel, Common/Public Ground, I-Strategie en Moderne Architectuur bij elkaar. Ketenpartners bieden functionaliteit en gegevens aan elkaar met gegevensbescherming en verantwoording in het hart.
 
 Voor elk thema zijn principes met hun implicaties uitgewerkt.
 
@@ -82,22 +79,22 @@ We werken nauw en transparant samen met de burger en zijn/haar gezin. Transparan
 
 Basisprincipes voor dit thema zijn afkomstig van 3 bronnen: de NORA, de Gemma, de MIDO en het FDS.
 
-Voor de NORA hanteren we principes:
-·       NAP01 Verplaats je in de gebruiker  
-·       NAP02 Geef inzicht in de afhandeling van de dienst  
-·       NAP03 Lever een kanaal onafhankelijk resultaat  
+Voor de NORA hanteren we principes:  
+- NAP01 Verplaats je in de gebruiker  
+- NAP02 Geef inzicht in de afhandeling van de dienst  
+- NAP03 Lever een kanaal onafhankelijk resultaat  
 
-Voor de GEMMA hanteren we principes:
-·       GAP18 Bied regie op gegevens  
-·       GAP 19 Zorg voor digitale inclusie  
-·       GAP 20 Zorg voor digitale weerbaarheid  
+Voor de GEMMA hanteren we principes:  
+- GAP18 Bied regie op gegevens  
+- GAP 19 Zorg voor digitale inclusie  
+- GAP 20 Zorg voor digitale weerbaarheid  
 
-Voor de MIDO domein architectuur Interactie hanteren we principes:
-·       BD-01: één overheidsbeleving  
-·       BD-03: Samenhangende communicatie  
-·       BD-04: Inzicht in gegevens over jezelf  
-·       BD-08: Keuzevrijheid in kanalen en kanaalonafhankelijke, consistente dienstverlening  
-·       BD-09 Herkenbare en uniform gestructureerde overheidswebsites en -apps  
+Voor de MIDO domein architectuur Interactie hanteren we principes:  
+- BD-01: één overheidsbeleving  
+- BD-03: Samenhangende communicatie  
+- BD-04: Inzicht in gegevens over jezelf  
+- BD-08: Keuzevrijheid in kanalen en kanaalonafhankelijke, consistente dienstverlening  
+- BD-09 Herkenbare en uniform gestructureerde overheidswebsites en -apps  
 
 We hanteren 4 eigen aanvullende principes:
 
@@ -130,10 +127,10 @@ In het domein van jeugd, zorg en veiligheid werken veel professionals die elk hu
 
 Basisprincipes voor dit thema zijn afkomstig van 1 bron: de NORA. Van de GEMMA, de MIDO en het FDS zijn geen principes geoogst.
 
-Voor de NORA hanteren we principes:
-·       NAP07. Bouw diensten modulair op: ontwerp losse ontkoppelde diensten  
-·       NAP15. Maak diensten schaalbaar  
-·       NAP17. Stuur cyclisch op kwaliteit  
+Voor de NORA hanteren we principes:  
+- NAP07. Bouw diensten modulair op: ontwerp losse ontkoppelde diensten  
+- NAP15. Maak diensten schaalbaar  
+- NAP17. Stuur cyclisch op kwaliteit  
 
 Specifieke principes voor dit thema rond samenwerken:
 
@@ -167,23 +164,23 @@ Vanuit het perspectief van een ketenpartner verschuift het paradigma van ketenin
 
 Hierop hanteren we geen eigen principes, maar hanteren we de principes van 3 bronnen: de NORA, de GEMMA, de MIDO en het FDS.
 
-Voor de NORA/GEMMA hanteren we principes:
-·       NAP/GAP08 Standaardiseer waar mogelijk: reduceer varieteit en kosten, zorg voor een betere interoperabiliteit.  
-·       NAP/GAP10 Neem gegevens als fundament: de kwaliteit, toegankelijkheid en zorgvuldig beheer van ontstaan tot vernieuwing van gegevens zijn het fundament voor waardevolle diensten.  
-·       NAP/GAP11 Pas doelbinding toe  
-·       NAP/GAP12 Informeer bij de bron  
+Voor de NORA/GEMMA hanteren we principes:  
+- NAP/GAP08 Standaardiseer waar mogelijk: reduceer varieteit en kosten, zorg voor een betere interoperabiliteit.  
+- NAP/GAP10 Neem gegevens als fundament: de kwaliteit, toegankelijkheid en zorgvuldig beheer van ontstaan tot vernieuwing van gegevens zijn het fundament voor waardevolle diensten.  
+- NAP/GAP11 Pas doelbinding toe  
+- NAP/GAP12 Informeer bij de bron  
 
 De MIDO Domeinarchitectuur Gegevensuitwisseling (paragraaf 4.2). Met name:
-·       Principes m.b.t. het beheren van metagegevens (3.1 – 3.6)  
-·       Principes m.b.t. bescherming van persoonsgegevens, logging en beveiliging (1.7, 1.8)  
-·       Principes m.b.t. kwaliteit en geschikheid voor gebruik (1.1, 1.3, 1.4, 4.1, 4.2)  
-·       Principes m.b.t. toepassing van (open) standaarden (1.2)  
+- Principes m.b.t. het beheren van metagegevens (3.1 – 3.6)  
+- Principes m.b.t. bescherming van persoonsgegevens, logging en beveiliging (1.7, 1.8)  
+- Principes m.b.t. kwaliteit en geschikheid voor gebruik (1.1, 1.3, 1.4, 4.1, 4.2)  
+- Principes m.b.t. toepassing van (open) standaarden (1.2)  
 
 En als derde bron de principes van toepassing van het Federatief Datastelsel. Met name:
 
-·       Data blijft bij de bron, de bronhouder is soeverein, heeft zeggenschap en autoriseert de toegang tot data  
-·       Zorgvuldige omgang met beveiliging en privacy  
-·       Toepassing van afspraken boven standaarden en voorzieningen  
-·       Decentraal wat kan, centraal wat moet
-·       Toepassing van een vertrouwensraamwerk
-·       Hoogwaardige data: waarborgen van datakwaliteit en/met metadata
+- Data blijft bij de bron, de bronhouder is soeverein, heeft zeggenschap en autoriseert de toegang tot data  
+- Zorgvuldige omgang met beveiliging en privacy  
+- Toepassing van afspraken boven standaarden en voorzieningen  
+- Decentraal wat kan, centraal wat moet
+- Toepassing van een vertrouwensraamwerk
+- Hoogwaardige data: waarborgen van datakwaliteit en/met metadata
