@@ -30,10 +30,10 @@ Thema's
 
 Maatschappelijke, juridische en digitale overheidskaders waarbinnen de oplossing welke het afsprakenkader biedt moet passen zijn samen te vatten in 4 kernthema’s:
 
-1. **Zelfredzaamheid ondersteund**: Hier komen de ontwikkelingen mensgerichtheid, doenvermogen, digitalisering, arbeidsmarkt en de inzet van Hervormingsagenda Jeugd/Toekomstscenario bij elkaar. Het voorkomt veel leed door problematiek in een vroeg stadium te (helpen) verhelpen. En met digitale preventieve oplossingen kan de beperkt beschikbare professionele aandacht worden gereserveerd voor waar ze echt nodig is.
-2. **Transparantie voor de burger**: Hier komen de ontwikkelingen rechtsbescherming, rechtsstatelijkheid, digitaal doenvermogen, omnichannel, digibeter, de EU datawetten en de Wembv bij elkaar. Door inzicht in het proces voor de betrokkenen, transparant en accountable, met de mogelijkheden om te participeren (zienswijze en bezwaar inbrengen) en met de zorgplicht voor minder digitaal vaardigen krijgt de burger een centrale rol.
-3. **Integraal Samenwerken**: Hier komen de ontwikkelingen Systemisch, Digitalisering, Arbeidsmarkt, Interbestuurlijke datastrategie, moderne koppelvlakken en de landelijke agenda zorg en veiligheid bij elkaar. Focus is op het gezin(ssysteem), het samenbrengen van de relevante partners, komen tot een gedeeld beeld, een gedeeld plan en  duidelijke regie**.**
-4. **Informatie gedreven**: Hier komende ontwikkelingen Datagedreven, Privacy, Federatief Datastelsel, Common/Public Ground, I-Strategie en Moderne Architectuur bij elkaar. Ketenpartners bieden functionaliteit en gegevens aan elkaar met gegevensbescherming en verantwoording in het hart.
+1. **Zelfredzaamheid ondersteund**: Hier komen de ontwikkelingen mensgerichtheid, doenvermogen, digitalisering, arbeidsmarkt en de inzet van Hervormingsagenda Jeugd/Toekomstscenario bij elkaar. Het voorkomt veel leed door problematiek in een vroeg stadium te (helpen) verhelpen. En met digitale preventieve oplossingen kan de beperkt beschikbare professionele aandacht worden gereserveerd voor waar ze echt nodig is.  
+2. **Transparantie voor de burger**: Hier komen de ontwikkelingen rechtsbescherming, rechtsstatelijkheid, digitaal doenvermogen, omnichannel, digibeter, de EU datawetten en de Wembv bij elkaar. Door inzicht in het proces voor de betrokkenen, transparant en accountable, met de mogelijkheden om te participeren (zienswijze en bezwaar inbrengen) en met de zorgplicht voor minder digitaal vaardigen krijgt de burger een centrale rol.  
+3. **Integraal Samenwerken**: Hier komen de ontwikkelingen Systemisch, Digitalisering, Arbeidsmarkt, Interbestuurlijke datastrategie, moderne koppelvlakken en de landelijke agenda zorg en veiligheid bij elkaar. Focus is op het gezin(ssysteem), het samenbrengen van de relevante partners, komen tot een gedeeld beeld, een gedeeld plan en  duidelijke regie**.**  
+4. **Informatie gedreven**: Hier komende ontwikkelingen Datagedreven, Privacy, Federatief Datastelsel, Common/Public Ground, I-Strategie en Moderne Architectuur bij elkaar. Ketenpartners bieden functionaliteit en gegevens aan elkaar met gegevensbescherming en verantwoording in het hart.  
 
 Voor elk thema zijn principes met hun implicaties uitgewerkt.
 
@@ -80,21 +80,21 @@ We werken nauw en transparant samen met de burger en zijn/haar gezin. Transparan
 Basisprincipes voor dit thema zijn afkomstig van 3 bronnen: de NORA, de Gemma, de MIDO en het FDS.
 
 Voor de NORA hanteren we principes:  
-- NAP01 Verplaats je in de gebruiker  
-- NAP02 Geef inzicht in de afhandeling van de dienst  
-- NAP03 Lever een kanaal onafhankelijk resultaat  
+-	NAP01 Verplaats je in de gebruiker  
+-	NAP02 Geef inzicht in de afhandeling van de dienst  
+-	NAP03 Lever een kanaal onafhankelijk resultaat  
 
 Voor de GEMMA hanteren we principes:  
-- GAP18 Bied regie op gegevens  
-- GAP 19 Zorg voor digitale inclusie  
-- GAP 20 Zorg voor digitale weerbaarheid  
+-	GAP18 Bied regie op gegevens  
+-	GAP 19 Zorg voor digitale inclusie  
+-	GAP 20 Zorg voor digitale weerbaarheid  
 
 Voor de MIDO domein architectuur Interactie hanteren we principes:  
-- BD-01: één overheidsbeleving  
-- BD-03: Samenhangende communicatie  
-- BD-04: Inzicht in gegevens over jezelf  
-- BD-08: Keuzevrijheid in kanalen en kanaalonafhankelijke, consistente dienstverlening  
-- BD-09 Herkenbare en uniform gestructureerde overheidswebsites en -apps  
+-	BD-01: één overheidsbeleving  
+-	BD-03: Samenhangende communicatie  
+-	BD-04: Inzicht in gegevens over jezelf  
+-	BD-08: Keuzevrijheid in kanalen en kanaalonafhankelijke, consistente dienstverlening  
+-	BD-09 Herkenbare en uniform gestructureerde overheidswebsites en -apps  
 
 We hanteren 4 eigen aanvullende principes:
 
