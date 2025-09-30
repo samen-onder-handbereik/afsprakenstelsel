@@ -24,11 +24,11 @@ Kenmerkend voor dit patroon is de vaak een asynchrone verwerking van het verzoek
 
 _Voorbeeld: De opdracht kan zijn: “lever mij informatie over …”. Bij een informatiedienst moet deze informatie bijvoorbeeld eerst worden opgezocht en of verzameld. Kan de informatie direct worden opgevraagd, dan is er sprake van een synchrone verwerking en is het patroon Inzage van toepassing. Met dit patroon kan ook een asynchroon verzoek tot het wijzigen van informatie worden georganiseerd._
 
-Kenmerken: asynchroon
+Kenmerken: asynchroon.
 
 Om deze patronen te implementeren moeten taak/procesapplicaties van ketenpartners worden uitgerust met applicatiefuncties voor iedere Samenwerkfunctie:
 
-- **Opdracht Aanvragen** \[Samenwerkfunctie\]: De applicatiefunctie "Aanvragen \[Samenwerkfunctie\]" ondersteunt de dienstaanvrager bij de afhandeling van een dienstaanvraag bij een ketenpartner. Dit omvat zowel het plaatsen van een dienstaanvraag bij een ketenpartner, als het in ontvangst nemen van het aangevraagde (informatie)product.
+- **Opdracht Aanvragen** \[Samenwerkfunctie\]: De applicatiefunctie "Aanvragen \[Samenwerkfunctie\]" ondersteunt de dienstaanvrager bij de afhandeling van een dienstaanvraag bij een ketenpartner. Dit omvat zowel het plaatsen van een dienstaanvraag bij een ketenpartner, als het in ontvangst nemen van het aangevraagde (informatie)product.  
 - **Opdracht Leveren** \[Samenwerkfunctie\]: De applicatiefunctie "Levering \[Samenwerkfunctie\]" ondersteunt de dienstleverancier bij de afhandeling van dienstaanvragen van de \[Dienst\]. Dit omvat zowel het in ontvangst nemen van een dienstaanvraag van een ketenpartner, als het leveren van het aangevraagde (informatie)product en de afhandeling van de statusovergangen van de Samenwerkfunctie.
 
 Opdracht patroon
