@@ -1,9 +1,10 @@
 ---
-title: Design Draft
-author: Tao He
-date: 2022-02-06
+title: Credits
+author: lg
+date: 2025-09-30
 category: Jekyll
 layout: post
 ---
 
 This is an draft page.
+
