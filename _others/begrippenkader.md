@@ -10,8 +10,12 @@ Gegevens ontstaan in de context van een bedrijfsproces. Om die als informatie te
 
 We hanteert als uitgangspunt dat we concepten modelleren voor een informatiecontext. De andere contexten zijn onderdeel van het model. Voorbeelden van een informatiecontext zijn zorg, veiligheid, financieel. De informatiecontext vormt het kader waarvoor we de ontologie ontwikkelen. Dat zorgt ervoor dat we grenzen stellen aan wat we modelleren. Maar ook dat we modelleren wat bij elkaar hoort. Maar de grens goed bepalen is complex. We zullen daarin moeten leren en moeten kunnen veranderen.
 
-- Er moeten afspraken zijn over de betekenisloze aanduiding van deze objecten en wie die toe kent. Bijvoorbeeld: unieke aanduidingen voor Gezin, Casus, Casusoverleg, Plan en Interventie.  
-- Gegevens in de keten moeten worden gestructureerd in de vorm van identificeerbare informatie-objecten die op verschillende manieren benaderd en gecombineerd kunnen worden. Dit vereist ook een identificatie- en nummerstelsel.  
-- Data en begrippen moeten “machineleesbaar” zijn.  
+- Er moeten afspraken zijn over de betekenisloze aanduiding van deze objecten en wie die toekent. Bijvoorbeeld: unieke aanduidingen voor Gezin, Casus, Casusoverleg, Plan en Interventie.
+- Gegevens in de keten moeten worden gestructureerd in de vorm van identificeerbare informatie-objecten die op verschillende manieren benaderd en gecombineerd kunnen worden. Dit vereist ook een identificatie- en nummerstelsel.
+- Data en begrippen moeten “machineleesbaar” zijn.
+
+### Begrip 1
+
+
 
 
