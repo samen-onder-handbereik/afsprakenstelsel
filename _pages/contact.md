@@ -1,9 +1,9 @@
 ---
 title: Contact
-author: Tao He
-date: 2022-02-05
+author: lg
+date: 2025-09-30
 category: Jekyll
 layout: post
 ---
 
-This is an contact page.
+Contactgegevens: volgt
