@@ -6,6 +6,9 @@ category: Jekyll
 layout: post
 ---
 
+> ##### Consultatie
+{: .block-warning }
+
 De samenwerkingsfuncties zoals genoemd in onderdeel Werking zijn navolgend uitgewerkt.
 
 Uitwisselen Melding
