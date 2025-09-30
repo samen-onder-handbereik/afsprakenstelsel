@@ -25,8 +25,8 @@ In dit hoofdstuk werken we vooral aanvullende thema’s en principes uit. Thema�
 Thema's
 -------------
 
-> ##### Concept
-{: .block-danger }
+> ##### Consultatie
+{: .block-warning }
 
 Maatschappelijke, juridische en digitale overheidskaders waarbinnen de oplossing welke het afsprakenkader biedt moet passen zijn samen te vatten in 4 kernthema’s:
 
@@ -40,8 +40,8 @@ Voor elk thema zijn principes met hun implicaties uitgewerkt.
 Principes
 -------------
 
-> ##### Concept
-{: .block-danger }
+> ##### Consultatie
+{: .block-warning }
 
 ### Zelfredzaamheid ondersteund
 We ondersteunen de zelfredzaamheid concreet, de-escalerend en specifiek. Dweilen met de kraan open is niet gewenst, we moeten erger voorkomen. Bij voorkeur bereikt de burger de gedwongen/justitiële kaders niet. Daarom ondersteunen we vanuit de overheid de burger met gekwalificeerde, onafhankelijke, niet-commerciële ondersteuning. Vooral door leerbare en inzicht gevende uniforme kennis beschikbaar te maken over problematiek en concrete oplossingen op een betrouwbare plek. Aangevuld met regionale kennis en laagdrempelige hulp van professionals.
@@ -72,8 +72,8 @@ De specifieke principes voor dit thema zijn daarom:
 
 ### Transparantie voor de burger
 
-> ##### Concept
-{: .block-danger }
+> ##### Consultatie
+{: .block-warning }
 
 We werken nauw en transparant samen met de burger en zijn/haar gezin. Transparantie is voor de jeugd, zorg en veiligheid een belangrijk thema. Doel is om de burger en zijn/haar gezinssysteem meer inzicht te geven in hun gegevens en de status van hun zaken, aansluitend bij hun perspectief en vanuit één ingang. Zodat de burger zelf de regie kan (terug)pakken en zijn bijdrage in de samenwerking kan leveren.
 
@@ -120,8 +120,8 @@ We hanteren 4 eigen aanvullende principes:
 
 ### Integraal samenwerken
 
-> ##### Concept
-{: .block-danger }
+> ##### Consultatie
+{: .block-warning }
 
 In het domein van jeugd, zorg en veiligheid werken veel professionals die elk hun eigen taken uitvoeren voor het gezin. Die taken zijn vaak (bewust of onbewust) afhankelijk van taken of informatie van andere professionals. Daarom is het van belang dat een professional niet alleen zicht heeft op wat in de interne bedrijfsvoering van de organisatie waar die werkt bekend is. Maar dat er ook zicht is op informatie en over taken die door professionals van andere organisaties worden gedaan. Die informatie over de samenwerking moet gedeeld worden, zodat organisaties in staat worden gesteld ze ook onder de vingertoppen van hun professional te brengen . We werken vanuit eigen taak(systeem) en verantwoordelijkheid in een gezamenlijk proces en sturingskader. Er is een flexibel inzetbaar samenwerkproces met ondersteuning voor daarin benodigde vaardigheden / bouwstenen. Focus is op het gezin(ssysteem), het samenbrengen van de relevante partners, komen tot een gedeeld beeld, een gedeeld plan en  duidelijke regie**.**
 
@@ -155,8 +155,8 @@ Specifieke principes voor dit thema rond samenwerken:
 
 ### Informatie gedreven
 
-> ##### Concept
-{: .block-danger }
+> ##### Consultatie
+{: .block-warning }
 
 We maken als ketenpartners informatie by design betekenisvol, duurzaam en privaat voor de samenwerking beschikbaar. Na de digitalisering van bestaande (papier)stromen tussen 2 partijen maken we de volgende sprong. Er ontstaat een virtueel samenwerkplatform van informatiediensten. Daarin is helder wie verantwoordelijk is voor welke informatie en wat de betekenis van de gegevens is. Daarbij is gegevensbescherming in het platform “by design” ingebed en werken we op basis van overheid brede afspraken.
 
