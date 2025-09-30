@@ -184,3 +184,23 @@ En als derde bron de principes van toepassing van het Federatief Datastelsel. Me
 - Decentraal wat kan, centraal wat moet
 - Toepassing van een vertrouwensraamwerk
 - Hoogwaardige data: waarborgen van datakwaliteit en/met metadata
+
+Standaarden
+-------------
+
+> ##### Consultatie
+{: .block-warning }
+
+Relevant voor afsprakenstelsel zijn de volgende standaarden (in wording) en afspraken over internationale standaarden in de Nederlandse context (zoals bijvoorbeeld -	NL GOV profile for CloudEvents):
+- OAuth en NL GOV Assurance profile for OAuth 2.0 (NLGov OAuth)
+- OIDC en NL GOV Assurance Profile for OIDC (NLGov OpenID connect)
+- SCIM
+- CloudEvents en NL GOV profile for CloudEvents 
+- Digikoppeling Koppelvlakstandaard REST-API 
+- NL GOV API Design Rules (NLGov ADR)
+- OpenAPI Specification (OAS)
+- FSC: Federated Service Connectivity
+- FTV: Federatieve Toegangsverlening
+- TLS (standaard voor het versleutelen van de connectie waar de API’s gebruik van maken)
+
+Deze lijst is niet limitatief en zal in de tijd nog worden aangevuld.
