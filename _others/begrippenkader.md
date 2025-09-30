@@ -14,6 +14,8 @@ We hanteert als uitgangspunt dat we concepten modelleren voor een informatiecont
 - Gegevens in de keten moeten worden gestructureerd in de vorm van identificeerbare informatie-objecten die op verschillende manieren benaderd en gecombineerd kunnen worden. Dit vereist ook een identificatie- en nummerstelsel.
 - Data en begrippen moeten “machineleesbaar” zijn.
 
+![Alt text]({{ site.baseurl }}/assets/metro.png)
+
 ### Begrip 1
 
 
