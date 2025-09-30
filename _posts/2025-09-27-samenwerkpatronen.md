@@ -1,5 +1,5 @@
 ---
-title: Samenwerkfuncties
+title: Samenwerkpatronen
 author: lg
 date: 2025-09-29
 category: Jekyll
@@ -11,7 +11,7 @@ layout: post
 
 De samenwerkingsfuncties zoals genoemd in onderdeel Werking zijn navolgend uitgewerkt.
 
-5.1	Opdracht patroon
+Opdracht patroon
 -------------
 
 Het gaat hier om het patroon van het aan elkaar geven van opdrachten of verzoeken om een opdracht uit te voeren (of dienst te verlenen).
