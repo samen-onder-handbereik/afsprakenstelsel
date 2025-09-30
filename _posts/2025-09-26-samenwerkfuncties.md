@@ -6,6 +6,9 @@ category: Jekyll
 layout: post
 ---
 
+> ##### Consultatie
+{: .block-warning }
+
 De samenwerkingsfuncties zoals genoemd in onderdeel Werking zijn navolgend uitgewerkt.
 
 Uitwisselen Melding
@@ -144,7 +147,6 @@ Inrichten en Bijsturen Samenwerking
 | Omschrijving | Het vermogen om de kwaliteit en de maatschappelijke effectiviteit van de samenwerking te kunnen overzien.Hierbij gaat het ook om de logging van gegevensverstrekkingen en toestemmingen. Met de juiste toepassing van pseudonimisering en anonimisering in de logging en monitoring.Doel is om input te verzamelen voor het bijsturen van de samenwerking en haar her in te richten. |
 | Gebruikersverhaal | Als samenwerkingsverband wil ik graag inzage in de kwaliteit en effectiviteit van de samenwerking, opdat we de samenwerking kunnen bijsturen. |
 | Zakelijke rechtvaardiging |  |
-
 
 
 
