@@ -73,10 +73,187 @@ We hanteert als uitgangspunt dat we concepten modelleren voor een informatiecont
 | Eigen bijdrage | Een eigen bijdrage is de financiele of anderszins waarde die de burger moet toevoegen in de samenwerking | Gemma bedrijfsobject | Tegenprestatie |  |
 | Uitnodiging | Een Uitnodiging is een uitnodiging aan een Persoon of Instantie om deel te nemen aan een Casusoverleg. Het beschrijft wanneer en waar het overleg is, wat er besproken wordt en welk resultaat het overleg nastreeft. Ze is al dan niet formeel. | Gemma bedrijfsobject | Oproep |  |
 
-TEST
+### NEW
 
 ### Uitnodiging
 
+### Adres
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|--------------------|-------------|
+| Adres | Adres is een fysieke of administratieve locatie waar een persoon of organisatie gevestigd is of waar communicatie kan worden ontvangen. | O.a. W3C Address definitie, Stelselcatalogus |  |  |
+
+---
+
+### Advies
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|--------------------|-------------|
+| Advies | Een Advies is de combinatie en samenvatting van een Analyse en aanbeveling met onderbouwing als input voor een te nemen Beslissing |  |  |  |
+
+---
+
+### Besluit
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|--------------------|-------------|
+| Besluit | Een na overweging of beraadslaging vastgestelde beslissing van een overheidsorgaan voor een individueel of concreet geval. |  |  |  |
+
+---
+
+### Bestand
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|--------------------|-------------|
+| Bestand | Een Bestand is de fysiek vorm waarin een document, bewijs, afbeelding, verwijzing, bestand of geluidsfragment digitaal is opgeslagen. |  |  |  |
+
+---
+
+### Betaling
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|--------------------|-------------|
+| Betaling | Een Betaling is een financiële transactie waarbij geld wordt overgemaakt van de ene partij naar de andere als vergoeding voor goederen, diensten of verplichtingen. |  |  |  |
+
+---
+
+### Bezoek
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|--------------------|-------------|
+| Bezoek | Een Bezoek is een fysieke aanwezigheid van een persoon op een locatie voor een bepaald doel, zoals inspectie, overleg of dienstverlening. |  |  |  |
+
+---
+
+### Bewijs
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|--------------------|-------------|
+| Bewijs | Een Bewijs is een document, verklaring of ander middel dat dient ter ondersteuning of bevestiging van een feit, gebeurtenis of recht. |  |  |  |
+
+---
+
+### Bezwaar
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|--------------------|-------------|
+| Bezwaar | Een Bezwaar is een formele uiting van ontevredenheid of protest tegen een besluit of handeling van een organisatie, vaak met het doel dit besluit te herzien. |  |  |  |
+
+---
+
+### Brief
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|--------------------|-------------|
+| Brief | Een Brief is een schriftelijke vorm van communicatie, vaak formeel, gericht aan een specifieke ontvanger en met een duidelijk doel of boodschap. |  |  |  |
+
+---
+
+### Contactmoment
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|--------------------|-------------|
+| Contactmoment | Een Contactmoment is een interactie tussen een persoon en een organisatie, fysiek, telefonisch, digitaal of schriftelijk. |  |  |  |
+
+---
+
+### Document
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|--------------------|-------------|
+| Document | Een Document is een vastgelegde informatie-eenheid, digitaal of fysiek, met een specifieke structuur en inhoud. |  |  |  |
+
+---
+
+### Formulier
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|--------------------|-------------|
+| Formulier | Een Formulier is een gestructureerd document bedoeld om gegevens van een gebruiker te verzamelen. |  |  |  |
+
+---
+
+### Gegevens
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|--------------------|-------------|
+| Gegevens | Gegevens zijn vastgelegde feiten, observaties of metingen die als input kunnen dienen voor informatie of besluitvorming. |  |  |  |
+
+---
+
+### Informatie
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|--------------------|-------------|
+| Informatie | Informatie is betekenisvolle interpretatie van gegevens die relevant is voor een specifieke context of vraagstuk. |  |  |  |
+
+---
+
+### Klacht
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|--------------------|-------------|
+| Klacht | Een Klacht is een uiting van ontevredenheid over een dienst, product of gedrag van een organisatie, geuit door een betrokkene. |  |  |  |
+
+---
+
+### Koppeling
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|--------------------|-------------|
+| Koppeling | Een Koppeling is een relatie of verbinding tussen twee gegevensobjecten, systemen of processen. |  |  |  |
+
+---
+
+### Locatie
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|--------------------|-------------|
+| Locatie | Een Locatie is een geografisch of administratief bepaalde plaats waar een activiteit plaatsvindt of een object zich bevindt. |  |  |  |
+
+---
+
+### Melding
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|--------------------|-------------|
+| Melding | Een Melding is een kennisgeving van een gebeurtenis, situatie of constatering, vaak met het doel actie te ondernemen. |  |  |  |
+
+---
+
+### Onderzoek
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|--------------------|-------------|
+| Onderzoek | Een Onderzoek is een systematische studie of analyse met als doel kennis, inzicht of bewijs te verkrijgen. |  |  |  |
+
+---
+
+### Overeenkomst
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|--------------------|-------------|
+| Overeenkomst | Een Overeenkomst is een formele afspraak tussen twee of meer partijen waarin rechten en plichten zijn vastgelegd. |  |  |  |
+
+---
+
+### Rapport
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|--------------------|-------------|
+| Rapport | Een Rapport is een gestructureerde weergave van bevindingen, analyses en conclusies naar aanleiding van een onderzoek of evaluatie. |  |  |  |
+
+---
+
+### Verzoek
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|--------------------|-------------|
+| Verzoek | Een Verzoek is een formele vraag of aanvraag van een persoon of organisatie aan een andere partij, vaak gericht op het verkrijgen van informatie, toestemming of een dienst. |  |  |  |
+
+
+
+### TEST
 
 
 | voorkeursterm | definitie | heeft bron | alternatieve term |
@@ -84,8 +261,8 @@ TEST
 | Een Uitnodiging is een uitnodiging aan een Persoon of Instantie om deel te nemen aan een Casusoverleg. Het beschrijft wanneer en waar het overleg is, wat er besproken wordt en welk resultaat het overleg nastreeft. Ze is al dan niet formeel. | Gemma bedrijfsobject | Geen | Geen |
 | Test<br>### test | Gemma bedrijfsobject |  |  |
 | ### Test | Gemma bedrijfsobject |  |  |
-| <a id="row-Linktest1"></a>Linktest1 | Gemma bedrijfsobject |  |  |
-| <a id="row-Linktest2"></a>Linktest2 | Gemma bedrijfsobject |  |  |
+| <a id="row-linktest1"></a>Linktest1 | Gemma bedrijfsobject |  |  |
+| {% raw %}<a id="row-linktest2"></a>{% endraw %}Linktest2 | Gemma bedrijfsobject |  |  |
 
 
 ### test
