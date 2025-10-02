@@ -6,4 +6,4 @@ category: Jekyll
 layout: post
 ---
 
-Contactgegevens: volgt
+Contactgegevens: volgen
