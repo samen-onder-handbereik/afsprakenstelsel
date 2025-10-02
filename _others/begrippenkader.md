@@ -75,12 +75,10 @@ We hanteert als uitgangspunt dat we concepten modelleren voor een informatiecont
 
 ### NEW
 
-### Uitnodiging
-
 ### Adres
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
-|---------------|-----------|------------|--------------------|-------------|
+|---------------|-----------|------------|-------------------|-------------|
 | Adres | Adres is een fysieke of administratieve locatie waar een persoon of organisatie gevestigd is of waar communicatie kan worden ontvangen. | O.a. W3C Address definitie, Stelselcatalogus |  |  |
 
 ---
@@ -88,7 +86,7 @@ We hanteert als uitgangspunt dat we concepten modelleren voor een informatiecont
 ### Advies
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
-|---------------|-----------|------------|--------------------|-------------|
+|---------------|-----------|------------|-------------------|-------------|
 | Advies | Een Advies is de combinatie en samenvatting van een Analyse en aanbeveling met onderbouwing als input voor een te nemen Beslissing |  |  |  |
 
 ---
@@ -96,367 +94,149 @@ We hanteert als uitgangspunt dat we concepten modelleren voor een informatiecont
 ### Besluit
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
-|---------------|-----------|------------|--------------------|-------------|
-| Besluit | Een na overweging of beraadslaging vastgestelde beslissing van een overheidsorgaan voor een individueel of concreet geval. |  |  |  |
+|---------------|-----------|------------|-------------------|-------------|
+| Besluit | Een na overweging of beraadslaging vastgestelde beslissing van een overheidsorgaan voor een individueel of concreet geval. | Gemma bedrijfsobject | Beschikking, Beslissing | Een Beslissing is een formele keuze voor wat er moet gebeuren, inclusief voorwaarden, wijze van uitvoering, genomen door een bevoegde rol/beslissende instantie op een bepaald tijdstip, van kracht vanaf een bepaald moment |
 
 ---
 
 ### Bestand
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
-|---------------|-----------|------------|--------------------|-------------|
+|---------------|-----------|------------|-------------------|-------------|
 | Bestand | Een Bestand is de fysiek vorm waarin een document, bewijs, afbeelding, verwijzing, bestand of geluidsfragment digitaal is opgeslagen. |  |  |  |
 
 ---
 
-### Betaling
-
-| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
-|---------------|-----------|------------|--------------------|-------------|
-| Betaling | Een Betaling is een financiële transactie waarbij geld wordt overgemaakt van de ene partij naar de andere als vergoeding voor goederen, diensten of verplichtingen. |  |  |  |
-
----
-
-### Bezoek
-
-| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
-|---------------|-----------|------------|--------------------|-------------|
-| Bezoek | Een Bezoek is een fysieke aanwezigheid van een persoon op een locatie voor een bepaald doel, zoals inspectie, overleg of dienstverlening. |  |  |  |
-
----
-
-### Bewijs
-
-| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
-|---------------|-----------|------------|--------------------|-------------|
-| Bewijs | Een Bewijs is een document, verklaring of ander middel dat dient ter ondersteuning of bevestiging van een feit, gebeurtenis of recht. |  |  |  |
-
----
-
-### Bezwaar
-
-| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
-|---------------|-----------|------------|--------------------|-------------|
-| Bezwaar | Een Bezwaar is een formele uiting van ontevredenheid of protest tegen een besluit of handeling van een organisatie, vaak met het doel dit besluit te herzien. |  |  |  |
-
----
-
-### Brief
-
-| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
-|---------------|-----------|------------|--------------------|-------------|
-| Brief | Een Brief is een schriftelijke vorm van communicatie, vaak formeel, gericht aan een specifieke ontvanger en met een duidelijk doel of boodschap. |  |  |  |
-
----
-
-### Contactmoment
-
-| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
-|---------------|-----------|------------|--------------------|-------------|
-| Contactmoment | Een Contactmoment is een interactie tussen een persoon en een organisatie, fysiek, telefonisch, digitaal of schriftelijk. |  |  |  |
-
----
-
-### Document
-
-| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
-|---------------|-----------|------------|--------------------|-------------|
-| Document | Een Document is een vastgelegde informatie-eenheid, digitaal of fysiek, met een specifieke structuur en inhoud. |  |  |  |
-
----
-
-### Formulier
-
-| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
-|---------------|-----------|------------|--------------------|-------------|
-| Formulier | Een Formulier is een gestructureerd document bedoeld om gegevens van een gebruiker te verzamelen. |  |  |  |
-
----
-
-### Gegevens
-
-| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
-|---------------|-----------|------------|--------------------|-------------|
-| Gegevens | Gegevens zijn vastgelegde feiten, observaties of metingen die als input kunnen dienen voor informatie of besluitvorming. |  |  |  |
-
----
-
-### Informatie
-
-| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
-|---------------|-----------|------------|--------------------|-------------|
-| Informatie | Informatie is betekenisvolle interpretatie van gegevens die relevant is voor een specifieke context of vraagstuk. |  |  |  |
-
----
-
-### Klacht
-
-| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
-|---------------|-----------|------------|--------------------|-------------|
-| Klacht | Een Klacht is een uiting van ontevredenheid over een dienst, product of gedrag van een organisatie, geuit door een betrokkene. |  |  |  |
-
----
-
-### Koppeling
-
-| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
-|---------------|-----------|------------|--------------------|-------------|
-| Koppeling | Een Koppeling is een relatie of verbinding tussen twee gegevensobjecten, systemen of processen. |  |  |  |
-
----
-
-### Locatie
-
-| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
-|---------------|-----------|------------|--------------------|-------------|
-| Locatie | Een Locatie is een geografisch of administratief bepaalde plaats waar een activiteit plaatsvindt of een object zich bevindt. |  |  |  |
-
----
-
-### Melding
-
-| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
-|---------------|-----------|------------|--------------------|-------------|
-| Melding | Een Melding is een kennisgeving van een gebeurtenis, situatie of constatering, vaak met het doel actie te ondernemen. |  |  |  |
-
----
-
-### Onderzoek
-
-| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
-|---------------|-----------|------------|--------------------|-------------|
-| Onderzoek | Een Onderzoek is een systematische studie of analyse met als doel kennis, inzicht of bewijs te verkrijgen. |  |  |  |
-
----
-
-### Overeenkomst
-
-| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
-|---------------|-----------|------------|--------------------|-------------|
-| Overeenkomst | Een Overeenkomst is een formele afspraak tussen twee of meer partijen waarin rechten en plichten zijn vastgelegd. |  |  |  |
-
----
-
-### Rapport
-
-| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
-|---------------|-----------|------------|--------------------|-------------|
-| Rapport | Een Rapport is een gestructureerde weergave van bevindingen, analyses en conclusies naar aanleiding van een onderzoek of evaluatie. |  |  |  |
-
----
-
-### Verzoek
-
-| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
-|---------------|-----------|------------|--------------------|-------------|
-| Verzoek | Een Verzoek is een formele vraag of aanvraag van een persoon of organisatie aan een andere partij, vaak gericht op het verkrijgen van informatie, toestemming of een dienst. |  |  |  |
-
-
-
-### TEST
-
-
-| voorkeursterm | definitie | heeft bron | alternatieve term |
-| --- | --- | --- | --- |
-| Een Uitnodiging is een uitnodiging aan een Persoon of Instantie om deel te nemen aan een Casusoverleg. Het beschrijft wanneer en waar het overleg is, wat er besproken wordt en welk resultaat het overleg nastreeft. Ze is al dan niet formeel. | Gemma bedrijfsobject | Geen | Geen |
-| Test<br>### test | Gemma bedrijfsobject |  |  |
-| ### Test | Gemma bedrijfsobject |  |  |
-| <a id="row-linktest1"></a>Linktest1 | Gemma bedrijfsobject |  |  |
-| {% raw %}<a id="row-linktest2"></a>{% endraw %}Linktest2 | Gemma bedrijfsobject |  |  |
-
-
-### test
-Test
-
-### #
-Test
-
-## test3
-test3
-
-# test4
-test4
-
-
-OUD
-
-### Jeugdige
-Een Jeugdige is een Persoon die niet meerderjarig is, afhankelijk van wetgeving gaat het om diegene die de leeftijd van 18, 21 of 23 nog niet bereikt heeft.
-
-### Ouder/Verzorger
-Een Ouder/Verzorger is een gezaghebbende en volwassen persoon die de verantwoordelijkheid draagt om een Jeugdige te verzorgen en opvoeden
-
-### Gezin
-Een Gezin is elk leefverband van één of meer Jeugdigen met Ouders/Verzorgers van die Jeugdigen.
-
-### Burger ondersteuner
-Een Burger ondersteuner is een vertrouwenspersoon en vertegenwoordiger van een burger of gezin
-
-### Adres
-Een Adres is een verzameling van gegevens voor de aanduiding van een individuele woon- of bedrijfseenheid dan wel de aanduiding van een bestemming.
-
-### Communicatiemiddel
-Een Communicatiemiddel is een contactgegeven, zoals e-mail-adres, social media account, telefoonnummer voor deelname van een burger of instantie aan het openbare communicatieverkeer.
-
-### Voogd
-Een Voogd is een Instantie of Medewerker die door een Beslissing van het recht is aangewezen in de rol van gezaghebbende. De Medewerker in deze rol houdt toezicht op het Jeugdige bij een onder toezichtstelling. Ouder en Jeugdige moeten de aanwijzingen van de Voogd opvolgen.
-
-### Verzoek
-Een Verzoek is een vraag van een Persoon, Gezin, Medewerker of Instantie aan een andere Medewerker of Instantie om een dienst te leveren
-
-### Zienswijze
-Een Zienswijze is input, feedback of een verklaring van een Persoon m.b.t. diens situatie of als reactie op processtappen, besluiten of produkten van Medewerkers van Instanties
-
-### Klacht
-Een Klacht is een formeel bezwaar t.a.v. de behandeling van een Persoon door een Medewerker of Instantie
-
-### Medewerker
-Een Medewerker is een professional werkzaam bij een Instantie (of Samenwerking), actief in het werkveld (tevens gebruiker van informatiesystemen)
-
-### Rol
-De Rol is de formele hoedanigheid van bevoegdheden en taken die een Medewerker kan hebben , in een Instantie of Samenwerking.
-
-### Samenwerking
-Een Samenwerking is een afspraak/convenant en werkwijze/ketenproces tussen een groep Instanties, gericht op een bepaald Resultaat/Doel op zowel regionaal en casusniveau, bijv. in de vorm van een casusoverleg en casusregie.
-
-### Team
-Een Team is een regionale of lokale groep Medewerkers van een Instantie of Samenwerking, gevestigd op/met een standplaats op een specifieke plek.
-
-### Regio
-Een Regio is een bepaald gebied in de geografische indeling van Nederland, vaak als fysieke grenzen van een Samenwerking.
-
-### Instantie
-Een Instantie is een instelling of organisatie die werkzaamheden uitvoert op het gebied van het sociaal domein of aanpalende domeinen.
-
-### Melder
-Een Melder is de rol van een Medewerker die de Aanmelding bij de Instantie of Samenwerking heeft gedaan en ook de voortgang en het resultaat wenst te ontvangen.
-
-### Beslisser
-Een Beslisser is de rol van een Medewerker van een Instantie of Samenwerking die de Beslissing, o.a. in een CasusOverleg, neemt
-
-### Casusregisseur
-Een Casusregisseur is de rol van een Medewerker van een Instantie die inhoudelijk nauw betrokken is bij het Gezin en veelal een groot aandeel in de Interventies heeft, het integrale Plan opstelt, de Interventies uitzet en regisseert en de Resultaten oogst en evalueert.
-
-### Procesregisseur
-Een Procesregisseur is de rol van een Medewerker van een Samenwerking die de werkwijze/het ketenproces regisseert
-
-### Deelnemer
-Een Deelnemer is de rol van een Medewerker of Instantie die participeert in het Samenwerking en o.a. een Verrijking, Onderzoek of Interventie bijdraagt.
-
-### Opdrachtgever
-Een Opdrachtgever is de rol van een Medewerker van een Instantie die primair zorgdraagt voor het beleid, de opdrachtverstrekking, de financiering en de beleidsevaluatie.
-
-### Wettelijk kader
-Het Wettelijk kader is de juridische context waar binnen een samenwerking wordt uitgevoerd, een casus wordt besproken of een interventie wordt uitgevoerd. 
-
-### Handelingskader
-Het Handelingskader is een afgesproken en geformaliseerde werkwijze die wordt uitgevoerd in specifiek benoemde situaties.
-
-### Delict
-Delict is een handeling die het strafrecht verbiedt: een misdrijf of overtreding.
-
-### Maatregel
-Een Maatregel is onvrijwillige hulpverlening ten behoeve van de jeugdige op grond van een door de kinderrechter uitgesproken maatregel, waardoor het ouderlijk gezag wordt beperkt of ontnomen.
-
-### Voorwaarde
-Volgt
-
-### Incident
-Een Incident is een al dan niet strafbare of hulpvragende gebeurtenis waar een Persoon bij betrokken is of die gebeurd binnen een Gezin
-
-### Hulpverlening
-Een Hulpverlening is een actie of traject waarbij hulp wordt geboden aan een Persoon of Gezin
-
-### Casus
-Een Casus is de unieke behandeling van de problematiek of situatie van een burger of gezin in een Samenwerking
-
-### Gezag
-Gezag is de vastlegging/stelling van wie zeggenschap heeft over de opvoeding en verzorging van een Jeugdige en belangrijke beslissingen over en met de Jeugdige mag nemen.
-
-### Identiteit
-Identiteit is de vastlegging/stelling van wie een Persoon precies is
-
-### Dossier
-Een Dossier is een bundeling van papieren en digitale informatieprodukten en gegevens die gaan over een Persoon of Gezin en een Casus.
-
-### Bestand
-Een Bestand is de fysiek vorm waarin een document, bewijs, afbeelding, verwijzing, bestand of geluidsfragment digitaal is opgeslagen.
-
-### Document
-Een Document is een samengesteld informatieprodukt, waarin een grote hoeveelheid gegevenselementen zijn opgenomen
-
-### Leefgebied
-Een Leefgebied is een deelgebied van het Sociaal Domein, een maatschappelijk veld waarop Personen problematiek kunnen ervaren zoals wonen, financien, inburgering, participatie, onderwijs, werk
-
-### Instrument
-Een Instrument is een meetmethodiek, vaak aangereikt vanuit de wetenschap, waarmee zinvol een bepaalde analyse en conclusie kunnen worden bereikt, vaak door te categoriseren, te kwantificeren.
-
-### Onderzoek
-Een onderzoek is de activiteit met als doel om tot een Taxatie of Analyse van een situatie te komen.
-
-### Problematiek
-Volgt
-
-### Score
-Een Score is de samenvattende, kwantitatieve conclusie van het gebruik van een wetenschappelijk Instrument voor een Persoon op een bepaald moment aan de hand van vragen/criteria op verschillende aspecten (bijvoorbeeld leefgebieden) en een schaal met eventueel een weging. 
-
 ### Casusoverleg
-Een Casusoverleg is een periodiek beraad waarbij meerdere bij de Casus betrokken ketenpartners in een Samenwerking samenwerken: tot Integrale Analyse, Beslissing (bijv. wie wordt CasusRegisseur) en contouren van een Integraal Plan komen.
 
-### Opdracht
-Een Opdracht is het expliciete verzoek aan een Instantie of Persoon in een rol (bijv. Casusregisseur) om een Beslissing uit te voeren, vaak op basis van een Plan.
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|-------------------|-------------|
+| Casusoverleg | Een Casusoverleg is een periodiek beraad waarbij meerdere bij de Casus betrokken ketenpartners in een Samenwerking samenwerken: tot Integrale Analyse, Beslissing (bijv. wie wordt CasusRegisseur) en contouren van een Integraal Plan komen. |  |  |  |
 
-### Aanpassing
-Volgt
-
-### Oproep
-Een Oproep is een uitnodiging aan een Persoon of Instantie om deel te nemen aan een Casusoverleg. Het beschrijft wanneer en waar het overleg is, wat er besproken wordt en welk resultaat het overleg nastreeft. Ze is al dan niet formeel.
-
-### Notificatie
-Een Notificatie is een bekendmaking om Instanties, Medewerkers of Personen op de hoogte brengen van een statusverandering of gebeurtenis
-
-### Abonnement
-Volgt
-
-### Notificatie
-Volgt
-
-### Melding
-Een melding is een verstrekking van informatie over een zorgelijke situatie met betrekking tot een burger of gezin
+---
 
 ### Check op Bekendheid
-Een Check op Bekendheid is het beantwoorden van de vraag door een instantie, veelal op verzoek, of ze haar taak heeft verricht c.q. diensten heeft verleend aan de in het verzoek benoemde persoon
 
-### Verrijking
-Een Verrijking is het beschikbaar maken van een (nieuwe) verzameling informatie over een persoon, veelal op verzoek, voor triage, taxatie en analyse doeleinden
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|-------------------|-------------|
+| Check op Bekendheid | Een Check op Bekendheid is het beantwoorden van de vraag door een instantie, veelal op verzoek, of ze haar taak heeft verricht c.q. diensten heeft verleend aan de in het verzoek benoemde persoon |  |  |  |
 
-### Triage
-Een Triage is de toepassing van een (selectie en screenings)Instrument, om de ernst van de situatie van een Persoon (qua problematiek, risico's, kansen) systematisch in kaart te brengen, met als doel het kunnen beoordelen, wegen en besluiten of en welke prioriteit en vervolg de situatie krijgt.
+---
 
-### Taxatie
-Een Taxatie is het resultaat van de toepassing van een (taxatie) instrument, om de ernst van de situatie van een persoon (qua risico’s op verslechtering) systematisch in kaart te brengen, met als doel mogelijke/benodigde Interventies te bepalen.
+### Clientondersteuner
 
-### Verklarende Analyse
-Een Verklarende Analyse is het resultaat van een onderzoek, vaak middels een (analyse) Instrument naar de oorzaak van problemen van een persoon met als doel mogeljke/benodigde Interventies te bepalen.
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|-------------------|-------------|
+| Clientondersteuner | Een Clientondersteuner is een persoon met met informatie, advies, algemene ondersteuning en (zorg)bemiddelingop het gebied van maatschappelijke ondersteuning, preventieve zorg, zorg, jeugdhulp, onderwijs, welzijn, wonen, werk en inkomen die bijdraagt aan het versterken van de zelfredzaamheid en participatie en het verkrijgen van een zo integraal mogelijke dienstverlening | WMO, WLZ |  |  |
 
-### Advies
-Een Advies is de combinatie en samenvatting van een Analyse en aanbeveling met onderbouwing als input voor een te nemen Beslissing
+---
 
-### Beslissing
-Een Beslissing is een formele keuze voor wat er moet gebeuren, inclusief voorwaarden, wijze van uitvoering, genomen door een bevoegde rol/beslissende instantie op een bepaald tijdstip, van kracht vanaf een bepaald moment
+### Contact
 
-### Plan
-Volgt
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|-------------------|-------------|
+| Contact | Een contact is een interactie tussen een burger en medewerker/organisatie in het kader van een zaak. Dit kunnen bezoeken of niet fysieke interacties zijn. Het betreft historische en toekomstige contacten. | Nictiz Zib | Klantcontact |  |
+
+---
+
+### Dienst
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|-------------------|-------------|
+| Dienst | Middel om services/maatregelen in te vullen, Het uitvoeren van werkzaamheden met een continu of periodiek karakter om waarde te realiseren voor een afnemer. | Gemma bedrijfsobject | Voorziening |  |
+
+---
+
+### Document
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|-------------------|-------------|
+| Document | Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT. | Model Kern RGBZ |  |  |
+
+---
+
+### Doel
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|-------------------|-------------|
+| Doel | Een doel is een op korte of middelllange termijn nagestreefde, beoogde situatie of resultaat | Gemma bedrijfsobject |  |  |
+
+---
+
+### Dossier
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|-------------------|-------------|
+| Dossier | Een Dossier is een bundeling van papieren en digitale informatieprodukten en gegevens die gaan over een Persoon of Gezin en een Casus. | Gemma Bedrijfsobject |  |  |
+
+---
+
+### Eigen bijdrage
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|-------------------|-------------|
+| Eigen bijdrage | Een eigen bijdrage is de financiele of anderszins waarde die de burger moet toevoegen in de samenwerking | Gemma bedrijfsobject | Tegenprestatie |  |
+
+---
+
+### Familiale Relatie
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|-------------------|-------------|
+| Familiale Relatie | Een relatie is een aanduiding van een familierechtelijke betrekking of een sociale betrekking tussen personen | Artikel 1:179 BW | gezagsrelatie, |  |
+
+---
+
+### Gemachtigde
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|-------------------|-------------|
+| Gemachtigde | Een gemachtigde is een Natuurlijk Persoon of een Niet Natuurlijk Persoon die als vertegenwoordiger of als bijstand van een burger optreedt. | AWB artikel 8:24 |  |  |
+
+---
+
+### Huishouden
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|-------------------|-------------|
+| Huishouden | Persoon of groep personen die een huishouden voert waarbij sprake is van een onderlinge verbondenheid en continuiteit in de samenstelling ervan, die binnen een woning duurzaam gebruik maakt van dezelfde voorzieningen. | Gemma bedrijfsobject, Nictiz Zib | Gezin, Gezinssituatie | Traditioneel is een gezin gedefinieerd als een leefverband van een of meer volwassenen die verantwoordelijkheid dragen voor de verzorging en de opvoeding van een of meer kinderen. Tegenwoordig wordt de term breder gebruikt voor alle samenlevingsvormen die een herkenbare sociale eenheid vormen, met al dan niet verwante personen die duurzame en affectieve banden hebben en elkaar onderling steun en verzorging verlenen. |
+
+---
+
+### Incident
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|-------------------|-------------|
+| Incident | Een Incident is een onverwachte verstorende of gevaar opleverende gedraging of gebeurtenis |  |  |  |
+
+---
+
+### Informering
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|-------------------|-------------|
+| Informering | Het informeren van de burger in het gedwongen kader | Gemma bedrijfsobject |  |  |
+
+---
+
+### Instrument
+
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|-------------------|-------------|
+| Instrument | Een Instrument is een meetmethodiek, vaak aangereikt vanuit de wetenschap, waarmee zinvol een bepaalde analyse en conclusie kunnen worden bereikt, vaak door te categoriseren, te kwantificeren. |  |  | Een geordend systeem of vragenlijst waarbij aan elf domeinen van het dagelijks leven (zoals inkomen en dagbesteding; zie figuur) een waarde voor zelfredzaamheid wordt toegekend. Bijv. Zelfredzaamheidmatrix |
+
+---
 
 ### Interventie
-Een Interventie is een actie (in het kader van een Plan) door een Medewerker van een Instantie gericht op een bepaald Resultaat of Doel
 
-### Resultaat
-Volgt
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|-------------------|-------------|
+| Interventie | Een Interventie is een actie om een zorgelijke situatie af te wenden door een Medewerker van een Instantie gericht op een bepaald Resultaat of Doel | Gemma bedrijfsobject | Crisisinterventie, |  |
 
-### Evaluatie
-Volgt
+---
 
+### Klacht
 
-
-
+| voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
+|---------------|-----------|------------|-------------------|-------------|
+| Klacht | Een Klacht is een formele melding van ontevredenheid t.a.v. de gedraging van of dienstverlening aan een Persoon door een Medewerker of Instantie | Algemene wet bestuursrecht hoofdstuk 9. |  | 
