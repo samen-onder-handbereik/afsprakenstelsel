@@ -6,21 +6,6 @@ category: Jekyll
 layout: post
 ---
 
-Test
-
-| BTest | Test |
-| --- | --- |
-| Statement | De burger kan de eigen persoonsinformatie en procesinformatie inzien. Inzoemen en een perspectief kiezen (bijv. vanuit gezinslid, ketenpartner, processtap of tijdslijn) is mogelijk voor meer inzicht. De informatie is sorteerbaar, doorzoekbaar, filterbaar.  Met de mogelijkheid voor een verzoek om correctie, verwijdering. |
-| Implicaties |
-| --- |
-| - Inzage is op uniforme wijze ingericht over alle betrokken ketenpartners heen en vanuit het perspectief van de gezinsleden, gebruiksvriendelijk en dienstverlenend.  
-- Er is één duidelijk en vindbaar toegangspunt voor informatie dat niet om kennis van de organisatorische of procesmatige inrichting vraagt.  
-- Inzichtelijk is ook wie (welke professional) welke gegevens heeft gebruikt.  
-- Inzichtelijk is wie (organisatie en professional) welke gegevens hebben ingevoerd en gewijzigd.  
-- Ook de historische stand van zaken is inzichtelijk.  
-- Een gezinslid kan een verzoek tot wijziging van gegevens doen, die bij de juiste organisatie en professional wordt beschikbaar gesteld.  
-- Er moet een alternatieve mogelijkheid worden geboden aan gezinsleden die niet in staat zijn dit op digitale manier in te zien of te verzoeken. |
-
 > ##### Consultatie
 {: .block-warning }
 
