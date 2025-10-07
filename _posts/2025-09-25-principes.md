@@ -205,8 +205,3 @@ Relevant voor afsprakenstelsel zijn de volgende standaarden (in wording) en afsp
 
 Deze lijst is niet limitatief en zal in de tijd nog worden aangevuld.
 
-
-| B22Test | Test |
-| --- | --- |
-| Statement | De burger kan op of vanuit 1 landelijke plek het gehele dossier inzien. De burger kan op 1 plek zijn voorkeuren aangeven welke en via welk kanaal informatie actief wordt beschikbaar gesteld. De burger kan op één plaats inzien wie waarvoor zijn gegevens heeft gebruikt en dat beinvloeden.Regie op gegevens hanteert als vertrekpunt dat mensen inzage moeten hebben in hun persoonlijke gegevens en het gebruik daarvan door derden, dat zij de mogelijkheid moeten hebben om gegevens te corrigeren of verwijderen en -niet in de laatste plaats- dat zij gegevens moeten kunnen (her)gebruiken, zowel binnen de overheid als daarbuiten. Hierdoor verbetert de transparantie, neemt de kwaliteit van gegevens toe en wordt de positie van de burger versterkt. |
-| Implicaties | <ul><li>Als burger wordt ik actief digitaal op de hoogte gesteld van wat er van mij wordt verwacht.</li><li>Als burger heb ik invloed op met wie en wanneer mijn gegevens gedeeld worden.</li></ul> |
