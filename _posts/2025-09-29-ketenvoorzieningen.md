@@ -44,7 +44,7 @@ API Catalogus (optioneel)
 Idealiter zijn API goed vindbaar. De API Catalogus voorziening vormt een centrale plek om keten API’s te kunnen vinden. De API Catalogus voorziening verwijst door naar de centrale API Catalogi / DevPortals. REST API is immers een decentraal patroon en afhankelijkheden van centrale voorzieningen zijn ongewenst. De API Catalogus voorziening maakt het zoeken slechts eenvoudiger en levert een totaal overzicht van de keten API’s op één plek. Dat is handig, maar geen vereiste.
 
 
-Bericht transformatie dienst (optioneel, ongewenst doch mogelijk onvermijdbaar)
+Bericht transformatie dienst (optioneel, mogelijk onvermijdbaar)
 -------------
 
 > ##### Concept
@@ -68,23 +68,6 @@ Via service orkestratie kunnen end-to-end workflows en processen geautomatiseerd
 Een voorbeeld van service orkestratie is de routering service van CORV waarbij op basis van logica een specifieke dienst, lees gemeente wordt benaderd. Een verdergaand concept is die van de e-makelaar. E-makelaar bevat in hoge mate business logica en voegt een extra laag van complexiteit en afhankelijkheid toe. Net als alle centrale service orkestratieve oplossingen wordt de business logica van andere ketenpartners centraal geïmplementeerd. Dit is een monolithische denklijn die mits toegepast op een bepaald gebied werkbaar is. 
 
 Orkestratie beperkt ook de autonomie van individuele services en kan leiden tot prestatieproblemen en veiligheidsrisico's door centralisatie. In dergelijke situaties zijn meer losgekoppelde, event-driven architecturen of choreografie-benaderingen vaak beter geschikt, omdat ze flexibiliteit en schaalbaarheid bevorderen.
-
-
-Service orkestratie (optioneel, vermijden)
--------------
-
-> ##### Concept
-{: .block-danger }
-
-Via service orkestratie kunnen end-to-end workflows en processen geautomatiseerd afgehandeld. Ze omvatten de volledige reeks van stappen en activiteiten die nodig zijn om te komen tot een informatieproduct. De service orkestratie bevat de business logica van de bron en de informatie behoeftige. Op deze manier kunnen systemen worden gekoppeld via een uniform raamwerk. 
-
-Een voorbeeld van service orkestratie is de routering service van CORV waarbij op basis van logica een specifieke dienst, lees gemeente wordt benaderd. Een verdergaand concept is die van de e-makelaar. E-makelaar bevat in hoge mate business logica en voegt een extra laag van complexiteit en afhankelijkheid toe. Net als alle centrale service orkestratieve oplossingen wordt de business logica van andere ketenpartners centraal geïmplementeerd. Dit is een monolithische denklijn die mits toegepast op een bepaald gebied werkbaar is. 
-
-Orkestratie beperkt ook de autonomie van individuele services en kan leiden tot prestatieproblemen en veiligheidsrisico's door centralisatie. In dergelijke situaties zijn meer losgekoppelde, event-driven architecturen of choreografie-benaderingen vaak beter geschikt, omdat ze flexibiliteit en schaalbaarheid bevorderen.
-
-
-
-
 
 
 
