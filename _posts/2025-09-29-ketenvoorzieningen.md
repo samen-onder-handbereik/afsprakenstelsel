@@ -1,5 +1,5 @@
 ---
-title: Ketenvoorzieningen
+title: Stelselvoorzieningen
 author: lg
 date: 2025-09-29
 category: Jekyll
@@ -44,7 +44,7 @@ API Catalogus (optioneel)
 Idealiter zijn API goed vindbaar. De API Catalogus voorziening vormt een centrale plek om keten API’s te kunnen vinden. De API Catalogus voorziening verwijst door naar de centrale API Catalogi / DevPortals. REST API is immers een decentraal patroon en afhankelijkheden van centrale voorzieningen zijn ongewenst. De API Catalogus voorziening maakt het zoeken slechts eenvoudiger en levert een totaal overzicht van de keten API’s op één plek. Dat is handig, maar geen vereiste.
 
 
-Bericht transformatie dienst (optioneel, mogelijk onvermijdbaar)
+Transformatie dienst (optioneel, mogelijk onvermijdbaar)
 -------------
 
 > ##### Concept
