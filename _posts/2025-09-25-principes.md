@@ -53,12 +53,12 @@ De specifieke principes voor dit thema zijn daarom:
 | B11 | Concrete hulp |
 | --- | --- |
 | Statement | Anoniem en via zelfbediening is praktisch advies beschikbaar. Dus concreet antwoord op vragen, vragenlijsten voor zelfanalyse, stappenplan, tips en tricks, handvatten, overzichten en ervaringsverhalen. Bewezen effectief. Met taal die aansluit. |
-| Implicaties | -         We stellen zoveel mogelijk informatie ter beschikking en maken onze diensten zodanig, dat de burger zelfredzaam kan zijn in het regelen van eigen zaken, ook met de overheid. |
+| Implicaties | - We stellen zoveel mogelijk informatie ter beschikking en maken onze diensten zodanig, dat de burger zelfredzaam kan zijn in het regelen van eigen zaken, ook met de overheid. |
 
 | B12 | De-escalerend |
 | --- | --- |
 | Statement | De inhoud van de hulp is gericht op verminderen van de problematiek en voorkomen van het verergeren van de situatie. Het stuurt niet richting professionals, het bevordert het benutten van het eigen netwerk om problemen op te lossen en geeft objectieve input om zelf mee aan de slag te gaan. |
-| Implicaties | -        We richten ons ook op preventie en normalisering, door de burger |
+| Implicaties | - We richten ons ook op preventie en normalisering, door de burger |
 
 | B13 | Personaliseerbaar |
 | --- | --- |
@@ -101,22 +101,22 @@ We hanteren 4 eigen aanvullende principes:
 | B21 | Inzichtelijk |
 | --- | --- |
 | Statement | De burger kan de eigen persoonsinformatie en procesinformatie inzien. Inzoemen en een perspectief kiezen (bijv. vanuit gezinslid, ketenpartner, processtap of tijdslijn) is mogelijk voor meer inzicht. De informatie is sorteerbaar, doorzoekbaar, filterbaar.  Met de mogelijkheid voor een verzoek om correctie, verwijdering. |
-| Implicaties | -        Inzage is op uniforme wijze ingericht over alle betrokken ketenpartners heen en vanuit het perspectief van de gezinsleden, gebruiksvriendelijk en dienstverlenend-        Er is één duidelijk en vindbaar toegangspunt voor informatie dat niet om kennis van de organisatorische of procesmatige inrichting vraagt-        Inzichtelijk is ook wie (welke professional) welke gegevens heeft gebruikt-        Inzichtelijk is wie (organisatie en professional) welke gegevens hebben ingevoerd en gewijzigd-        Ook de historische stand van zaken is inzichtelijk-        Een gezinslid kan een verzoeken tot wijziging van gegevens doen, die bij de juiste organisatie en professional wordt beschikbaar gesteld-        Er moet een alternatieve mogelijkheid worden geboden aan gezinsleden die niet in staat zijn dit op digitale manier in te inzien of te verzoeken |
+| Implicaties | - Inzage is op uniforme wijze ingericht over alle betrokken ketenpartners heen en vanuit het perspectief van de gezinsleden, gebruiksvriendelijk en dienstverlenend. - Er is één duidelijk en vindbaar toegangspunt voor informatie dat niet om kennis van de organisatorische of procesmatige inrichting vraagt. - Inzichtelijk is ook wie (welke professional) welke gegevens heeft gebruikt. - Inzichtelijk is wie (organisatie en professional) welke gegevens hebben ingevoerd en gewijzigd. - Ook de historische stand van zaken is inzichtelijk. - Een gezinslid kan een verzoeken tot wijziging van gegevens doen, die bij de juiste organisatie en professional wordt beschikbaar gesteld. - Er moet een alternatieve mogelijkheid worden geboden aan gezinsleden die niet in staat zijn dit op digitale manier in te inzien of te verzoeken |
 
 | B22 | Integraal op/vanuit 1 plek |
 | --- | --- |
 | Statement | De burger kan op of vanuit 1 landelijke plek het gehele dossier inzien. De burger kan op 1 plek zijn voorkeuren aangeven welke en via welk kanaal informatie actief wordt beschikbaar gesteld. De burger kan op één plaats inzien wie waarvoor zijn gegevens heeft gebruikt en dat beinvloeden.Regie op gegevens hanteert als vertrekpunt dat mensen inzage moeten hebben in hun persoonlijke gegevens en het gebruik daarvan door derden, dat zij de mogelijkheid moeten hebben om gegevens te corrigeren of verwijderen en -niet in de laatste plaats- dat zij gegevens moeten kunnen (her)gebruiken, zowel binnen de overheid als daarbuiten. Hierdoor verbetert de transparantie, neemt de kwaliteit van gegevens toe en wordt de positie van de burger versterkt. |
-| Implicaties | -        Als burger wordt ik actief digitaal op de hoogte gesteld van wat er van mij wordt verwacht.-        Als burger heb ik invloed op met wie en wanneer mijn gegevens gedeeld worden. |
+| Implicaties | - Als burger wordt ik actief digitaal op de hoogte gesteld van wat er van mij wordt verwacht. - Als burger heb ik invloed op met wie en wanneer mijn gegevens gedeeld worden. |
 
 | B23 | Perspectief van Burger/Gezin |
 | --- | --- |
 | Statement | Het perspectief van de burger en zijn/haar gezinssysteem staan centraal. We testen continu met burgers wat wel en niet werkt. Dat betekent ook dat de actuele stand van zaken en de specifieke context van de burger wordt gebruikt. En dat de burger keuze mogelijkheden moet krijgen. Bovendien wordt rekening gehouden met de persoonlijke verschillen in mogelijkheden, omstandigheden en culturen. |
-| Implicaties | -        We verminderen het voor de burger onoverzichtelijke mijnenveld van mijn omgevingen |
+| Implicaties | - We verminderen het voor de burger onoverzichtelijke mijnenveld van mijn omgevingen |
 
 | B24 | Participatief |
 | --- | --- |
 | Statement | De burger kan ook actief bijdragen aan analyse, overleg, besluitvorming en plan. De burger wordt actief gevraagd die bijdrage te leveren. |
-| Implicaties | -        Als burger wordt ik actief digitaal op de hoogte gesteld van wat er van mij wordt verwacht.-        Als burger heb ik invloed op met wie en wanneer mijn gegevens gedeeld worden. |
+| Implicaties | - Als burger wordt ik actief digitaal op de hoogte gesteld van wat er van mij wordt verwacht. - Als burger heb ik invloed op met wie en wanneer mijn gegevens gedeeld worden. |
 
 ### Integraal samenwerken
 
