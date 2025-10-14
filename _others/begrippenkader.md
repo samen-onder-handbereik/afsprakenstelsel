@@ -16,6 +16,30 @@ We hanteert als uitgangspunt dat we concepten modelleren voor een informatiecont
 
 ![Alt text]({{ site.baseurl }}/assets/metronew1.png)
 
+Semantisch model
+-------------
+
+> ##### Concept
+{: .block-danger }
+
+In een keten met veel verschillende partijen en diverse samenwerkfuncties is een gemeenschappelijke taal belangrijk. Er kunnen hier verschillende benaderingen worden gevolgd:
+1. De aanbieder bepaalt het model van de eigen aanleveringen en voorziet deze van context en betekenis. Alle afnemers vertalen het model van de aanbieder naar het eigen model en zorgen daarbij dat ze de betekenis en context goed doorgronden. Dit model is ongeschikt voor deze keten gelet het type organisaties, het aantal daarvan en verschillen daartussen. In een andere context kan dit model overigens zeer geschikt zijn.
+2. Er wordt onderscheid gemaakt in verschillende domeinen binnen de keten. Elk domein volgt het eigen semantisch model en biedt vanuit daar aan en in lijn daarmee. Alle afnemers vertalen het model van de aanbieder naar het eigen model en zorgen daarbij dat ze de betekenis en context goed doorgronden. Dit model kent dezelfde nadelen als voorgaande model in de geldende context, zij het in een minder zware vorm.
+3. Alle partijen volgen het keten Informatiemodel en passen dat toe in keten-API’s en in het keten event datamodel. Deze benadering past goed bij ketens met veel verschillende partijen en in situaties waar nog veel API’s ontwikkelt moeten worden.
+
+Binnen het Jeugd, Zorg en Veiligheiddomein wordt het Metamodel voor Informatiemodellering (MIM) gehanteerd en beheerd als kader voor het opstellen van informatiemodellen. Het MIM bevat duidelijke afspraken over het vastleggen van gegevensspecificaties en biedt tegelijkertijd ruimte aan de verschillende niveaus van modellering. 
+
+Voor de begrippen, conceptuele informatiemodellen, logische gegevensmodellen en technische uitwisselmodellen ontwikkelen we een gegevensarchitectuur jeugd, zorg en veiligheid. Waarbij aansluiting is gezocht met het gemeenschappelijk gegevensmodel (GGM) van de VNG (voor het gemeentedomein/BZK) door wijzigingsvoorstellen in te dienen voor ontbrekende concepten zoals gezin/huishouden, zorgmelding, ketenpartner/professional en casusoverleg. Zo groeit een gezamenlijk modellenkader voor het sociaal domein. Ook verkennen we de mapping met de informatiemodellen/Zibbs vanuit Nictiz (voor het zorgdomein/VWS).
+
+
+
+Begrippen
+-------------
+
+> ##### Concept
+{: .block-danger }
+
+
 ### Adres
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
