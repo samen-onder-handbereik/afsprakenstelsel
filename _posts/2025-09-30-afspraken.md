@@ -6,6 +6,36 @@ category: Jekyll
 layout: post
 ---
 
+Realisatie afspraken
+-------------
+
+> ##### Concept
+{: .block-danger }
+
+Niet alle beschreven functionaliteiten en technische voorzieningen kunnen tegelijk gerealiseerd worden. De realisatie zal in fasen worden uitgevoerd waarbij steeds naar een vastgesteld en afgesproken plateau wordt gewerkt. 
+
+### Plateau 1 afspraken (doel en scope van deze versie van het afsprakenstelsel)
+Toegang
+1. We passen voor dit plateau minimaal de huidige authenticatie op organisatieniveau (Organisatie identifier en certficate) toe. Voor latere scopes onderzoeken de beweging naar nieuwere vormen van identifier, certficate en contract authenticatie (FSC), authenticatie op niveau persoon/professional en daarmee o.a. OIDC/Oauth, FTV, DigiD en Wallet, en combinatie daarvan (FSC + FTV).
+2. Bij toegangsverlening op basis van Organisatie identifier en certficate wordt OIN gebruikt als identifier en uitsluitend PKIoverheid certificaten.
+
+Toegang burgerportaal
+1. Bij toegangsverlening voor burgers, denk aan het burgerportaal, gebruiken we DigiD waarbij de authentiserende persoon over een BSN moet beschikken.
+2. Voor de te realiseren samenwerkfuncties binnen dit plateau gerelateerd aan het burgerportaal is  betrouwbaarheidsniveau voor toegang “Substantieel” voldoende. Samenwerkfuncties die een hoger niveau vereisen vallen buiten dit plateau.
+3. In de context van DigiD/eherkenning passen we SAML toe en stappen (in hogerliggende plateua’s) naar OIDC/Oauth over zodra dat wordt ondersteund door DigiD/eherkenning
+4. Binnen dit plateau kan niet worden uitgegaan dat de identiteit van de persoon die het portaal gebruikt doorgeven kan worden bij inzage bij ketenpartners. Er wordt onderzocht hoe dit gerealiseerd kan worden in situatie waar dit nodig is en is toegestaan binnen opvolgende plateau’s.
+5. We gebruiken voor dit plateau (voor het burgerportaal) de gezagsinformatie van de BRP en dienen Gezagsdiensten te zijn om dat te kunnen en mogen. Gezagsdiensten zijn bestuursorganen en enkele daartoe aangewezen instanties, die rechtmatig toegang hebben tot de BRP volgens de Wet BRP en het Besluit BRP. 
+
+
+
+Gebeurtenissen
+1. Binnen dit plateau werken we met gebeurtenissen die voor alle ketenpartijen toegankelijk zijn en mogen zijn. Voor latere plateau’s onderzoeken we autorisatie/abonneren op bepaalde gebeurtenissen/topics.
+2. De gebeurtenissen bevatten genoeg informatie om een inzage te kunnen doen via het (REST API) inzage patroon. Zodoende wordt dus de toegangsverlening daarvan hergebruikt en is de informatie alleen zichtbaar voor partijen met toegang tot die informatie.
+3. Voor dit plateau vertrekken we met in de gebeurtenissen opgenomen de persoon/BSN waar de gebeurtenis betrekking op heeft. Voor latere plateau’s onderzoeken we of pseudonimisering, etc. meerwaarde heeft en noodzakelijk is.
+4. We gaan in plateau uit van één centrale Event Provenance Store en Event Hub. Voor latere scopes onderzoeken we of er nut en noodzaak is om in het stelsel meerdere event stores op te nemen.
+5. Binnen dit plateau realiseren via filtering dat waar dat wenselijk is gebeurtenissen niet meer bevraagd kunnen worden.
+
+
 Technische afspraken
 -------------
 
