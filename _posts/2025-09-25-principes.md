@@ -153,6 +153,23 @@ Specifieke principes voor dit thema rond samenwerken:
 | Statement | Ketenpartners meten en sturen de samenwerking bij. Gericht op de gewenste output, kwaliteit en maatschappelijk effect, met een relatie naar de doelenboom. We doen dit zowel voor operationeel gebruik als voor beleidsvorming, leren en verantwoording. Het is niet voldoende om alleen operationele, casus gerelateerde informatie te delen. Samenwerken betekent ook dat evaluaties, tactische informatie en stuurinformatie wordt gedeeld. Om te leren is het belangrijk het effect te meten. |
 | Implicaties | -        In verzoeken om informatie en de digitale uitwisseling moet voldoende gespecificeerd zijn over de rol en functie van de betrokkene, de wettelijke taak, de doelbinding en de informatiebehoefte voor de professional om te beoordelen of tot verstrekking wordt overgegaan.-        Verzoeken tot samenwerking en inzage/verstrekking van informatie kunnen worden geweigerd. Dat kan zowel geautomatiseerd collectief (bijv. voor een bepaald type verzoek van een bepaalde organisatie) of individueel door een professional-        Voor het verzamelen van data en monitoren van de samenwerking is behoefte aan een standaard-        Op verschillende niveaus kunnen gegevens bevraagd worden c.q. informatieproducten geleverd worden-        Evalueren onderdeel en cyclisch verbeteren maakt onderdeel uit van het proces-        Behoefte aan een monitor om de resultaten inzichtelijk te maken |
 
+
+> ##### Concept
+{: .block-danger }
+
+We hanteren de volgende twee eigen aanvullende principes:
+
+| B35 | De informatiebehoeftige is verantwoordelijk voor informatie inwinning |
+| --- | --- |
+| Statement | Organisaties met een informatiebehoefte zijn verantwoordelijk voor het ophalen van die informatie. Organisaties die informatie beheren zijn verantwoordelijk voor het ontsluiten van die informatie voor bevragingen en voor het actief kenbaar maken van beschikbaarheid ervan, bijvoorbeeld via gebeurtenissen, catalogi of registers. In de praktijk wordt deze verantwoordelijkheid vaak onterecht bij informatieaanbieders gelegd door hen te verplichten informatie actief te brengen. Brengen kan en moet soms plaatsvinden, maar het mag niet structureel als primaire verplichting worden opgelegd aan de informatiehouder. |
+| Implicaties | - Niet de organisatie die informatie heeft wordt verantwoordelijk gemaakt voor aanlevering bij de ontvanger, maar de verantwoordelijkheid voor inwinning ligt bij de ontvanger. In het estafette model wordt deze verantwoordelijkheid vaak (oneigenlijk) verplaatst naar de leverende organisatie en moet deze informatie gaan brengen. - De ontvanger moet de informatie gaan halen, zie ook de aansluiting bij het ‘halen bij de bron’ gedachtengoed. |
+
+| B36 | De ontvanger vertaald naar het eigen domein |
+| --- | --- |
+| Statement | De aanbieders van informatie bieden deze aan conform het keteninformatiemodel. Als vertalingen nodig zijn naar het domein van de ontvanger, doet de ontvanger van de informatie dit zelf en wordt deze taak niet verplaatst naar de aanbieder of naar een ketenvoorziening en daarmee niet naar een shared service organisatie. |
+| Implicaties | - Vertalingen t.b.v. het domein van de afnemer van de informatie worden niet verlegt naar de aanbieder van de informatie.-        Afnemers zullen waar nodig zelf vertalingen (translaties) moeten uitvoeren. - Vertalingen kunnen niet worden verlegd naar  ketenvoorziening / shared service organisaties. Dergelijke vertalingen zijn uniek waardoor het centraal invullen daarvan onlogisch en onwenselijk is. Mogelijke uitzonderingen zijn vertalingen voor een domein met verschillende organisaties daarbinnen zonder eigen shared service voorzieningen (mogelijke explain). |
+
+
 ### Informatie gedreven
 
 > ##### Consultatie

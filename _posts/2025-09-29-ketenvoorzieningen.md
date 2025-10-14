@@ -56,19 +56,6 @@ In het meest ideale geval worden services, zoals ze worden gedefinieerd overal h
 
 Het centraal transformeren van gegevens verlangt veel kennis van de bron en de ontvangende partij. Vooral als deze vertalingen complexe “IF THEN ELSE” constructies bevatten. Ze zijn kostbaar om te onderhouden en relatief foutgevoelig. Omdat we verwachten dat het aantal services zal stijgen is het zaak om deze transformaties (als wel de translaties) tot een minimum te beperken. Een landschap dat via transformaties is gekoppeld is sterk monolithisch. Dergelijke transformaties centraal uitvoeren is ongewenst en dient dus alleen te worden gedaan als dit realistisch niet anders kan en dienen in principe altijd tijdelijk te zijn (ter overbrugging).
 
-
-Service orkestratie (optioneel, vermijden)
--------------
-
-> ##### Concept
-{: .block-danger }
-
-Via service orkestratie kunnen end-to-end workflows en processen geautomatiseerd afgehandeld. Ze omvatten de volledige reeks van stappen en activiteiten die nodig zijn om te komen tot een informatieproduct. De service orkestratie bevat de business logica van de bron en de informatie behoeftige. Op deze manier kunnen systemen worden gekoppeld via een uniform raamwerk. 
-
-Een voorbeeld van service orkestratie is de routering service van CORV waarbij op basis van logica een specifieke dienst, lees gemeente wordt benaderd. Een verdergaand concept is die van de e-makelaar. E-makelaar bevat in hoge mate business logica en voegt een extra laag van complexiteit en afhankelijkheid toe. Net als alle centrale service orkestratieve oplossingen wordt de business logica van andere ketenpartners centraal geïmplementeerd. Dit is een monolithische denklijn die mits toegepast op een bepaald gebied werkbaar is. 
-
-Orkestratie beperkt ook de autonomie van individuele services en kan leiden tot prestatieproblemen en veiligheidsrisico's door centralisatie. In dergelijke situaties zijn meer losgekoppelde, event-driven architecturen of choreografie-benaderingen vaak beter geschikt, omdat ze flexibiliteit en schaalbaarheid bevorderen.
-
-
+Bericht transformatie kan (en zal dat in de praktijk waarschijnlijk zijn) tijdelijk ook nodig zijn ter overbrugging van de transitie van CORV1 naar CORV2 als migratie dienst. Deze dienst is ook wel bekend onder de benaming Silvester diensten. 
 
 
