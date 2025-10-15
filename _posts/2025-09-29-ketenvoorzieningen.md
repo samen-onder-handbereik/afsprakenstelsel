@@ -9,7 +9,7 @@ layout: post
 > ##### Concept
 {: .block-danger }
 
-Binnen de keten leveren de verschillende partijen diensten. Er is sprake van een federatief landschap. Idealiter zijn er geen centrale voorzieningen, of wel ketenvoorzieningen, nodig. In die zin volgen we een zelfde uitgangspunt als het Federatief Datastelsel (FDS): “afspraken boven standaarden boven voorzieningen”. Echter zullen ketenvoorzieningen niet te voorkomen zijn. Zie ook CORV. Voor de werking van het stelsel zullen de volgende ketenvoorzieningen nodig zijn:
+Binnen de keten leveren de verschillende partijen diensten en is sprake van een federatief landschap. Idealiter zijn er geen centrale voorzieningen, of wel ketenvoorzieningen, nodig. In die zin volgen we een zelfde uitgangspunt als het Federatief Datastelsel (FDS): “afspraken boven standaarden boven voorzieningen”. Echter zullen ketenvoorzieningen niet te voorkomen zijn. Zie ook CORV. Voor de werking van het stelsel zullen de volgende ketenvoorzieningen nodig zijn:
 1. Event Provenance Store en Event Hub
 2. Diensten Catalogus (optioneel)
 3. API Catalogus (optioneel)
