@@ -157,7 +157,7 @@ Specifieke principes voor dit thema rond samenwerken:
 > ##### Concept
 {: .block-danger }
 
-We hanteren de volgende twee eigen aanvullende principes:
+We hanteren de volgende drie eigen aanvullende principes:
 
 | B35 | De informatiebehoeftige is verantwoordelijk voor informatie inwinning |
 | --- | --- |
@@ -169,6 +169,10 @@ We hanteren de volgende twee eigen aanvullende principes:
 | Statement | De aanbieders van informatie bieden deze aan conform het keteninformatiemodel. Als vertalingen nodig zijn naar het domein van de ontvanger, doet de ontvanger van de informatie dit zelf en wordt deze taak niet verplaatst naar de aanbieder of naar een ketenvoorziening en daarmee niet naar een shared service organisatie. |
 | Implicaties | - Vertalingen t.b.v. het domein van de afnemer van de informatie worden niet verlegt naar de aanbieder van de informatie.-        Afnemers zullen waar nodig zelf vertalingen (translaties) moeten uitvoeren. - Vertalingen kunnen niet worden verlegd naar  ketenvoorziening / shared service organisaties. Dergelijke vertalingen zijn uniek waardoor het centraal invullen daarvan onlogisch en onwenselijk is. Mogelijke uitzonderingen zijn vertalingen voor een domein met verschillende organisaties daarbinnen zonder eigen shared service voorzieningen (mogelijke explain). |
 
+| B37 | Single pane of glass |
+| --- | --- |
+| Statement | Zoals de burger informatie op één plek kan vinden (zie betreffende principe), beschikt de professional ook over één plek waar de benodigde informatie is te vinden of kan worden ingewonnen, namelijk binnen de taakapplicatie van de betreffende partij. |
+| Implicaties | - De taakapplicaties moeten de informatie kunnen tonen en opvraag kunnen maken. - Daar waar nu verschillende tool en portals beschikbaar gemaakt worden is een consolidatie nodig. - Er moet gebruik gemaakt worden van functies, services en koppelvlakken van het stelsel zodat een flexibel, aanpasbaar  loosely coupled landschap ontstaat en geen monolithische functionaliteit binnen de taakapplicaties |
 
 ### Informatie gedreven
 
