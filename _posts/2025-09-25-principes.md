@@ -63,12 +63,12 @@ De specifieke principes voor dit thema zijn daarom:
 | B13 | Personaliseerbaar |
 | --- | --- |
 | Statement | De burger kan kiezen de hulp toe te snijden op de situatie. Door antwoord op vragen of kiezen van opties. Zo kan de begeleiding specifieker worden gemaakt en nog concretere vervolg stappen, aanpak instrumenten of thema’s worden aangeboden. |
-| Implicaties | - |
+| Implicaties | - De burger krijgt actieve controle over het hulptraject. - Door zelf keuzes te maken of vragen te beantwoorden, wordt de hulp afgestemd op persoonlijke behoeften en omstandigheden. |
 
 | B14 | Regie bij de Burger |
 | --- | --- |
 | Statement | De burger bepaalt zelf of er professionele ondersteuning nodig is en wat met een hulpverlener wordt gedeeld of wat met andere hulpverleners wordt gedeeld. Ze worden desgewenst ondersteund in de werkstroom naar hulpverleners.Zo kunnen burgers met groeiende problemen desgewenst vroeg in beeld komen. |
-| Implicaties | - |
+| Implicaties | - De burger heeft zeggenschap over het al dan niet inschakelen van professionele hulp. - De burger bepaalt zelf welke informatie gedeeld wordt en met wie, wat privacy en autonomie versterkt. |
 
 ### Transparantie voor de burger
 
@@ -116,7 +116,7 @@ We hanteren 4 eigen aanvullende principes:
 | B24 | Participatief |
 | --- | --- |
 | Statement | De burger kan ook actief bijdragen aan analyse, overleg, besluitvorming en plan. De burger wordt actief gevraagd die bijdrage te leveren. |
-| Implicaties | - Als burger wordt ik actief digitaal op de hoogte gesteld van wat er van mij wordt verwacht. - Als burger heb ik invloed op met wie en wanneer mijn gegevens gedeeld worden. |
+| Implicaties | - Als burger word ik actief digitaal op de hoogte gesteld van wat er van mij wordt verwacht. - Als burger heb ik invloed op met wie en wanneer mijn gegevens gedeeld worden. |
 
 ### Integraal samenwerken
 
@@ -183,7 +183,7 @@ We maken als ketenpartners informatie by design betekenisvol, duurzaam en privaa
 
 Vanuit het perspectief van een ketenpartner verschuift het paradigma van keteninformatievoorziening hiermee van het verplicht aansluiten op ketenvoorzieningen naar het verzamelen en aanbieden van functionaliteit en gegevens aan elkaar met gegevensbescherming en verantwoording in het hart. Dat versterkt de samenwerking.
 
-Hierop hanteren we geen eigen principes, maar hanteren we de principes van 3 bronnen: de NORA, de GEMMA, de MIDO en het FDS.
+Hierop hanteren we geen eigen principes, maar hanteren we de principes van 4 bronnen: de NORA, de GEMMA, de MIDO en het FDS.
 
 Voor de NORA/GEMMA hanteren we principes:  
 - NAP/GAP08 Standaardiseer waar mogelijk: reduceer varieteit en kosten, zorg voor een betere interoperabiliteit.  
