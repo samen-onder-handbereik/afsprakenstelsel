@@ -14,7 +14,7 @@ Realisatie afspraken
 
 Niet alle beschreven functionaliteiten en technische voorzieningen kunnen tegelijk gerealiseerd worden. De realisatie zal in fasen worden uitgevoerd waarbij steeds naar een vastgesteld en afgesproken plateau wordt gewerkt. 
 
-### Plateau 1 afspraken (doel en scope van deze versie van het afsprakenstelsel)
+### Plateau 1 afspraken
 Toegang
 1. We passen voor dit plateau minimaal de huidige authenticatie op organisatieniveau (Organisatie identifier en certficate) toe. Voor latere scopes onderzoeken de beweging naar nieuwere vormen van identifier, certficate en contract authenticatie (FSC), authenticatie op niveau persoon/professional en daarmee o.a. OIDC/Oauth, FTV, DigiD en Wallet, en combinatie daarvan (FSC + FTV).
 2. Bij toegangsverlening op basis van Organisatie identifier en certficate wordt OIN gebruikt als identifier en uitsluitend PKIoverheid certificaten.
