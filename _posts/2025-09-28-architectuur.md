@@ -71,7 +71,7 @@ De afgesproken diensten zijn de diensten nodig voor de uitvoering van Samenwerkf
 
 Om onderling federatief en effectief te kunnen samenwerken zijn informatiemodellen opgesteld per functie (zie @@@volgt) en een Begrippenmodel. Hoe we hier binnen het Afsprakenstelsel mee werken is vastgelegd in Afspraken. Zo eenvoudig is de architectuurinformatielaag van het Afsprakenstelsel. Dat is ook nodig omdat in een stelsel met zoveel organisaties eenvoud en complexiteitreductie essentieel is.
 
-Bounded context  
+### Bounded context  
 Binnen het Jeugd, Zorg en Veiligheidsdomein is er sprake van één bounded context.
 
 Een bounded context is een duidelijk afgebakend gebied waarin begrippen, afspraken en logica eenduidig en consistent zijn gedefinieerd. Alles wat binnen die grens valt, gebruikt dezelfde begrippen en modellen, maar buiten die context kunnen termen en implementaties anders zijn. Bounded context is een concept uit “Domain Driven Design”. Daarin wordt gesteld dat het onderkennen van bounded contexten belangrijk is omwille van consistentie en duidelijkheid van begrippen, isolatie van modellen, afstemming bedrijfsdoelen, beheersing van complexiteit, autonomie van partijen.
@@ -92,7 +92,7 @@ De bronhouder en oorspronkelijke dienstverlener verschuift zijn aandacht van aan
 
 In de architectuur rekening dat gegevens domein overschrijdend gebruikt moeten kunnen worden. Een organisatie zal immers te maken kunnen hebben met meerdere domeinen. Voor een aantal organisaties zal dit eerder standaard zijn dan de uitzondering. Dat doen we door gegevens met context en betekenis te kunne leveren, de ontkoppeling van data en processen, door het gebruik van standaarden en het gebruik van standaard koppelvlakken.
 
-Consistentie van gegevens  
+### Consistentie van gegevens  
 Gedistribueerde systemen, zoals waar in het Jeugd Zorg en Veiligheidsdomein sprake van is, zullen moeten beslissen welke mate van consistentie van gegevens gehanteerd wordt of wenselijk is. In het Afsprakenstelsel gaan we er van uit dat gegevens niet strikt consistent kunnen zijn. Tenslotte kan het zo zijn dat gegevens niet tijdig zijn aangepast door alle deelnemende organisaties, bijvoorbeeld door een bepaalde verwerkingstijd of downtime van services. Zie CAP theorema; In deze theorie wordt gesteld dat in een gedistribueerd systeem twee van de drie volgende eigenschappen tegelijkertijd gegarandeerd kan worden: Consistentie (C), Beschikbaarheid (A), Partitietolerantie (P), waarbij een gedistribueerde systeem altijd partitietolerant dient te zijn. Daarom is het uitgangspunt dat er sprake moet zijn van uiteindelijke consistentie, waarbij tijdelijke inconsistenties worden toegestaan, maar dat gegarandeerd wordt dat alle deelnemers uiteindelijke dezelfde gegevenswaarden zullen hebben. 
 
 Om consistentie in het gedistribueerde systeem te beheersen, worden verschillende technieken toegepast:
@@ -112,17 +112,17 @@ De standaarden zijn beschreven in het onderdeel Principes en standaarden. Een va
 
 ![Alt text]({{ site.baseurl }}/assets/rollen.png)
 
-Aanbieden en afnemen systeemrollen  
+### Aanbieden en afnemen systeemrollen  
 Er zijn de rollen van aanbieden en afnemen. Het zijn de deelnemende organisatie die informatie aanbieden, maar ook kunnen afnemen van andere organisaties. Hiervoor worden de Samenwerkpatronen en Standaarden gebruikt. Organisaties dienen deze patronen en standaarden te ondersteunen alsmede het informatiemodel en begrippenkader. Wat daarvoor nodig is kan worden nagegaan via onderdeel Aansluiten en Impactbepaling.
 
 De zaaksystemen / dossiersystemen / primaire processystemen van de organisaties van belang voor deze rol en van nog groter belang is de data (zie Informatielaag) welke deze verwerken. Vanuit architectuur bezien is ontkoppeling van werkprocessen, applicaties en data het uitgangspunt (zie Common Ground). Wanneer dit goed is ingevuld kan data eenvoudig beschikbaar gesteld worden aan de eigen systemen en die van andere organisaties waar toegestaan.
 
 Andersom moeten de zaaksystemen / dossiersystemen / primaire processystemen van de organisatie data kunnen bevragen bij de bron. Ook moeten ze zorgen dat data op een juiste wijze wordt opgeslagen in de datalaag, denk aan de kwaliteit van de data, aan metadatering, etc.
 
-Vertrouwenssysteemrollen  
+### Vertrouwenssysteemrollen  
 Er is sprake van samenwerking in een federatief verband. Bij federatie speelt vertrouwen een belangrijke rol. Er zijn daarom vertrouwenssysteemrollen en voorzieningen. Organisaties zijn zelf verantwoordelijk voor authenticatie en autorisatie, echter zijn er rollen die zorgen voor waarborgen zoals de ledenaministrator en verzekeraar betrouwbaarheid, maar zijn er ook rollen waar voorzieningen worden geleverd zoals vanuit de vertrouwensleverancier (PKIoverheid, maar denk ook aan leverancier voor IDP lokalisatie) en bevoegde uitgever (van attesten en tokens). Zie onderdeel Toegang en Policy-based Access Control.
 
-Beheersysteemfuncties  
+### Beheersysteemfuncties  
 Naast de stelselbeheer welke technische rollen toekent, zijn er ketenvoorzieningbeheerders welke de ketenvoorzieningen leveren. Er zijn verschillende typen ketenvoorzieningen:
 - Voorzieningen voor lokalisatie (vindbaarheid)
 - Voorzieningen voor aanleveren en ophalen van gebeurtenissen (connectiviteit en uitwisseling)

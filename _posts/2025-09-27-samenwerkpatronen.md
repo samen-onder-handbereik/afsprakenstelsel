@@ -6,8 +6,8 @@ category: Jekyll
 layout: post
 ---
 
-> ##### Consultatie
-{: .block-warning }
+> ##### Definitief
+{: .block-tip }
 
 De samenwerkingsfuncties zoals genoemd in onderdeel Werking zijn navolgend uitgewerkt.
 
