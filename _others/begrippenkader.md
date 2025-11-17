@@ -19,8 +19,8 @@ We hanteert als uitgangspunt dat we concepten modelleren voor een informatiecont
 Semantisch model
 -------------
 
-> ##### Concept
-{: .block-danger }
+> ##### Consultatie
+{: .block-warning }
 
 In een keten met veel verschillende partijen en diverse samenwerkfuncties is een gemeenschappelijke taal belangrijk. Er kunnen hier verschillende benaderingen worden gevolgd:
 1. De aanbieder bepaalt het model van de eigen aanleveringen en voorziet deze van context en betekenis. Alle afnemers vertalen het model van de aanbieder naar het eigen model en zorgen daarbij dat ze de betekenis en context goed doorgronden. Dit model is ongeschikt voor deze keten gelet het type organisaties, het aantal daarvan en verschillen daartussen. In een andere context kan dit model overigens zeer geschikt zijn.
@@ -36,8 +36,8 @@ Voor de begrippen, conceptuele informatiemodellen, logische gegevensmodellen en 
 Begrippen
 -------------
 
-> ##### Concept
-{: .block-danger }
+> ##### Consultatie
+{: .block-warning }
 
 
 ### Adres
