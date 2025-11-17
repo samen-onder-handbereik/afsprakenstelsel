@@ -6,8 +6,8 @@ category: Jekyll
 layout: post
 ---
 
-> ##### Consultatie
-{: .block-warning }
+> ##### Definitief
+{: .block-tip }
 
 We zijn niet de enige die de beweging naar het netwerkmodel maken. Op verschillende plaatsen binnen de Nederlandse overheid zie je die technologie beweging van berichtenverkeer naar APIs en gebeurtenissen technologie. In de gemeentewereld onder de Common Ground vlak. In de zorgwereld. We willen in het netwerk optimaal gebruik maken van overheidsbrede afspraken, standaarden en voorzieningen. 
 
@@ -25,9 +25,6 @@ In dit hoofdstuk werken we vooral aanvullende thema’s en principes uit. Thema�
 Thema's
 -------------
 
-> ##### Consultatie
-{: .block-warning }
-
 Maatschappelijke, juridische en digitale overheidskaders waarbinnen de oplossing welke het afsprakenkader biedt moet passen zijn samen te vatten in 4 kernthema’s:
 
 1. **Zelfredzaamheid ondersteund**: Hier komen de ontwikkelingen mensgerichtheid, doenvermogen, digitalisering, arbeidsmarkt en de inzet van Hervormingsagenda Jeugd/Toekomstscenario bij elkaar. Het voorkomt veel leed door problematiek in een vroeg stadium te (helpen) verhelpen. En met digitale preventieve oplossingen kan de beperkt beschikbare professionele aandacht worden gereserveerd voor waar ze echt nodig is.  
@@ -39,9 +36,6 @@ Voor elk thema zijn principes met hun implicaties uitgewerkt.
 
 Principes
 -------------
-
-> ##### Consultatie
-{: .block-warning }
 
 ### Zelfredzaamheid ondersteund
 We ondersteunen de zelfredzaamheid concreet, de-escalerend en specifiek. Dweilen met de kraan open is niet gewenst, we moeten erger voorkomen. Bij voorkeur bereikt de burger de gedwongen/justitiële kaders niet. Daarom ondersteunen we vanuit de overheid de burger met gekwalificeerde, onafhankelijke, niet-commerciële ondersteuning. Vooral door leerbare en inzicht gevende uniforme kennis beschikbaar te maken over problematiek en concrete oplossingen op een betrouwbare plek. Aangevuld met regionale kennis en laagdrempelige hulp van professionals.
@@ -71,9 +65,6 @@ De specifieke principes voor dit thema, met in achtneming dat gedwongen justiti�
 | Implicaties | - De burger heeft zeggenschap over het al dan niet inschakelen van professionele hulp. - De burger bepaalt zelf welke informatie gedeeld wordt en met wie, wat privacy en autonomie versterkt. |
 
 ### Transparantie voor de burger
-
-> ##### Consultatie
-{: .block-warning }
 
 We werken nauw en transparant samen met de burger en zijn/haar gezin. Transparantie is voor de jeugd, zorg en veiligheid een belangrijk thema. Doel is om de burger en zijn/haar gezinssysteem meer inzicht te geven in hun gegevens en de status van hun zaken, aansluitend bij hun perspectief en vanuit één ingang. Zodat de burger zelf de regie kan (terug)pakken en zijn bijdrage in de samenwerking kan leveren.
 
@@ -120,9 +111,6 @@ We hanteren 4 eigen aanvullende principes:
 
 ### Integraal samenwerken
 
-> ##### Consultatie
-{: .block-warning }
-
 In het domein van jeugd, zorg en veiligheid werken veel professionals die elk hun eigen taken uitvoeren voor het gezin. Die taken zijn vaak (bewust of onbewust) afhankelijk van taken of informatie van andere professionals. Daarom is het van belang dat een professional niet alleen zicht heeft op wat in de interne bedrijfsvoering van de organisatie waar die werkt bekend is. Maar dat er ook zicht is op informatie en over taken die door professionals van andere organisaties worden gedaan. Die informatie over de samenwerking moet gedeeld worden, zodat organisaties in staat worden gesteld ze ook onder de vingertoppen van hun professional te brengen . We werken vanuit eigen taak(systeem) en verantwoordelijkheid in een gezamenlijk proces en sturingskader. Er is een flexibel inzetbaar samenwerkproces met ondersteuning voor daarin benodigde vaardigheden / bouwstenen. Focus is op het gezin(ssysteem), het samenbrengen van de relevante partners, komen tot een gedeeld beeld, een gedeeld plan en  duidelijke regie**.**
 
 Basisprincipes voor dit thema zijn afkomstig van 1 bron: de NORA. Van de GEMMA, de MIDO en het FDS zijn geen principes geoogst.
@@ -157,9 +145,6 @@ Specifieke principes voor dit thema rond samenwerken:
 
 ### Informatie gedreven
 
-> ##### Consultatie
-{: .block-warning }
-
 We maken als ketenpartners informatie by design betekenisvol, duurzaam en privaat voor de samenwerking beschikbaar. Na de digitalisering van bestaande (papier)stromen tussen 2 partijen maken we de volgende sprong. Er ontstaat een virtueel samenwerkplatform van informatiediensten. Daarin is helder wie verantwoordelijk is voor welke informatie en wat de betekenis van de gegevens is. Daarbij is gegevensbescherming in het platform “by design” ingebed en werken we op basis van overheid brede afspraken.
 
 Vanuit het perspectief van een ketenpartner verschuift het paradigma van keteninformatievoorziening hiermee van het verplicht aansluiten op ketenvoorzieningen naar het verzamelen en aanbieden van functionaliteit en gegevens aan elkaar met gegevensbescherming en verantwoording in het hart. Dat versterkt de samenwerking.
@@ -188,8 +173,8 @@ En als derde bron de principes van toepassing van het Federatief Datastelsel. Me
 - Hoogwaardige data: waarborgen van datakwaliteit en/met metadata
 
 
-> ##### Concept
-{: .block-danger }
+> ##### Consultatie
+{: .block-warning }
 
 We hanteren de volgende drie eigen aanvullende principes:
 
@@ -220,9 +205,6 @@ We hanteren de volgende drie eigen aanvullende principes:
 
 Standaarden
 -------------
-
-> ##### Consultatie
-{: .block-warning }
 
 Relevant voor afsprakenstelsel zijn de volgende standaarden (in wording) en afspraken over internationale standaarden in de Nederlandse context (zoals bijvoorbeeld -	NL GOV profile for CloudEvents):
 - OAuth en NL GOV Assurance profile for OAuth 2.0 (NLGov OAuth)
