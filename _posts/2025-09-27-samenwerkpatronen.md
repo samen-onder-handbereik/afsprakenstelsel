@@ -29,7 +29,7 @@ Kenmerken: asynchroon.
 Om deze patronen te implementeren moeten taak/procesapplicaties van ketenpartners worden uitgerust met applicatiefuncties voor iedere Samenwerkfunctie:
 
 - **Opdracht Aanvragen** \[Samenwerkfunctie\]: De applicatiefunctie "Aanvragen \[Samenwerkfunctie\]" ondersteunt de dienstaanvrager bij de afhandeling van een dienstaanvraag bij een ketenpartner. Dit omvat zowel het plaatsen van een dienstaanvraag bij een ketenpartner, als het in ontvangst nemen van het aangevraagde (informatie)product.  
-- **Opdracht Leveren** \[Samenwerkfunctie\]: De applicatiefunctie "Levering \[Samenwerkfunctie\]" ondersteunt de dienstleverancier bij de afhandeling van dienstaanvragen van de \[Dienst\]. Dit omvat zowel het in ontvangst nemen van een dienstaanvraag van een ketenpartner, als het leveren van het aangevraagde (informatie)product en de afhandeling van de statusovergangen van de Samenwerkfunctie.
+- **Opdracht Leveren** \[Samenwerkfunctie\]: De applicatiefunctie "Levering \[Samenwerkfunctie\]" ondersteunt de dienstleverancier bij de afhandeling van dienstaanvragen van de \[Dienst\]. Dit omvat zowel het in ontvangst nemen van een dienstaanvraag van een ketenpartner, als het leveren van het aangevraagde (informatie)product en de afhandeling van de statusovergangen van de Samenwerkfunctie.  
 
 Inzage patroon
 -------------
