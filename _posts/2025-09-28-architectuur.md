@@ -78,7 +78,7 @@ Een bounded context is een duidelijk afgebakend gebied waarin begrippen, afsprak
 
 Binnen de bounded context is het domeinmodel consistent, wordt een gemeenschappelijke taal gesproken en kan onafhankelijk van andere contexten worden ontwikkeld en onderhouden. Onder het domeinmodel verstaan we de kernconcepten en hun onderlinge relaties en bijbehorende termen, definities en (business) regels. Deze zijn binnen het domein gelijk voor iedereen en vormen de basis voor het ontwerp (en implementatie) van oplossingen.
 
-@@@figuur
+![Alt text]({{ site.baseurl }}/assets/bc.png)
 
 Omdat uitgegaan wordt van één gezamenlijk proces, waarbij services gelijk zijn, ongeachte de serviceprovider, kan uitgegaan worden van één begrippenkader en één data model. Dit resulteert in één conceptueel en logisch model waarin entiteiten, relaties en betekenissen gelijk zijn. Binnen de bounded context wordt gebruik gemaakt van dezelfde definities en (business) regels.
 
