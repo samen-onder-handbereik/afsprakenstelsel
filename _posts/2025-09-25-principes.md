@@ -214,8 +214,10 @@ Relevant voor afsprakenstelsel zijn de volgende standaarden (in wording) en afsp
 - Digikoppeling Koppelvlakstandaard REST-API 
 - NL GOV API Design Rules (NLGov ADR)
 - OpenAPI Specification (OAS)
+- AsyncAPI
 - FSC: Federated Service Connectivity
 - FTV: Federatieve Toegangsverlening
+- AuthZEN
 - TLS (standaard voor het versleutelen van de connectie waar de API’s gebruik van maken)
 
 Deze lijst is niet limitatief en zal in de tijd nog worden aangevuld.
