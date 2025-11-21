@@ -1,7 +1,7 @@
 ---
 title: Afspraken
 author: lg
-date: 2025-09-29
+date: 2025-09-30
 category: Jekyll
 layout: post
 ---

@@ -1,7 +1,7 @@
 ---
 title: Technische patronen
 author: lg
-date: 2025-09-29 14:00:00
+date: 2025-09-27 14:00:00
 category: Jekyll
 layout: post
 ---

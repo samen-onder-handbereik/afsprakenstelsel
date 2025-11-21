@@ -1,7 +1,7 @@
 ---
 title: Samenwerkfuncties
 author: lg
-date: 2025-09-29
+date: 2025-09-26
 category: Jekyll
 layout: post
 ---
