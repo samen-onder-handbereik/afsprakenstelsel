@@ -1,7 +1,7 @@
 ---
 title: Samenwerkpatronen
 author: lg
-date: 2025-09-29
+date: 2025-09-27 09:00:00
 category: Jekyll
 layout: post
 ---

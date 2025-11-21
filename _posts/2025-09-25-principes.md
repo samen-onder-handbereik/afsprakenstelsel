@@ -1,7 +1,7 @@
 ---
 title: Principes en standaarden
 author: lg
-date: 2025-09-29
+date: 2025-09-25
 category: Jekyll
 layout: post
 ---

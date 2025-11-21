@@ -1,7 +1,7 @@
 ---
 title: Aansluiten
 author: lg
-date: 2025-10-24
+date: 2025-10-02
 category: Jekyll
 layout: post
 ---

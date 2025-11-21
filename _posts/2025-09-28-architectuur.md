@@ -1,7 +1,7 @@
 ---
 title: Architectuur
 author: lg
-date: 2025-09-29
+date: 2025-09-28 09:00:00
 category: Jekyll
 layout: post
 ---
@@ -43,7 +43,7 @@ De IT-infrastructuur laag beschrijft met welke methoden en standaarden invulling
 Grondslagen
 -------------
 
-Zie onderdeel [Grondslagen][1] en juridisch kader waarin de relevante grondslagen zijn beschreven. De toegepaste standaarden om invulling te kunnen aan de grondslagen zijn te vinden in onderdeel Standaarden.
+Zie onderdeel [Grondslagen][1] en [Juridisch kader][2] waarin de relevante grondslagen zijn beschreven. De toegepaste standaarden om invulling te kunnen aan de grondslagen zijn te vinden in onderdeel Standaarden.
 
 Methoden om invulling te geven aan grondslagen (WAMS, WPG, AVG, WGS, WGPGA, WDO, Wmebv, EU data wetten) binnen het stelsel zijn:
 
@@ -179,4 +179,6 @@ Navolgende figuur (bron: VNG) schetst dit in meer detail. Zie voor informatie de
 ![Alt text]({{ site.baseurl }}/assets/comg3.png)
 
 
-[1]: https://samen-onder-handbereik.github.io/afsprakenstelsel/jekyll/2025-09-29-architectuur.html
+[1]: https://samen-onder-handbereik.github.io/afsprakenstelsel/jekyll/2025-09-24-werking.html#grondslagen
+
+[2]: https://samen-onder-handbereik.github.io/afsprakenstelsel/jekyll/2025-09-24-werking.html#juridische-kaders

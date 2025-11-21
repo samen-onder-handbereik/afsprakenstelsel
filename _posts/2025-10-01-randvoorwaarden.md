@@ -1,7 +1,7 @@
 ---
 title: Randvoorwaarden
 author: lg
-date: 2025-10-15
+date: 2025-10-01
 category: Jekyll
 layout: post
 ---
