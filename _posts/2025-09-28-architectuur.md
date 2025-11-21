@@ -43,7 +43,7 @@ De IT-infrastructuur laag beschrijft met welke methoden en standaarden invulling
 Grondslagen
 -------------
 
-Zie onderdeel [Grondslagen][1] en [Juridisch kader][2] waarin de relevante grondslagen zijn beschreven. De toegepaste standaarden om invulling te kunnen aan de grondslagen zijn te vinden in onderdeel Standaarden.
+Zie onderdeel [Grondslagen][1] en [Juridische kaders][2] waarin de relevante grondslagen zijn beschreven. De toegepaste standaarden om invulling te kunnen aan de grondslagen zijn te vinden in onderdeel Standaarden.
 
 Methoden om invulling te geven aan grondslagen (WAMS, WPG, AVG, WGS, WGPGA, WDO, Wmebv, EU data wetten) binnen het stelsel zijn:
 
@@ -58,7 +58,7 @@ Er zijn ook fundamentele grondslagen die zorgen dat organisaties in het Jeugd, Z
 Organisatie
 -------------
 
-De organisatie voert een taak / wettelijke taak uit en beschikt over primaire en secondaire processen om daar uitvoering aan te geven. In deze context zijn de processen Verbinding aangaan, Samen onderzoeken, Samen Beslissen, Doen wat werkt en Samen leren relevant. Zodat er een toekomstbestendige, transparante en effectieve samenwerking ontstaat, met de burger en ketenpartners, digitaal ondersteund binnen één netwerk (netwerkmodel). Die samenwerking helpt om de taak van de organisatie uit te voeren en huidig ervaren knelpunten op te lossen. Zie de onderdelen Introductie, Werking van het stelsel en Samenwerkfuncties.
+De organisatie voert een taak / wettelijke taak uit en beschikt over primaire en secondaire processen om daar uitvoering aan te geven. In deze context zijn de [processen][3] Verbinding aangaan, Samen onderzoeken, Samen Beslissen, Doen wat werkt en Samen leren relevant. Zodat er een toekomstbestendige, transparante en effectieve samenwerking ontstaat, met de burger en ketenpartners, digitaal ondersteund binnen één netwerk (netwerkmodel). Die samenwerking helpt om de taak van de organisatie uit te voeren en huidig ervaren knelpunten op te lossen. Zie de onderdelen [Introductie][5], [Werking van het stelsel][6] en [Samenwerkfuncties][4].
 
 Informatie
 -------------
@@ -67,9 +67,9 @@ Deze laag bevat architectuurcomponenten die relevant zijn voor het maken van de 
 
 De NORA schrijft dat deze laag architectuurcomponenten bevat zoals begrippen en informatiemodellen en het balans brengen daarvan met de afgesproken diensten.
 
-De afgesproken diensten zijn de diensten nodig voor de uitvoering van Samenwerkfuncties en worden door de organisaties aangeboden. De diensten maken gebruik van Samenwerkpatronen. Met de Samenwerkpatronen kan immers invulling gegeven worden aan Samenwerkfuncties en met de Samenwerkfuncties aan het Samenwerkproces. Naast de door organisaties aangeboden diensten zijn er centrale diensten, de Ketenvoorzieningen. Deze zijn nodig binnen de federatie om de complexiteit voor afzonderlijke aangesloten organisaties te verminderen.
+De afgesproken diensten zijn de diensten nodig voor de uitvoering van [Samenwerkfuncties][4] en worden door de organisaties aangeboden. De diensten maken gebruik van [Samenwerkpatronen][7]. Met de Samenwerkpatronen kan immers invulling gegeven worden aan [Samenwerkfuncties][4] en met de Samenwerkfuncties aan het [Samenwerkproces][3]. Naast de door organisaties aangeboden diensten zijn er centrale diensten, de [Stelselvoorzieningen][8]. Deze zijn nodig binnen de federatie om de complexiteit voor afzonderlijke aangesloten organisaties te verminderen.
 
-Om onderling federatief en effectief te kunnen samenwerken zijn informatiemodellen opgesteld per functie (zie @@@volgt) en een Begrippenmodel. Hoe we hier binnen het Afsprakenstelsel mee werken is vastgelegd in Afspraken. Zo eenvoudig is de architectuurinformatielaag van het Afsprakenstelsel. Dat is ook nodig omdat in een stelsel met zoveel organisaties eenvoud en complexiteitreductie essentieel is.
+Om onderling federatief en effectief te kunnen samenwerken zijn informatiemodellen opgesteld per functie (zie @@@volgt) en een Begrippenmodel. Hoe we hier binnen het Afsprakenstelsel mee werken is vastgelegd in [Afspraken][9]. Zo eenvoudig is de architectuurinformatielaag van het Afsprakenstelsel. Dat is ook nodig omdat in een stelsel met zoveel organisaties eenvoud en complexiteitreductie essentieel is.
 
 ### Bounded context  
 Binnen het Jeugd, Zorg en Veiligheidsdomein is er sprake van één bounded context.
@@ -180,5 +180,11 @@ Navolgende figuur (bron: VNG) schetst dit in meer detail. Zie voor informatie de
 
 
 [1]: https://samen-onder-handbereik.github.io/afsprakenstelsel/jekyll/2025-09-24-werking.html#grondslagen
-
 [2]: https://samen-onder-handbereik.github.io/afsprakenstelsel/jekyll/2025-09-24-werking.html#juridische-kaders
+[3]: https://samen-onder-handbereik.github.io/afsprakenstelsel/jekyll/2025-09-24-werking.html#samenwerkingsproces
+[4]: https://samen-onder-handbereik.github.io/afsprakenstelsel/jekyll/2025-09-24-werking.html#samenwerkfuncties
+[5]: https://samen-onder-handbereik.github.io/afsprakenstelsel/jekyll/2025-09-23-intro.html
+[6]: https://samen-onder-handbereik.github.io/afsprakenstelsel/jekyll/2025-09-24-werking.html
+[7]: https://samen-onder-handbereik.github.io/afsprakenstelsel/jekyll/2025-09-27-samenwerkpatronen.html
+[8]: https://samen-onder-handbereik.github.io/afsprakenstelsel/jekyll/2025-09-29-ketenvoorzieningen.html
+[9]: https://samen-onder-handbereik.github.io/afsprakenstelsel/jekyll/2025-09-30-afspraken.html

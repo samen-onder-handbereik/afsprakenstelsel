@@ -44,7 +44,7 @@ _\* Events kunnen worden gedeeld via o.a. AMQP, MQTT, Kafka, WebSockets maar ook
 
 Hieronder worden enkele voorbeelden genoemd die het verband tussen Samenwerkpatroon en Technisch patroon laten zien.
 
-1) Opdracht
+Opdracht
 
 a) via REST API
 Organisatie A geeft een opdrachten of verzoekt om een opdracht uit te voeren richting Organisatie B (Opdracht samenwerkpatroon). Organisatie A stuurt REST API POST naar API van Organisatie B (**Command patroon**). Organisatie B geeft een 200/201 terug (ontvangen en wordt opgepakt) of een 202 (geaccepteerd maar nog niet afgerond, bevat informatie om status te kunnen nagaan en/of voortgang te volgen). Hierop zijn allerlei variaties mogelijk afhankelijk hoe de Samenwerkfunctie is gedefinieerd en de composite/ capability API.
@@ -55,10 +55,10 @@ Organisatie A geeft een opdrachten of verzoekt om een opdracht uit te voeren ric
 c) via ebMS
 Dit is de huidige benadering (CORV1).
 
-2) Inzage
+Inzage  
 Organisatie A wil informatie inzien waarvan Organisatie B bronhouder is (Inzage samenwerkpatroon). Organisatie A stuurt een REST API GET naar de API van Organisatie B (**Query patroon**). Organisatie B geeft een 200 terug en de informatie. Hierop zijn allerlei variaties mogelijk afhankelijk hoe de Samenwerkfunctie is gedefinieerd en de composite/ capability API.
 
 Organisatie A kan genotificeerd zijn of acteren op een event welke Organisatie A heeft gezien of ontvangen. In het event kan een URL zijn opgenomen voor de Inzage.
 
-3) Gebeurtenis
+Gebeurtenis  
 Organisatie A geeft aan dat een bepaalde gebeurtenis, actie of toestandswijziging heeft plaatsgevonden (Gebeurtenis samenwerkpatroon). Een aantal andere organisaties is hierin geïnteresseerd. Organisatie A stuur het event via een REST API POST naar de Event Provenance Store en Event Hub (CORV2) (Command patroon). De geïnteresseerde organisaties sturen via REST API POST een query naar de Event Provenance Store en Event Hub (Command patroon). Daarna sturen ze een REST API GET om na te gaan over de query resultaten heeft (‘pollen’) (Query patroon).  Bij elkaar geven deze invulling aan het **Event** **patroon** via een asynchone API benadering (waarbij AsyncAPI wordt toegepast voor de API beschrijvingen.
