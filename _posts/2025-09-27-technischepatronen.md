@@ -1,7 +1,7 @@
 ---
-title: Architectuur
+title: Technische patronen
 author: lg
-date: 2025-09-28
+date: 2025-09-27 14:00:00
 category: Jekyll
 layout: post
 ---
