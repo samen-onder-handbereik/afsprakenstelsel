@@ -157,7 +157,7 @@ Beheer en support
 
 1. De stelselbeheerder zorgt voor het beheer van ketenvoorzieningen en support rond ketenvoorzieningen denk aan documentatie en ondersteuning bij het aansluiten of gebruik maken van deze voorzieningen.
 2. Deelnemers beheren hun Opdracht, Inzage en Gebeurtenissen voorzieningen waaronder ook het leveren van documentatie, het publiceren van wijzigingen ten aanzien van die voorzieningen en vooral API’s geldt.
-3. Deelnemers leveren een algemeen beheer- en support e-mail adres, met de naam “soh-ops@<organisatie>.<tld>”, dat actief gelezen wordt door het Samen onder Handbereik (SoH) gelieerde beheer-, support- of devops-team. 
+3. Deelnemers leveren een algemeen beheer- en support e-mail adres aan bij de Ledenadministrator, dat actief gelezen wordt door het Samen onder Handbereik (SoH) gelieerde beheer-, support- of devops-team. 
 4. Deelnemers reageren actief op vragen, aankondigingen en verzoeken via dit mail-adres, denk aan verzoeken om te migreren naar een nieuwe major release van een SoH-API van een andere organisatie.
 5. De Stelsel-distributeur	onderhoud en publiceert (via een Inzage API) een overzicht van SoH deelnemers en hun beheer- en support mailadres. Wijzigingen in de lijst worden aangegeven via een notificatie (via Gebeurtenis). 
 
