@@ -42,6 +42,9 @@ Binnen het Afsprakenstelsel worden deze patronen concreet toegepast in de vormen
 
 _\* Events kunnen worden gedeeld via o.a. AMQP, MQTT, Kafka, WebSockets maar ook via REST. Voor HTTPS REST is hier gekozen om een loosely coupled koppelvlak te creëren, een relatief eenvoudig koppelvlak aan te bieden wat bekend is voor alle >1000 organisaties in het domein en gelet het type oplossing (ketenindex)._
 
+Voorbeelden
+-------------
+
 Hieronder worden enkele voorbeelden genoemd die het verband tussen Samenwerkpatroon en Technisch patroon laten zien.
 
 Opdracht
@@ -62,3 +65,29 @@ Organisatie A kan genotificeerd zijn of acteren op een event welke Organisatie A
 
 Gebeurtenis  
 Organisatie A geeft aan dat een bepaalde gebeurtenis, actie of toestandswijziging heeft plaatsgevonden (Gebeurtenis samenwerkpatroon). Een aantal andere organisaties is hierin geïnteresseerd. Organisatie A stuur het event via een REST API POST naar de Event Provenance Store en Event Hub (CORV2) (Command patroon). De geïnteresseerde organisaties sturen via REST API POST een query naar de Event Provenance Store en Event Hub (Command patroon). Daarna sturen ze een REST API GET om na te gaan over de query resultaten heeft (‘pollen’) (Query patroon).  Bij elkaar geven deze invulling aan het **Event** **patroon** via een asynchone API benadering (waarbij AsyncAPI wordt toegepast voor de API beschrijvingen.
+
+Request-response varianten
+-------------
+
+Zoals in de voorbeelden genoemd kan een opdracht (samenwerkpatroon) uitgezet worden via een directe REST-API call of middels events. In beide gevallen is er sprake van een request (ik heb een opdracht voor je) en gewenste response (ik heb de opdracht ontvangen en ga daarmee wel/niet aan de slag).
+
+In het REST-API geval is de response direct in de vorm van een 200/201/202 met informatie als wordt wel/niet opgepakt. Het is niet altijd mogelijk dit al direct aan te geven en kan slecht de ontvangst van het verzoek worden bevestigd. Er zal dan een status aanvraag (query) gedaan moeten worden naar de status of naar events worden gekeken die de status aangeven. Hoe het ook zij, er is sprake van een organisatorische afspraak, zoals “als ik een opdracht ontvang dan ga ik dit-of-dat doen en hou ik je zo-en-zo op de hoogte”. 
+
+In de situatie waarbij met events wordt gewerkt is dit feitelijke niet anders. Hier geldt dezelfde afspraak, alleen wordt een andere techniek gebruikt om de opdracht te versturen en te bevestigen. De opdracht wordt via een event uitgezet, degene die de opdracht uitvoert leest het event en stuurt een event dat de opdracht is opgepakt, de opdracht is gepland, de opdracht is uitgevoerd, etc.
+
+De vraag is wanneer pas je nu welke variant toe? 
+
+De directe REST-API wordt toegepast wanneer:
+- er één geadresseerde is;
+- en het REST-API end-point (de url) bekend is, er toegang tot het end-point is en het bekend is hoe het end-point gebruikt kan worden;
+- en er sprake is van een laag volume aan verzoeken;
+- en er sprake is van een laag volume aan end-points voor de betreffende samenwerkfunctie (enkele tot enkele tientallen).
+
+Verder geldt voor de directe REST-API variant een randvoorwaarde, namelijk dat de end-point adressen (url) ergens worden gepubliceerd en deze informatie actueel en juist is.
+
+De event variant wordt toegepast wanneer:
+- er meerdere geadresseerde zijn en/of het end-point (url) niet bekend is;
+- en er sprake is van een hoog volume aan verzoeken;
+- en er sprake is van een hoog volume aan end-points voor de betreffende samenwerkfunctie (enkele tot enkele tientallen). 
+
+In de specificaties van de Samenwerkfuncties is te zien welke variant voor die Samenwerkfunctie en stap daarbinnen is toegepast.
