@@ -8,7 +8,7 @@ layout: post
 
 Gegevens ontstaan in de context van een bedrijfsproces. Om die als informatie te kunnen hergebruiken en begrijpen in de samenwerking moeten ze eenduidig en gestructureerd zijn. Uniforme begrippen zijn daarvoor onontbeerlijk. Dat gaat verder dan een woordenlijst: het gaat om de relaties tussen begrippen, op het niveau van professionals en in technische woordenboek. De gegevens moeten altijd gestructureerd zijn, d.w.z. goed gedefinieerd en getypeerd.
 
-We hanteert als uitgangspunt dat we concepten modelleren voor een informatiecontext. De andere contexten zijn onderdeel van het model. Voorbeelden van een informatiecontext zijn zorg, veiligheid, financieel. De informatiecontext vormt het kader waarvoor we de ontologie ontwikkelen. Dat zorgt ervoor dat we grenzen stellen aan wat we modelleren. Maar ook dat we modelleren wat bij elkaar hoort. Maar de grens goed bepalen is complex. We zullen daarin moeten leren en moeten kunnen veranderen.
+We hanteren als uitgangspunt dat we concepten modelleren voor een informatiecontext. De andere contexten zijn onderdeel van het model. Voorbeelden van een informatiecontext zijn zorg, veiligheid, financieel. De informatiecontext vormt het kader waarvoor we de ontologie ontwikkelen. Dat zorgt ervoor dat we grenzen stellen aan wat we modelleren, maar ook dat we modelleren wat bij elkaar hoort. De grens goed bepalen is complex. We zullen daarin moeten leren en moeten kunnen veranderen.
 
 - Er moeten afspraken zijn over de betekenisloze aanduiding van deze objecten en wie die toekent. Bijvoorbeeld: unieke aanduidingen voor Gezin, Casus, Casusoverleg, Plan en Interventie.
 - Gegevens in de keten moeten worden gestructureerd in de vorm van identificeerbare informatie-objecten die op verschillende manieren benaderd en gecombineerd kunnen worden. Dit vereist ook een identificatie- en nummerstelsel.
@@ -24,12 +24,12 @@ Semantisch model
 
 In een keten met veel verschillende partijen en diverse samenwerkfuncties is een gemeenschappelijke taal belangrijk. Er kunnen hier verschillende benaderingen worden gevolgd:
 1. De aanbieder bepaalt het model van de eigen aanleveringen en voorziet deze van context en betekenis. Alle afnemers vertalen het model van de aanbieder naar het eigen model en zorgen daarbij dat ze de betekenis en context goed doorgronden. Dit model is ongeschikt voor deze keten gelet het type organisaties, het aantal daarvan en verschillen daartussen. In een andere context kan dit model overigens zeer geschikt zijn.
-2. Er wordt onderscheid gemaakt in verschillende domeinen binnen de keten. Elk domein volgt het eigen semantisch model en biedt vanuit daar aan en in lijn daarmee. Alle afnemers vertalen het model van de aanbieder naar het eigen model en zorgen daarbij dat ze de betekenis en context goed doorgronden. Dit model kent dezelfde nadelen als voorgaande model in de geldende context, zij het in een minder zware vorm.
-3. Alle partijen volgen het keten Informatiemodel en passen dat toe in keten-API’s en in het keten event datamodel. Deze benadering past goed bij ketens met veel verschillende partijen en in situaties waar nog veel API’s ontwikkelt moeten worden.
+2. Er wordt onderscheid gemaakt in verschillende domeinen binnen de keten. Elk domein volgt het eigen semantisch model en biedt vanuit dat model aan en in lijn daarmee. Alle afnemers vertalen het model van de aanbieder naar het eigen model en zorgen daarbij dat ze de betekenis en context goed doorgronden. Dit model kent dezelfde nadelen als het voorgaande model in de geldende context, zij het in een minder zware vorm.
+3. Alle partijen volgen het keten Informatiemodel en passen dat toe in keten-API’s en in het keten event datamodel. Deze benadering past goed bij ketens met veel verschillende partijen en in situaties waar nog veel API’s ontwikkeld moeten worden.
 
-Binnen het Jeugd, Zorg en Veiligheiddomein wordt het Metamodel voor Informatiemodellering (MIM) gehanteerd en beheerd als kader voor het opstellen van informatiemodellen. Het MIM bevat duidelijke afspraken over het vastleggen van gegevensspecificaties en biedt tegelijkertijd ruimte aan de verschillende niveaus van modellering. 
+Binnen het Jeugd-, Zorg- en Veiligheidsdomein wordt het Metamodel voor Informatiemodellering (MIM) gehanteerd en beheerd als kader voor het opstellen van informatiemodellen. Het MIM bevat duidelijke afspraken over het vastleggen van gegevensspecificaties en biedt tegelijkertijd ruimte aan de verschillende niveaus van modellering. 
 
-Voor de begrippen, conceptuele informatiemodellen, logische gegevensmodellen en technische uitwisselmodellen ontwikkelen we een gegevensarchitectuur jeugd, zorg en veiligheid. Waarbij aansluiting is gezocht met het gemeenschappelijk gegevensmodel (GGM) van de VNG (voor het gemeentedomein/BZK) door wijzigingsvoorstellen in te dienen voor ontbrekende concepten zoals gezin/huishouden, zorgmelding, ketenpartner/professional en casusoverleg. Zo groeit een gezamenlijk modellenkader voor het sociaal domein. Ook verkennen we de mapping met de informatiemodellen/Zibbs vanuit Nictiz (voor het zorgdomein/VWS).
+Voor de begrippen, conceptuele informatiemodellen, logische gegevensmodellen en technische uitwisselmodellen ontwikkelen we een gegevensarchitectuur jeugd, zorg en veiligheid. Waarbij aansluiting is gezocht met het gemeenschappelijk gegevensmodel (GGM) van de VNG (voor het gemeentedomein/BZK) door wijzigingsvoorstellen in te dienen voor ontbrekende concepten, zoals gezin/huishouden, zorgmelding, ketenpartner/professional en casusoverleg. Zo groeit een gezamenlijk modellenkader voor het sociaal domein. Ook verkennen we de mapping met de informatiemodellen/Zibbs vanuit Nictiz (voor het zorgdomein/VWS).
 
 
 
@@ -104,25 +104,25 @@ Begrippen
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Doel | Een doel is een op korte of middelllange termijn nagestreefde, beoogde situatie of resultaat | Gemma bedrijfsobject |  |  |
+| Doel | Een doel is een op korte of middelllange termijn nagestreefde, beoogde situatie of resultaat. | Gemma bedrijfsobject |  |  |
 
 ### Dossier
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Dossier | Een Dossier is een bundeling van papieren en digitale informatieprodukten en gegevens die gaan over een Persoon of Gezin en een Casus. | Gemma Bedrijfsobject |  |  |
+| Dossier | Een Dossier is een bundeling van papieren en digitale informatieproducten en gegevens die gaan over een Persoon of Gezin en een Casus. | Gemma Bedrijfsobject |  |  |
 
 ### Eigen bijdrage
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Eigen bijdrage | Een eigen bijdrage is de financiele of anderszins waarde die de burger moet toevoegen in de samenwerking | Gemma bedrijfsobject | Tegenprestatie |  |
+| Eigen bijdrage | Een eigen bijdrage is de financiele of anderszins waarde die de burger moet toevoegen in de samenwerking. | Gemma bedrijfsobject | Tegenprestatie |  |
 
 ### Familiale Relatie
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Familiale Relatie | Een relatie is een aanduiding van een familierechtelijke betrekking of een sociale betrekking tussen personen | Artikel 1:179 BW | gezagsrelatie, |  |
+| Familiale Relatie | Een relatie is een aanduiding van een familierechtelijke betrekking of een sociale betrekking tussen personen. | Artikel 1:179 BW | gezagsrelatie, |  |
 
 ### Gemachtigde
 
@@ -140,13 +140,13 @@ Begrippen
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Incident | Een Incident is een onverwachte verstorende of gevaar opleverende gedraging of gebeurtenis |  |  |  |
+| Incident | Een Incident is een onverwachte verstorende of gevaar opleverende gedraging of gebeurtenis. |  |  |  |
 
 ### Informering
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Informering | Het informeren van de burger in het gedwongen kader | Gemma bedrijfsobject |  |  |
+| Informering | Het informeren van de burger in het gedwongen kader. | Gemma bedrijfsobject |  |  |
 
 ### Instrument
 
@@ -158,31 +158,31 @@ Begrippen
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Interventie | Een Interventie is een actie om een zorgelijke situatie af te wenden door een Medewerker van een Instantie gericht op een bepaald Resultaat of Doel | Gemma bedrijfsobject | Crisisinterventie, |  |
+| Interventie | Een Interventie is een actie om een zorgelijke situatie af te wenden door een Medewerker van een Instantie gericht op een bepaald Resultaat of Doel. | Gemma bedrijfsobject | Crisisinterventie, |  |
 
 ### Klacht
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Klacht | Een Klacht is een formele melding van ontevredenheid t.a.v. de gedraging van of dienstverlening aan een Persoon door een Medewerker of Instantie | Algemene wet bestuursrecht hoofdstuk 9. |  |  |
+| Klacht | Een Klacht is een formele melding van ontevredenheid t.a.v. de gedraging van of dienstverlening aan een Persoon door een Medewerker of Instantie. | Algemene wet bestuursrecht hoofdstuk 9. |  |  |
 
 ### Leefgebied
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Leefgebied | Een Leefgebied is een deelgebied van het Sociaal Domein, een maatschappelijk veld waarop Personen problematiek kunnen ervaren zoals wonen, financien, inburgering, participatie, onderwijs, werk | Gemma bedrijfsobject, | Domein, Subdomein, Sector, Taakveld | Het is ook de verzameling van werkzaamheden, gericht op de productie van bepaalde goederen en diensten. Het gaat hierbij niet alleen om activiteiten van het bedrijfsleven, maar ook om activiteiten van niet op winst gerichte instellingen en de overheid. Kennisgebied of activiteit gekarakteriseerd door een verzameling van concepten, begrippen en/of waarden |
+| Leefgebied | Een Leefgebied is een deelgebied van het Sociaal Domein, een maatschappelijk veld waarop Personen problematiek kunnen ervaren zoals wonen, financien, inburgering, participatie, onderwijs, werk | Gemma bedrijfsobject, | Domein, Subdomein, Sector, Taakveld | Het is ook de verzameling van werkzaamheden, gericht op de productie van bepaalde goederen en diensten. Het gaat hierbij niet alleen om activiteiten van het bedrijfsleven, maar ook om activiteiten van niet op winst gerichte instellingen en de overheid. Kennisgebied of activiteit gekarakteriseerd door een verzameling van concepten, begrippen en/of waarden. |
 
 ### Levering
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Levering | Levering van ondersteuning of zorg | Gemma bedrijfsobject |  |  |
+| Levering | Levering van ondersteuning of zorg. | Gemma bedrijfsobject |  |  |
 
 ### Medewerker
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Medewerker | Een Medewerker is diegene die krachtens een arbeidsovereenkomst naar Nederlands recht werkzaam is bij een Organisatie, die bevoegd is handelingen uit te voeren op het gebied van haar functie | Ambtenarenwet 2017, Gemma bedrijfsobject, Nictiz Zib | Professional, Zorgverlener (Zib) |  |
+| Medewerker | Een Medewerker is diegene die krachtens een arbeidsovereenkomst naar Nederlands recht werkzaam is bij een Organisatie, die bevoegd is handelingen uit te voeren op het gebied van haar functie | Ambtenarenwet 2017, Gemma bedrijfsobject, Nictiz Zib. | Professional, Zorgverlener (Zib) |  |
 
 ### Melding
 
@@ -194,7 +194,7 @@ Begrippen
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Natuurlijk persoon | Een Natuurlijk persoon is ingeschreven persoon of ander natuurlijk persoon, een mens van vlees en bloed, die drager kan zijn van rechten en plichten en rechtshandelingen kan verrichten en gebruik kan maken van producten en diensten | Artikel32 BW (Boek 3), Gemma Bedrijfsobject, Nictiz Zib | Burger, Ingeschreven Persoon, Client, Patient |  |
+| Natuurlijk persoon | Een Natuurlijk persoon is ingeschreven persoon of ander natuurlijk persoon, een mens van vlees en bloed, die drager kan zijn van rechten en plichten en rechtshandelingen kan verrichten en gebruik kan maken van producten en diensten. | Artikel32 BW (Boek 3), Gemma Bedrijfsobject, Nictiz Zib | Burger, Ingeschreven Persoon, Client, Patient |  |
 
 ### Onderzoek
 
@@ -218,13 +218,13 @@ Begrippen
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Organisatorische eenheid | Het deel van een functioneel afgebakend onderdeel binnen de organisatie dat haar activiteiten uitvoert binnen een VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE en die verantwoordelijk is voor de behandeling van zaken.. | Model Kern RGBZ, Nictiz Zib | Team, Zorgteam |  |
+| Organisatorische eenheid | Het deel van een functioneel afgebakend onderdeel binnen de organisatie dat haar activiteiten uitvoert binnen een VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE en die verantwoordelijk is voor de behandeling van zaken. | Model Kern RGBZ, Nictiz Zib | Team, Zorgteam |  |
 
 ### Plan
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Plan | Een plan is een schriftelijk document waarin de zorg- of ondersteuningsbehoefte van een burger wordt vastgelegd, inclusief de afspraken over de zorgverlening | WMO, WLZ, Gemma bedrijfsobject | Zorgplan, Ondersteuningsplan |  |
+| Plan | Een plan is een schriftelijk document waarin de zorg- of ondersteuningsbehoefte van een burger wordt vastgelegd, inclusief de afspraken over de zorgverlening. | WMO, WLZ, Gemma bedrijfsobject | Zorgplan, Ondersteuningsplan |  |
 
 ### Product
 
@@ -254,13 +254,13 @@ Begrippen
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Resultaat | De uitkomst van iets, bijvoorbeeld een berekening of een onderzoek. een gevolg. | Gemma bedrijfsobject |  |  |
+| Resultaat | De uitkomst van iets, bijvoorbeeld een berekening of een onderzoek, een gevolg. | Gemma bedrijfsobject |  |  |
 
 ### Rol
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Rol | Een samenhangende set van taken, bevoegdheden en verantwoordelijkheden | Gemma bedrijfsobject | Functie | Een functie kan worden gedefinieerd als het samenstel van feitelijk opgedragen taken en werkzaamheden, formeler dus |
+| Rol | Een samenhangende set van taken, bevoegdheden en verantwoordelijkheden. | Gemma bedrijfsobject | Functie | Een functie kan worden gedefinieerd als het samenstel van feitelijk opgedragen taken en werkzaamheden, formeler dus |
 
 ### Samenwerking
 
@@ -290,13 +290,13 @@ Begrippen
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Status | Een aanduiding van de stand van zaken | Gemma bedrijfsobject |  |  |
+| Status | Een aanduiding van de stand van zaken. | Gemma bedrijfsobject |  |  |
 
 ### Taak
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Taak | Een samenhangende set activiteiten | Gemma bedrijfsobject |  |  |
+| Taak | Een samenhangende set activiteiten. | Gemma bedrijfsobject |  |  |
 
 ### Taxatie
 
@@ -332,7 +332,7 @@ Begrippen
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Verrijking | Een Verrijking is het beschikbaar maken van een (nieuwe) verzameling informatie over een persoon, veelal op verzoek, voor triage, taxatie en analyse doeleinden |  |  |  |
+| Verrijking | Een Verrijking is het beschikbaar maken van een (nieuwe) verzameling informatie over een persoon, veelal op verzoek, voor triage, taxatie en analyse doeleinden. |  |  |  |
 
 ### Verzoek
 
@@ -350,7 +350,7 @@ Begrippen
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Zienswijze | Een Zienswijze is input, feedback of een verklaring van een Persoon m.b.t. diens situatie of als reactie op processtappen, besluiten of produkten van Medewerkers van Instanties | Algemene wet bestuursrecht hoofdstuk 3. |  |  |
+| Zienswijze | Een Zienswijze is input, feedback of een verklaring van een Persoon m.b.t. diens situatie of als reactie op processtappen, besluiten of producten van Medewerkers van Instanties. | Algemene wet bestuursrecht hoofdstuk 3. |  |  |
 
 ### Zorgelijke situatie
 
