@@ -200,7 +200,7 @@ Begrippen
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Onderzoek | Een onderzoek is de activiteit met als doel om tot een Taxatie of Analyse van een situatie te komen. |  |  |  |
+| Onderzoek | Een onderzoek is de activiteit met als doel om tot een (risico) Taxatie of Analyse van een situatie te komen. |  |  |  |
 
 ### Opdracht
 
@@ -298,11 +298,11 @@ Begrippen
 | --- | --- | --- | --- | --- |
 | Taak | Een samenhangende set activiteiten. | Gemma bedrijfsobject |  |  |
 
-### Taxatie
+### Risico Taxatie
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Taxatie | Een Taxatie is het resultaat van de toepassing van een (taxatie) instrument, om de ernst van de situatie van een persoon (qua risico’s op verslechtering) systematisch in kaart te brengen, met als doel mogelijke/benodigde Interventies te bepalen. |  |  |  |
+| Risico Taxatie | Een Risico Taxatie is het resultaat van de toepassing van een (taxatie) instrument, om de ernst van de situatie van een persoon (qua risico’s op verslechtering) systematisch in kaart te brengen, met als doel mogelijke/benodigde Interventies te bepalen. |  |  |  |
 
 ### Traject
 
@@ -332,7 +332,7 @@ Begrippen
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Verrijking | Een Verrijking is het beschikbaar maken van een (nieuwe) verzameling informatie over een persoon, veelal op verzoek, voor triage, taxatie en analyse doeleinden. |  |  |  |
+| Verrijking | Een Verrijking is het beschikbaar maken van een (nieuwe) verzameling informatie over een persoon, veelal op verzoek, voor triage, risico taxatie en analyse doeleinden. |  |  |  |
 
 ### Verzoek
 
