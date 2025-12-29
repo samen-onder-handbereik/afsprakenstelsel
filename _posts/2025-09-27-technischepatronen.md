@@ -86,7 +86,7 @@ De directe REST-API wordt toegepast wanneer:
 Verder geldt voor de directe REST-API variant een randvoorwaarde, namelijk dat de end-point adressen (url) ergens worden gepubliceerd en deze informatie actueel en juist is.
 
 De event variant wordt toegepast wanneer:
-- er meerdere geadresseerde zijn en/of het end-point (url) niet bekend is;
+- er meerdere geadresseerden zijn en/of het end-point (url) niet bekend is;
 - en er sprake is van een hoog volume aan verzoeken;
 - en er sprake is van een hoog volume aan end-points voor de betreffende samenwerkfunctie (enkele tot enkele tientallen). 
 
