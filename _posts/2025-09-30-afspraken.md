@@ -12,31 +12,44 @@ Realisatie afspraken
 > ##### Concept
 {: .block-danger }
 
-Niet alle beschreven functionaliteiten en technische voorzieningen kunnen tegelijk gerealiseerd worden. De realisatie zal in fasen worden uitgevoerd waarbij steeds naar een vastgesteld en afgesproken plateau wordt gewerkt. 
+1. Niet alle beschreven functionaliteiten en technische voorzieningen kunnen tegelijk gerealiseerd worden. De realisatie zal in fasen worden uitgevoerd waarbij steeds naar een vastgesteld en afgesproken plateau wordt gewerkt. 
 
 ### Plateau 1 afspraken
+Plateau 1 speelt zich af in 2026.
+
 _Algemeen_
-1. Binnen plateau 1 wordt de aandacht eerst gericht op uitwisseling van informatie tussen organisaties, in opvolgende plateaus volgt het informatie verstrekken aan de burger, wel wordt hier in plateau 1 al rekening mee gehouden (in voorbereiding op).
+1. Binnen plateau 1 wordt de aandacht eerst gericht op uitwisseling van informatie tussen organisaties, in opvolgende plateaus volgt het informatie verstrekken aan de burger en aan individuele professionals, wel wordt hier in plateau 1 al rekening mee gehouden (in voorbereiding op).
 2. Deelnemers zorgen binnen plateau 1 dat de drie samenwerkpatronen technisch zijn geïmplementeerd en de deelnemer daarmee over de capability beschikt om: a) opdrachten aan te vragen en te leveren via REST API, b) inzage te verzoeken en inzage te leveren via REST API, c) gebeurtenissen te kunnen melden en ontvangen via aansluiting op CORV2.
-3. Deelnemers minimaal de samenwerkfunctie Uitwisselen Melding hebben geïmplementeerd via REST API en samenwerkfunctie Uitwisselen Uitkomst Overleg als deze laatste functie voor hen relevant is.
+3. Deelnemers zorgen dat minimaal de samenwerkfunctie "Bepalen Bekendheid en Verrijking" (Opdracht uitvoeren deel) en de samenwerkfunctie "Uitwisselen Uitkomst Overleg" (Inzage deel) is geimplementerd.
 
 _Toegang_
-1. We passen voor dit plateau minimaal de huidige authenticatie op organisatieniveau (Organisatie identifier en certficate) toe. Voor latere scopes onderzoeken we de beweging naar nieuwere vormen van 'identifier, certficate en contract' authenticatie (FSC), authenticatie op niveau persoon/professional en daarmee o.a. OIDC/Oauth, FTV, DigiD en Wallet, en combinatie daarvan (FSC + FTV).
-2. Bij toegangsverlening op basis van Organisatie identifier en certficate wordt OIN gebruikt als identifier en uitsluitend PKIoverheid certificaten.
-
-_Toegang burgerportaal_
-1. Bij toegangsverlening voor burgers, denk aan het burgerportaal, gebruiken we DigiD waarbij de authentiserende persoon over een BSN moet beschikken.
-2. Voor de te realiseren samenwerkfuncties binnen dit plateau gerelateerd aan het burgerportaal is betrouwbaarheidsniveau voor toegang “Substantieel” voldoende. Samenwerkfuncties die een hoger niveau vereisen vallen buiten dit plateau.
-3. In de context van DigiD/eherkenning passen we SAML toe en stappen (in hogerliggende plateaus) naar OIDC/Oauth over zodra dat wordt ondersteund door DigiD/eherkenning
-4. Binnen dit plateau kan niet worden uitgegaan dat de identiteit van de persoon die het portaal gebruikt doorgeven kan worden bij inzage bij ketenpartners. Er wordt onderzocht hoe dit gerealiseerd kan worden in situatie waar dit nodig is en is toegestaan binnen opvolgende plateau’s.
-5. We gebruiken voor dit plateau (voor het burgerportaal) de gezagsinformatie van de BRP en dienen Gezagsdiensten te zijn om dat te kunnen en mogen. Gezagsdiensten zijn bestuursorganen en enkele daartoe aangewezen instanties, die rechtmatig toegang hebben tot de BRP volgens de Wet BRP en het Besluit BRP. 
+1. We passen voor dit plateau minimaal de huidige authenticatie op organisatieniveau (Organisatie identifier en certficaat) toe. 
+2. Bij toegangsverlening op basis van Organisatie identifier en certficaat wordt OIN gebruikt als identifier en uitsluitend PKIoverheid certificaten.
+3. We onderzoeken de beweging naar nieuwere en meer granulaire vormen van toegangsverlening zoals 'identifier, certficaat en contract' authenticatie (FSC), authenticatie op niveau persoon/professional en daarmee o.a. OIDC/Oauth, FTV, DigiD en Wallet, en combinatie daarvan (FSC + FTV), maar realiseren deze nog niet binnen dit plateau.
+4. Deze toegangsafspraken gelden voor zowel toegang tot de "Event Provenance Store en Event Hub" (ketenindex) als voor toegang tot de API's van deelnemers onderling gerelateerd aan de Samenwerkfuncties.
+5. Alle hier bedoelde API's zijn toeganglijk (gemaakt) en standaard bereikbaar (gemaakt) via het internet. Standaard wil zeggen dat er geen (firewall/proxy) wijzigingen nodig zijn als een bestaande deelnemer connectie wil maken, maar dat deze waar nodig reeds vooraf gerealiseerd zijn.  
 
 _Gebeurtenissen_
 1. Binnen dit plateau werken we met gebeurtenissen die voor alle ketenpartijen toegankelijk zijn en mogen zijn. Voor latere plateau’s onderzoeken we autorisatie/abonneren op bepaalde gebeurtenissen/topics.
 2. De gebeurtenissen bevatten genoeg informatie om een inzage te kunnen doen via het (REST API) inzage patroon. Zodoende wordt dus de toegangsverlening daarvan hergebruikt en is de informatie alleen zichtbaar voor partijen met toegang tot die informatie.
 3. Voor dit plateau vertrekken we met in de gebeurtenissen opgenomen de persoon/BSN waar de gebeurtenis betrekking op heeft. Voor latere plateau’s onderzoeken we of pseudonimisering, etc. een meerwaarde heeft en noodzakelijk is.
-4. We gaan in plateau 1 uit van één centrale Event Provenance Store en Event Hub. Voor latere scopes onderzoeken we of er nut en noodzaak is om in het stelsel meerdere event stores op te nemen.
+4. We gaan in plateau 1 uit van één centrale Event Provenance Store en Event Hub (ketenindex). Voor latere scopes onderzoeken we of er nut en noodzaak is om in het stelsel meerdere event stores op te nemen.
 5. Binnen dit plateau realiseren we via filtering, dat waar dat wenselijk is, gebeurtenissen niet meer bevraagd kunnen worden.
+
+
+Burgerportaal afspraken
+-------------
+
+> ##### Concept
+{: .block-danger }
+
+_Toegang burgerportaal_
+1. Bij toegangsverlening voor burgers, denk aan het burgerportaal, gebruiken we DigiD waarbij de authentiserende persoon over een BSN moet beschikken.
+2. Voor de te realiseren samenwerkfuncties binnen dit plateau gerelateerd aan het burgerportaal is betrouwbaarheidsniveau voor toegang “Substantieel” voldoende (minimaal Digid met App benodigd). Samenwerkfuncties die een hoger niveau vereisen vallen buiten dit plateau.
+3. In de context van DigiD/eherkenning passen we SAML toe en stappen (in hogerliggende plateaus) naar OIDC/Oauth over zodra dat wordt ondersteund door DigiD/eherkenning
+4. Binnen dit plateau kan er niet van worden uitgegaan dat de identiteit van de persoon die het portaal gebruikt doorgegeven kan worden bij inzage bij ketenpartners. Er wordt onderzocht hoe dit gerealiseerd kan worden in situatie waar dit nodig is en is toegestaan binnen opvolgende plateau’s.
+5. We gebruiken voor dit plateau (voor het burgerportaal) de gezagsinformatie van de BRP en dienen Gezagsdiensten te zijn om dat te kunnen en mogen. Gezagsdiensten zijn bestuursorganen en enkele daartoe aangewezen instanties, die rechtmatig toegang hebben tot de BRP volgens de Wet BRP en het Besluit BRP. 
+
 
 Architectuur afspraken
 -------------
@@ -55,7 +68,15 @@ Architectuur afspraken
 9. Partijen zorgen voor flexibiliteit en aanpasbaarheid (waar dat kan) waardoor  ingespeeld kan worden op veranderingen en nieuwe wensen of vereisten. Door: een modulaire opbouw, een business agnostische ICT-benadering, een event gedreven benadering, real-time reactievermogen, afstemming op bedrijfsprocessen, API-first benadering, configureerbare workflows.
 
 
-Principes en standaarden
+Principes gerelateerde afspraken
+-------------
+> ##### Concept
+{: .block-danger }
+
+1. De principes zoals beschreven in Prinpes en standaarden worden gehanteerd en toegepast door alle partijen.
+
+
+Standaarden gerelateerde afspraken
 -------------
 
 > ##### Concept
@@ -65,7 +86,8 @@ Principes en standaarden
 2. Er wordt niet meer dan één versie van de standaarden achtergelopen.
 3. De tijd tussen toepassing van vorige versies en nieuwe versies van de betreffende standaard wordt zo kort mogelijk gehouden.
 
-Samenwerkproces
+
+Samenwerkproces gerelateerde afspraken
 -------------
 
 > ##### Concept
@@ -74,7 +96,7 @@ Samenwerkproces
 1. Het proces zoals beschreven in Samenwerkingsproces wordt gehanteerd in de samenwerking tussen de verschillende partijen.
 
 
-Samenwerkfuncties
+Samenwerkfuncties gerelateerde afspraken
 -------------
 
 > ##### Concept
@@ -83,7 +105,7 @@ Samenwerkfuncties
 1. Functies voor samenwerking in het netwerkmodel worden door alle partijen toegepast zoals beschreven in Samenwerkfuncties.
 2. Een organisatie past de Samenwerkfuncties toe die binnen de taak van de organisaties relevant zijn (niet elke organisatie zal alle samenwerkfuncties behoeven te implementeren).
 
-Samenwerkpatronen
+Samenwerkpatronen gerelateerde afspraken
 -------------
 
 > ##### Concept
@@ -101,17 +123,17 @@ Technische afspraken
 > ##### Concept
 {: .block-danger }
 
-Deze afspraken zijn van toepassing voor de deelnemers aan het afsprakenstelsel. Ze zijn gericht op het realiseren van een gedistribueerd stelsel met zo min mogelijk afhankelijkheden en koppelingen. De technische afspraken zijn onderverdeeld in drie categorieën: Algemeen, Semantiek gerelateerd, Gebeurtenissen gerelateerd en REST API gerelateerd.
+Deze afspraken zijn van toepassing voor de deelnemers aan het afsprakenstelsel. Ze zijn gericht op het realiseren van een gedistribueerd stelsel met zo min mogelijk afhankelijkheden en koppelingen. De technische afspraken zijn onderverdeeld in drie categorieën: Algemeen, Gebeurtenissen gerelateerd en REST API gerelateerd.
 
 ### Algemeen
 1. Er is sprake van gefedereerde gedistribueerde systemen, waarbij monolithische centralistische concepten worden vervangen door oplossingen die gekenmerkt worden door het terugdringen van afhankelijkheden.
-2. Er worden alleen centrale gedeelde (keten)voorzieningen gerealiseerd als dat nodig is.
+2. Er worden alleen centrale gedeelde (keten)voorzieningen gerealiseerd wanneer dat nodig is.
 
 ### Gebeurtenissen gerelateerd
-4. Voor het verzamelen, opslaan en distribueren van grote hoeveelheden gebeurtenisgegevens (events) is een centrale Event Hub nodig binnen het Stelsel. Een Event Hub is een gedistribueerd streamingplatform dat wordt gebruikt voor het verwerken en beheren van realtime datastreams (van gebeurtenissen/notificaties).
+4. Voor het verzamelen, opslaan en distribueren van grote hoeveelheden gebeurtenisgegevens (events) is een centrale Event Provenance Store en Event Hub (ketenindex) nodig binnen het Stelsel. Een Event Provenance Store en Event Hub (ketenindex) is een gedistribueerd streamingplatform dat wordt gebruikt voor het verwerken en beheren van realtime datastreams (van gebeurtenissen/notificaties).
 5. Er wordt een Ketenindex gerealiseerd, die customer journeys of ‘tijdlijnen’ mogelijk maakt. Omdat relevante gebeurtenissen gevonden kunnen worden, kunnen deze op een tijdlijn worden geplaatst. Het kunnen volgen (track en trace) van personen, objecten en concepten (en procesgangen) maakt integrale beelden mogelijk. Omdat het een verwijzing betreft kan eventueel een verdiepingsvraag worden gesteld.
 6. Events (gebeurtenissen) ten behoeve van onder andere de ketenindex (en daarmee tijdslijnen) slaan we op in een centrale Event Store. Een Event Store is een gespecialiseerde database die gebeurtenissen (events) opslaat in een onveranderlijke, chronologische volgorde. Deze biedt daarmee een volledige historische weergave van alle veranderingen.
-7. De Event Store maakt net als de Event Hub deel uit van CORV2.
+7. De Event Store maakt net als de Event Provenance Store en Event Hub (ketenindex) deel uit van CORV2.
 8. De Event Store levert naast customer journeys of ‘tijdlijnen’ ook ondersteuning ten behoeve van data lineage / data provenance.
 9. Binnen CORV2 hanteren we CQRS (Command Query Responsibility Segregation), oftewel het scheiden van het schrijf- en lees-datamodel.
 10. Voor gebeurtenissen-uitwisseling in CORV2 context hanteren we een ontkoppelde variant via een REST API layer (API Proxy) om een toestand of gebeurtenis op te vragen, dus een pull model (en niet het native publish-subscribe model, waarbij producenten events publiceren en consumenten deze events kunnen consumeren via native interfaces).
@@ -120,8 +142,9 @@ Deze afspraken zijn van toepassing voor de deelnemers aan het afsprakenstelsel. 
 ### REST API gerelateerd
 12. REST API-calls binnen de keten verlopen decentraal, dus direct tussen partijen zonder tussenkomst van een centrale component. Als centrale component is slechts een API-Catalog beschikbaar, deze is om API’s vindbaar te maken en daarmee ondersteunend van aard.
 13. REST API’s verbonden aan Samenwerkfuncties en Samenwerkpatronen volgen de specificaties daarvan.
+14. REST API's gerelateerd aan Samenwerkfuncties of Ketenvoorzieningen zijn opgenomen in de decentrale API-Catalog's/DevPortal's en de centrale API-Catalog (verwijzend naar de decentrale Catalog/DevPortal).
 
-Begrippenkader en semantiek afspraken
+Begrippenkader en semantiek gerelateerde afspraken
 -------------
 
 > ##### Concept
@@ -130,17 +153,11 @@ Begrippenkader en semantiek afspraken
 1. Binnen het Jeugd-, Zorg- en Veiligheiddomein wordt het Metamodel voor Informatiemodellering (MIM) gehanteerd en beheerd als kader voor het opstellen van informatiemodellen.
 2. Binnen de bounded context (zie onderdeel Architectuur) spreken we met elkaar één taal en hanteren we het Begrippenkader bestaande uit het Semantisch model en Begrippen.
 3. Waar nodig vertalen we het Semantisch model en de Begrippen naar onze eigen bounded context of breder domein en vice versa.
+4. Alle Samenwerkfuncties en hun Samenwerkpatronen zijn beschreven in informatie- en data interactiemodellen en gepubliceerd via Afsprakenstelselsite (zowel ‘latest’ als alle vorige versies).
+5. Samenwerkfuncties zijn geïmplementeerd conform deze modellen
 
-Informatie- en data interactiemodellen
--------------
 
-> ##### Concept
-{: .block-danger }
-
-1. Alle Samenwerkfuncties en hun Samenwerkpatronen zijn beschreven in informatie- en data interactiemodellen en gepubliceerd via Afsprakenstelselsite (zowel ‘latest’ als alle vorige versies).
-2. Samenwerkfuncties zijn geïmplementeerd conform deze modellen
-
-Deelname
+Deelname gerelateerde afspraken
 -------------
 
 > ##### Concept
@@ -149,7 +166,7 @@ Deelname
 1. Elke partij binnen het domein, zie Architectuur, kan deelnemen aan het Afsprakenstelsel door de afspraken te implementeren en zich aan te melden.
 2. Partijen melden zich aan door bij de Ledenadministrator en Vertrouwensleverancier zodat zij toegang tot het stelsel kunnen krijgen en vervolgens door hun beheer- en support mailadres via een Gebeurtenis aan te melden. Hun deelname zal dan gepubliceerd worden via een Gebeurtenis en de gegevens van de deelnemer zijn via een Inzage API op te vragen (en ook worden weergegeven via een website). 
 
-Beheer en support
+Beheer en support afspraken
 -------------
 
 > ##### Concept
