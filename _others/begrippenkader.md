@@ -29,7 +29,7 @@ In een keten met veel verschillende partijen en diverse samenwerkfuncties is een
 
 Binnen het Jeugd-, Zorg- en Veiligheidsdomein wordt het Metamodel voor Informatiemodellering (MIM) gehanteerd en beheerd als kader voor het opstellen van informatiemodellen. Het MIM bevat duidelijke afspraken over het vastleggen van gegevensspecificaties en biedt tegelijkertijd ruimte aan de verschillende niveaus van modellering. 
 
-Voor de begrippen, conceptuele informatiemodellen, logische gegevensmodellen en technische uitwisselmodellen ontwikkelen we een gegevensarchitectuur jeugd, zorg en veiligheid. Waarbij aansluiting is gezocht met het gemeenschappelijk gegevensmodel (GGM) van de VNG (voor het gemeentedomein/BZK) door wijzigingsvoorstellen in te dienen voor ontbrekende concepten, zoals gezin/huishouden, zorgmelding, ketenpartner/professional en casusoverleg. Zo groeit een gezamenlijk modellenkader voor het sociaal domein. Ook verkennen we de mapping met de informatiemodellen/Zibbs vanuit Nictiz (voor het zorgdomein/VWS).
+Voor de begrippen, conceptuele informatiemodellen, logische gegevensmodellen en technische uitwisselmodellen ontwikkelen we een gegevensarchitectuur jeugd, zorg en veiligheid. Waarbij aansluiting is gezocht met het gemeentelijk gegevensmodel (GGM) van de VNG (voor het gemeentedomein/BZK) door wijzigingsvoorstellen in te dienen voor ontbrekende concepten, zoals gezin/huishouden, zorgmelding, ketenpartner/professional en casusoverleg. Zo groeit een gezamenlijk modellenkader voor het sociaal domein. Ook verkennen we de mapping met de informatiemodellen/ZIBs vanuit Nictiz (voor het zorgdomein/VWS).
 
 
 
@@ -62,7 +62,7 @@ Begrippen
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Bestand | Een Bestand is de fysiek vorm waarin een document, bewijs, afbeelding, verwijzing, bestand of geluidsfragment digitaal is opgeslagen. |  |  |  |
+| Bestand | Een Bestand is de fysieke vorm waarin een document, bewijs, afbeelding, verwijzing, bestand of geluidsfragment digitaal is opgeslagen. |  |  |  |
 
 ### Casusoverleg
 
@@ -80,7 +80,7 @@ Begrippen
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Clientondersteuner | Een Clientondersteuner is een persoon met met informatie, advies, algemene ondersteuning en (zorg)bemiddelingop het gebied van maatschappelijke ondersteuning, preventieve zorg, zorg, jeugdhulp, onderwijs, welzijn, wonen, werk en inkomen die bijdraagt aan het versterken van de zelfredzaamheid en participatie en het verkrijgen van een zo integraal mogelijke dienstverlening | WMO, WLZ |  |  |
+| Clientondersteuner | Een Clientondersteuner is een persoon met informatie, advies, algemene ondersteuning en (zorg)bemiddeling op het gebied van maatschappelijke ondersteuning, preventieve zorg, zorg, jeugdhulp, onderwijs, welzijn, wonen, werk en inkomen die bijdraagt aan het versterken van de zelfredzaamheid en participatie en het verkrijgen van een zo integraal mogelijke dienstverlening | WMO, WLZ |  |  |
 
 ### Contact
 
@@ -278,7 +278,7 @@ Begrippen
 
 | voorkeursterm | definitie | heeft bron | alternatieve term | toelichting |
 | --- | --- | --- | --- | --- |
-| Sociale Groep | Een sociale groep is een verzameling van twee of meer individuen die met elkaar interacteren, gemeenschappelijke waarden, normen of doelen delen, en een gevoel van saamhorigheid of identiteit hebben. S | Gemma bedrijfsobject | Jeugdgroep | Sociale groepen kunnen variëren in omvang en structuur, van kleine, informele groepen zoals een gezin of vriendengroep tot grote, formele organisaties zoals verenigingen of professionele netwerken. Het lidmaatschap van een sociale groep beïnvloedt vaak het gedrag en de sociale interacties van de leden en speelt een belangrijke rol in de vorming van persoonlijke en sociale identiteiten. |
+| Sociale Groep | Een sociale groep is een verzameling van twee of meer individuen die met elkaar interacteren, gemeenschappelijke waarden, normen of doelen delen, en een gevoel van saamhorigheid of identiteit hebben. | Gemma bedrijfsobject | Jeugdgroep | Sociale groepen kunnen variëren in omvang en structuur, van kleine, informele groepen zoals een gezin of vriendengroep tot grote, formele organisaties zoals verenigingen of professionele netwerken. Het lidmaatschap van een sociale groep beïnvloedt vaak het gedrag en de sociale interacties van de leden en speelt een belangrijke rol in de vorming van persoonlijke en sociale identiteiten. |
 
 ### Sociale Relatie
 

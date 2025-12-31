@@ -87,7 +87,7 @@ Daarbij geven basisprincipes uit moderne concepten als data-mesh aan dat de vera
 
 Gegevensbescherming is daarbij “by design” in het platform ingebed. Dit gaat verder dan onderlinge convenanten. De gegevensbescherming is ‘by design’ ingebed in de architectuur op het niveau van de professional, zijn taak, informatiebehoefte en doelbinding, en om wille van privacy leveren datadiensten voor sturing, informatie die niet herleidbaar zijn naar natuurlijke personen.
 
-De bronhouder en oorspronkelijke dienstverlener verschuift zijn aandacht van aansluiten op de keten naar het proactief en dienstverlenend beschikbaar stellen voor samenwerken. De ketenpartners zorgt voor het duurzaam beschikbaar houden, notificeren, ter inzage bieden en archiveren van informatie in het belang van de samenwerking. Archivering heeft een sterke relatie met bewaartermijnen. Daarbij kan het zo zijn dat verschillende organisaties of afdelingen verschillende bewaarregimes hanteren of wettelijk gezien moeten hanteren. Dit omdat gegevens in een bepaalde context vernietigd of juist gearchiveerd moeten worden. Verder geldt dat verschillende sectoren onderworpen kunnen zijn aan verschillende wettelijke bewaar- en vernietigplichten.
+De bronhouder en oorspronkelijke dienstverlener verschuift zijn aandacht van aansluiten op de keten naar het proactief en dienstverlenend beschikbaar stellen voor samenwerken. De ketenpartners zorgen voor het duurzaam beschikbaar houden, notificeren, ter inzage bieden en archiveren van informatie in het belang van de samenwerking. Archivering heeft een sterke relatie met bewaartermijnen. Daarbij kan het zo zijn dat verschillende organisaties of afdelingen verschillende bewaarregimes hanteren of wettelijk gezien moeten hanteren. Dit omdat gegevens in een bepaalde context vernietigd of juist gearchiveerd moeten worden. Verder geldt dat verschillende sectoren onderworpen kunnen zijn aan verschillende wettelijke bewaar- en vernietigplichten.
 
 De architectuur moet rekening houden dat gegevens domein overschrijdend gebruikt moeten kunnen worden. Een organisatie zal immers te maken kunnen hebben met meerdere domeinen. Voor een aantal organisaties zal dit eerder standaard zijn dan de uitzondering. Dat doen we door gegevens met context en betekenis te kunnen leveren, de ontkoppeling van data en processen, door het gebruik van standaarden en het gebruik van standaard koppelvlakken.
 
@@ -148,7 +148,7 @@ IT-infrastructuur
 
 NORA geeft aan dat de IT-infrastructuurlaag beschrijft met welke methoden en standaarden invulling gegeven wordt aan het fysieke transport van digitale gegevens (data) binnen het stelsel.
 
-Gelet het aantal organisaties binnen het stelsel en de diversiteit daarin wordt het fysieke transport gerealiseerd via het internet en de daaraan gelieerde standaarden, zoals TCP/IP, HTTPS, etc. Voor transport over de fysieke netwerkdrager wordt FSC gebruikt (voor vercijfert transport op basis van contracten).
+Gelet het aantal organisaties binnen het stelsel en de diversiteit daarin wordt het fysieke transport gerealiseerd via het internet en de daaraan gelieerde standaarden, zoals TCP/IP, HTTPS, etc. Voor transport over de fysieke netwerkdrager wordt FSC gebruikt (voor vercijferd transport op basis van contracten).
 
 Elke organisatie beschikt over een eigen IT-infrastructuur. Deze zullen op verschillende manieren zijn ingericht, wat ook geen probleem is zolang deze maar compatibel zijn met de standaarden en afspraken.
 

@@ -13,8 +13,10 @@ Binnen de keten leveren de verschillende partijen diensten en is sprake van een 
 1. Event Provenance Store en Event Hub
 2. Diensten Catalogus (optioneel)
 3. API Catalogus (optioneel)
+4. Transformatie dienst (optioneel, mogelijk onvermijdbaar)
+5. Demo- en testomgeving 
 
-Daar waar “optioneel” is aangeven, is geen sprake van een noodzaak, maar van een potentieel nut. Dit type voorzieningen zal niet in het eerste plateau worden gerealiseerd, maar mogelijk in opvolgende plateau’s. 
+Daar waar “optioneel” is aangegeven, is geen sprake van een noodzaak, maar van een potentieel nut. Dit type voorzieningen zal niet in het eerste plateau worden gerealiseerd, maar mogelijk in opvolgende plateau’s. 
 
 
 Event Provenance Store en Event Hub
