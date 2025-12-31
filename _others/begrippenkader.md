@@ -39,6 +39,7 @@ Begrippen
 > ##### Consultatie
 {: .block-warning }
 
+Per begrip wordt conform NL-SBB de voorkeursterm aangegeven, de bijbeborende definitie, de bron en waar relevant de alternagtieve term en/of een toelichting.
 
 ### Adres
 
