@@ -6,6 +6,9 @@ category: Jekyll
 layout: post
 ---
 
+> ##### Consultatie
+{: .block-warning }
+
 Gegevens ontstaan in de context van een bedrijfsproces. Om die als informatie te kunnen hergebruiken en begrijpen in de samenwerking moeten ze eenduidig en gestructureerd zijn. Uniforme begrippen zijn daarvoor onontbeerlijk. Dat gaat verder dan een woordenlijst: het gaat om de relaties tussen begrippen, op het niveau van professionals en in technische woordenboek. De gegevens moeten altijd gestructureerd zijn, d.w.z. goed gedefinieerd en getypeerd.
 
 We hanteren als uitgangspunt dat we concepten modelleren voor een informatiecontext. De andere contexten zijn onderdeel van het model. Voorbeelden van een informatiecontext zijn zorg, veiligheid, financieel. De informatiecontext vormt het kader waarvoor we de ontologie ontwikkelen. Dat zorgt ervoor dat we grenzen stellen aan wat we modelleren, maar ook dat we modelleren wat bij elkaar hoort. De grens goed bepalen is complex. We zullen daarin moeten leren en moeten kunnen veranderen.

@@ -6,11 +6,12 @@ category: Jekyll
 layout: post
 ---
 
+
+> ##### Consultatie
+{: .block-warning }
+
 Realisatie afspraken
 -------------
-
-> ##### Concept
-{: .block-danger }
 
 1. Niet alle beschreven functionaliteiten en technische voorzieningen kunnen tegelijk gerealiseerd worden. De realisatie zal in fasen worden uitgevoerd waarbij steeds naar een vastgesteld en afgesproken plateau wordt gewerkt. 
 
@@ -40,9 +41,6 @@ _Gebeurtenissen_
 Burgerportaal afspraken
 -------------
 
-> ##### Concept
-{: .block-danger }
-
 _Toegang burgerportaal_
 1. Bij toegangsverlening voor burgers, denk aan het burgerportaal, gebruiken we DigiD waarbij de authentiserende persoon over een BSN moet beschikken.
 2. Voor de te realiseren samenwerkfuncties binnen dit plateau gerelateerd aan het burgerportaal is betrouwbaarheidsniveau voor toegang “Substantieel” voldoende (minimaal Digid met App benodigd). Samenwerkfuncties die een hoger niveau vereisen vallen buiten dit plateau.
@@ -53,9 +51,6 @@ _Toegang burgerportaal_
 
 Architectuur afspraken
 -------------
-
-> ##### Concept
-{: .block-danger }
 
 1. Het jeugd-, zorg- en veiligheidsdomein vormt één domein met één bounded context. Een domein is een afgebakend, autonoom gebied waarin één coherent domeinmodel geldt en alle partijen dat model hanteren.
 2. De informatievoorziening in het jeugd, zorg en veiligheidsdomein is gefedereerd en centrale ketenvoorzieningen worden alleen toegepast als dat nodig of wenselijk is.
@@ -70,17 +65,12 @@ Architectuur afspraken
 
 Principes gerelateerde afspraken
 -------------
-> ##### Concept
-{: .block-danger }
 
 1. De principes zoals beschreven in Prinpes en standaarden worden gehanteerd en toegepast door alle partijen.
 
 
 Standaarden gerelateerde afspraken
 -------------
-
-> ##### Concept
-{: .block-danger }
 
 1. De standaarden zoals benoemd in Standaarden worden toegepast
 2. Er wordt niet meer dan één versie van de standaarden achtergelopen.
@@ -90,26 +80,17 @@ Standaarden gerelateerde afspraken
 Samenwerkproces gerelateerde afspraken
 -------------
 
-> ##### Concept
-{: .block-danger }
-
 1. Het proces zoals beschreven in Samenwerkingsproces wordt gehanteerd in de samenwerking tussen de verschillende partijen.
 
 
 Samenwerkfuncties gerelateerde afspraken
 -------------
 
-> ##### Concept
-{: .block-danger }
-
 1. Functies voor samenwerking in het netwerkmodel worden door alle partijen toegepast zoals beschreven in Samenwerkfuncties.
 2. Een organisatie past de Samenwerkfuncties toe die binnen de taak van de organisaties relevant zijn (niet elke organisatie zal alle samenwerkfuncties behoeven te implementeren).
 
 Samenwerkpatronen gerelateerde afspraken
 -------------
-
-> ##### Concept
-{: .block-danger }
 
 1. Elke organisatie ondersteunt de patronen zoals beschreven in Samenwerkpatronen dat wil zeggen de patronen Opdracht, Inzage en Gebeurtenissen.
 2. Elke organisatie zorgt dat deze patronen technisch en operationeel worden geboden in het eigen technische landschap in een operationele vorm en compliant met het Afsprakenstelsel.
@@ -119,9 +100,6 @@ Samenwerkpatronen gerelateerde afspraken
 
 Technische afspraken
 -------------
-
-> ##### Concept
-{: .block-danger }
 
 Deze afspraken zijn van toepassing voor de deelnemers aan het afsprakenstelsel. Ze zijn gericht op het realiseren van een gedistribueerd stelsel met zo min mogelijk afhankelijkheden en koppelingen. De technische afspraken zijn onderverdeeld in drie categorieën: Algemeen, Gebeurtenissen gerelateerd en REST API gerelateerd.
 
@@ -147,9 +125,6 @@ Deze afspraken zijn van toepassing voor de deelnemers aan het afsprakenstelsel. 
 Begrippenkader en semantiek gerelateerde afspraken
 -------------
 
-> ##### Concept
-{: .block-danger }
-
 1. Binnen het Jeugd-, Zorg- en Veiligheiddomein wordt het Metamodel voor Informatiemodellering (MIM) gehanteerd en beheerd als kader voor het opstellen van informatiemodellen.
 2. Binnen de bounded context (zie onderdeel Architectuur) spreken we met elkaar één taal en hanteren we het Begrippenkader bestaande uit het Semantisch model en Begrippen.
 3. Waar nodig vertalen we het Semantisch model en de Begrippen naar onze eigen bounded context of breder domein en vice versa.
@@ -160,17 +135,11 @@ Begrippenkader en semantiek gerelateerde afspraken
 Deelname gerelateerde afspraken
 -------------
 
-> ##### Concept
-{: .block-danger }
-
 1. Elke partij binnen het domein, zie Architectuur, kan deelnemen aan het Afsprakenstelsel door de afspraken te implementeren en zich aan te melden.
 2. Partijen melden zich aan door bij de Ledenadministrator en Vertrouwensleverancier zodat zij toegang tot het stelsel kunnen krijgen en vervolgens door hun beheer- en support mailadres via een Gebeurtenis aan te melden. Hun deelname zal dan gepubliceerd worden via een Gebeurtenis en de gegevens van de deelnemer zijn via een Inzage API op te vragen (en ook worden weergegeven via een website). 
 
 Beheer en support afspraken
 -------------
-
-> ##### Concept
-{: .block-danger }
 
 1. De stelselbeheerder zorgt voor het beheer van ketenvoorzieningen en support rond ketenvoorzieningen denk aan documentatie en ondersteuning bij het aansluiten of gebruik maken van deze voorzieningen.
 2. Deelnemers beheren hun Opdracht, Inzage en Gebeurtenissen voorzieningen waaronder ook het leveren van documentatie, het publiceren van wijzigingen ten aanzien van die voorzieningen en vooral API’s geldt.

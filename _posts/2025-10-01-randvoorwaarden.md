@@ -6,7 +6,7 @@ category: Jekyll
 layout: post
 ---
 
-> ##### Concept
-{: .block-danger }
+> ##### Definitief
+{: .block-tip }
 
 - Aansluitende of deelnemende organisatie in het stelsel dienen rechtmatig toegang hebben tot de BRP volgens de Wet BRP en het Besluit BRP.
