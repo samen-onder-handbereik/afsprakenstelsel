@@ -6,8 +6,8 @@ category: Jekyll
 layout: post
 ---
 
-> ##### Concept
-{: .block-danger }
+> ##### Definitief
+{: .block-tip }
 
 ICT-architectuur heeft als doel richting te geven aan een oplossing binnen een bepaalde scope. De oplossing in deze context is het creëren van een gezamenlijke, federatieve structuur waarin meerdere ketenpartners - uit jeugdhulp, zorg en veiligheid - op een uniforme, veilige en betrouwbare wijze informatie kunnen uitwisselen en samenwerken. De scope is het Jeugd-, Zorg- en Veiligheidsdomein. In dit domein zijn vele organisaties vertegenwoordigd, zie onderstaande figuur.
 
