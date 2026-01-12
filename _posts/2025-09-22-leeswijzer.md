@@ -14,6 +14,18 @@ Het afsprakenstelsel is zo opgezet dat elke doelgroep eenvoudig kan navigeren na
 | Consultatie | De betreffende tekst (hoofdstuk of paragraaf) is reeds besproken en afgestemd, maar nog niet definitief. Er zijn nog wijzigingen mogelijk, deze zullen in de regel niet substantieel van aard zijn. |
 | Definitief  | De betreffende tekst (hoofdstuk of paragraaf) is vastgesteld en daarmee definitief. De tekst kan alleen nog aangepast worden na besluit tot wijziging.                                              |
 
+De desbetreffende status is alsvolgt herkenbaar:
+
+> ##### Concept
+{: .block-danger }
+
+> ##### Consultatie
+{: .block-warning }
+
+> ##### Definitief
+{: .block-tip }
+
+
 In onderdeel **De werking van het stelsel** wordt achtergrond en doel geschetst.
 
 Binnen **Onderdeel Principes en standaarden** worden richtinggevende uitspraken gedaan (principes) die de inrichting en ontwikkeling van het jeugd-, zorg- en veiligheidsstelsel sturen. De genoemde standaarden zijn de standaarden die minimaal toegepast worden in het stelsel.

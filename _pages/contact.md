@@ -62,11 +62,3 @@ PAP -up-> PRP: "Beleidsregels beheren"
 </details>  
 
 
-> ##### Concept
-{: .block-danger }
-
-> ##### Consultatie
-{: .block-warning }
-
-> ##### Definitief
-{: .block-tip }
