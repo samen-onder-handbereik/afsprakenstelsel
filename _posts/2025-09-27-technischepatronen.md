@@ -6,8 +6,8 @@ category: Jekyll
 layout: post
 ---
 
-> ##### Concept
-{: .block-danger }
+> ##### Consultatie
+{: .block-warning }
 
 Opdracht, Inzage en Gebeurtenissen zijn functionele patronen. In dit onderdeel zijn de technische patronen beschreven waarmee deze functionele samenwerkpatronen kunnen worden gerealiseerd en op hun beurt daarmee de functionele samenwerkfuncties.
 

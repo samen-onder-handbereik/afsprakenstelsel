@@ -60,3 +60,13 @@ PRP -up-> PDP : "Beleidsregels retourneren"
 PAP -up-> PRP: "Beleidsregels beheren"  
 @enduml
 </details>  
+
+
+> ##### Concept
+{: .block-danger }
+
+> ##### Consultatie
+{: .block-warning }
+
+> ##### Definitief
+{: .block-tip }

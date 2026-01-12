@@ -6,8 +6,8 @@ category: Jekyll
 layout: post
 ---
 
-> ##### Concept
-{: .block-danger }
+> ##### Definitief
+{: .block-tip }
 
 Aansluitvoorwaarden
 -------------

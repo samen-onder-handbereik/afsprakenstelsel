@@ -173,8 +173,8 @@ En als derde bron de principes van toepassing van het Federatief Datastelsel. Me
 - Hoogwaardige data: waarborgen van datakwaliteit en/met metadata
 
 
-> ##### Consultatie
-{: .block-warning }
+> ##### Definitief
+{: .block-tip }
 
 We hanteren de volgende drie eigen aanvullende principes:
 
