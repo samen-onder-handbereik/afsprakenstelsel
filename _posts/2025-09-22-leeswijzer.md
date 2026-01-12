@@ -1,7 +1,7 @@
 ---
 title: Leeswijzer
 author: lg
-date: 2025-09-29
+date: 2025-09-22
 category: Jekyll
 layout: post
 ---
