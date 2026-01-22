@@ -21,14 +21,14 @@ Plateau 1 speelt zich af in 2026.
 _Algemeen_
 1. Binnen plateau 1 wordt de aandacht eerst gericht op uitwisseling van informatie tussen organisaties, in opvolgende plateaus volgt het informatie verstrekken aan de burger en aan individuele professionals, wel wordt hier in plateau 1 al rekening mee gehouden (in voorbereiding op).
 2. Deelnemers zorgen binnen plateau 1 dat de drie samenwerkpatronen technisch zijn geïmplementeerd en de deelnemer daarmee over de capability beschikt om: a) opdrachten aan te vragen en te leveren via REST API, b) inzage te verzoeken en inzage te leveren via REST API, c) gebeurtenissen te kunnen melden en ontvangen via aansluiting op CORV2.
-3. Deelnemers zorgen dat minimaal de samenwerkfunctie "Bepalen Bekendheid en Verrijking" (Opdracht uitvoeren deel) en de samenwerkfunctie "Uitwisselen Uitkomst Overleg" (Inzage deel) is geimplementerd.
+3. Deelnemers zorgen dat minimaal de samenwerkfunctie "Bepalen Bekendheid en Verrijking" (Opdracht uitvoeren deel) en de samenwerkfunctie "Uitwisselen Uitkomst Overleg" (Inzage deel) is geïmplementeerd.
 
 _Toegang_
 1. We passen voor dit plateau minimaal de huidige authenticatie op organisatieniveau (Organisatie identifier en certficaat) toe. 
 2. Bij toegangsverlening op basis van Organisatie identifier en certficaat wordt OIN gebruikt als identifier en uitsluitend PKIoverheid certificaten.
 3. We onderzoeken de beweging naar nieuwere en meer granulaire vormen van toegangsverlening zoals 'identifier, certficaat en contract' authenticatie (FSC), authenticatie op niveau persoon/professional en daarmee o.a. OIDC/Oauth, FTV, DigiD en Wallet, en combinatie daarvan (FSC + FTV), maar realiseren deze nog niet binnen dit plateau.
 4. Deze toegangsafspraken gelden voor zowel toegang tot de "Event Provenance Store en Event Hub" (ketenindex) als voor toegang tot de API's van deelnemers onderling gerelateerd aan de Samenwerkfuncties.
-5. Alle hier bedoelde API's zijn toeganglijk (gemaakt) en standaard bereikbaar (gemaakt) via het internet. Standaard wil zeggen dat er geen (firewall/proxy) wijzigingen nodig zijn als een bestaande deelnemer connectie wil maken, maar dat deze waar nodig reeds vooraf gerealiseerd zijn.  
+5. Alle hier bedoelde API's zijn toegankelijk (gemaakt) en standaard bereikbaar (gemaakt) via het internet. Standaard wil zeggen dat er geen (firewall/proxy) wijzigingen nodig zijn als een bestaande deelnemer connectie wil maken, maar dat deze waar nodig reeds vooraf gerealiseerd zijn.  
 
 _Gebeurtenissen_
 1. Binnen dit plateau werken we met gebeurtenissen die voor alle ketenpartijen toegankelijk zijn en mogen zijn. Voor latere plateau’s onderzoeken we autorisatie/abonneren op bepaalde gebeurtenissen/topics.
@@ -44,7 +44,7 @@ Burgerportaal afspraken
 _Toegang burgerportaal_
 1. Bij toegangsverlening voor burgers, denk aan het burgerportaal, gebruiken we DigiD waarbij de authentiserende persoon over een BSN moet beschikken.
 2. Voor de te realiseren samenwerkfuncties binnen dit plateau gerelateerd aan het burgerportaal is betrouwbaarheidsniveau voor toegang “Substantieel” voldoende (minimaal Digid met App benodigd). Samenwerkfuncties die een hoger niveau vereisen vallen buiten dit plateau.
-3. In de context van DigiD/eherkenning passen we SAML toe en stappen (in hogerliggende plateaus) naar OIDC/Oauth over zodra dat wordt ondersteund door DigiD/eherkenning
+3. In de context van DigiD/eHerkenning passen we SAML toe en stappen (in hogerliggende plateaus) naar OIDC/Oauth over zodra dat wordt ondersteund door DigiD/eherkenning
 4. Binnen dit plateau kan er niet van worden uitgegaan dat de identiteit van de persoon die het portaal gebruikt doorgegeven kan worden bij inzage bij ketenpartners. Er wordt onderzocht hoe dit gerealiseerd kan worden in situatie waar dit nodig is en is toegestaan binnen opvolgende plateau’s.
 5. We gebruiken voor dit plateau (voor het burgerportaal) de gezagsinformatie van de BRP en dienen Gezagsdiensten te zijn om dat te kunnen en mogen. Gezagsdiensten zijn bestuursorganen en enkele daartoe aangewezen instanties, die rechtmatig toegang hebben tot de BRP volgens de Wet BRP en het Besluit BRP. 
 
