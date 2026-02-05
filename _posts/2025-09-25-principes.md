@@ -1,5 +1,5 @@
 ---
-title: Principes en standaarden
+title: Thema's, fundamentele principes en standaarden
 author: lg
 date: 2025-09-25
 category: Jekyll
