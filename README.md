@@ -7,6 +7,9 @@ cover: https://samen-onder-handbereik.github.io/afsprakenstelsel/assets/handenbl
 
 Netwerksamenwerking onder de vingertoppen
 
+**De inhoud van deze site is in ontwikkeling en is derhalve onderhevig aan wijzigingen. De informatie heeft geen (formele of juridische) status; aan de inhoud kunnen geen rechten worden ontleend. De tekst is in deze fase uitsluitend bedoeld voor afstemmingsdoeleinden.**    
+
+
 ## Het Jeugd, Zorg en Veiligheid Afsprakenstelsel
 
 Deze site beschrijft het Jeugd Zorg en Veiligheid Afsprakenstelsel. In het jeugd-, zorg- en veiligheidsdomein is het doel om samenwerking moeiteloos en voor iedereen toegankelijk te maken. Anders samenwerken moet leiden tot meer vertrouwen, betere betrokkenheid van burgers, een evenwichtigere werkverdeling en effectievere oplossingen.

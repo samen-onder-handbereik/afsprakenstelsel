@@ -12,7 +12,9 @@ Het afsprakenstelsel is zo opgezet dat elke doelgroep eenvoudig kan navigeren na
 | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Concept     | De betreffende tekst (hoofdstuk of paragraaf) is concept. Er wordt nog over gesproken en de tekst kan nog aanzienlijk wijzigen.                                                                     |
 | Consultatie | De betreffende tekst (hoofdstuk of paragraaf) is reeds besproken en afgestemd, maar nog niet definitief. Er zijn nog wijzigingen mogelijk, deze zullen in de regel niet substantieel van aard zijn. |
-| Definitief  | De betreffende tekst (hoofdstuk of paragraaf) is vastgesteld en daarmee definitief. De tekst kan alleen nog aangepast worden na besluit tot wijziging.                                              |
+| Definitief  | De betreffende tekst (hoofdstuk of paragraaf) is vastgesteld in het JZV architectuuroverleg en daarmee definitief bezien vanuit het JZV architectuuroverleg. De tekst kan worden aangepast na besluit tot wijziging.                                               |
+
+**Zie voor de status van de informatie op deze site, in ee bredere zin, hoofdstuk versie.**
 
 De desbetreffende status is alsvolgt herkenbaar:
 
