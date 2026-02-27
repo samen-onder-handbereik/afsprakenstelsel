@@ -13,14 +13,14 @@ Enerzijds is er het beheer en de monitoring van het Afsprakenstelsel zelf, ander
 
 Beheer en monitoring Afsprakenstelsel
 -------------
-Het doel van dit beheer is te zorgen dat het Afsprakenstel aan blijft sluiten bij wat nodig is en continue wordt verbetert. Dit vindt plaats door roadmaps beschikbaar te maken waarin de ontwikkeling van het Afsprakenstel gevolgd kan worden. Door mogelijkheden te bieden om wijzigingsverzoeken en verbetervoorstellen in te dienen en te volgen, maar ook issues die ervaren worden. Er wordt nauw aangesloten bij werkwijzen die aansluiten bij de development praktijk en software ontwikkelende organisaties en afdelingen. Daarnaast worden ook traditionelere kanalen geboden (documenten, formulieren, etc). Uitvoering van het beheer vindt plaats door de partijen, vanuit de verschillende rollen, benoemd in hoofdstuk Governance (@@LINK). 
+Het doel van dit beheer is te zorgen dat het Afsprakenstel aan blijft sluiten bij wat nodig is en continue wordt verbetert. Dit vindt plaats door roadmaps beschikbaar te maken waarin de ontwikkeling van het Afsprakenstel gevolgd kan worden. Door mogelijkheden te bieden om wijzigingsverzoeken en verbetervoorstellen in te dienen en te volgen, maar ook issues die ervaren worden. Er wordt nauw aangesloten bij werkwijzen die aansluiten bij de development praktijk en software ontwikkelende organisaties en afdelingen. Daarnaast worden ook traditionelere kanalen geboden (documenten, formulieren, etc). Uitvoering van het beheer vindt plaats door de partijen, vanuit de verschillende rollen, benoemd in hoofdstuk [Governance][1]. 
 
 Beheer en monitoring binnen het landschap als geheel
 -------------
 Voor dit beheer is onderscheid te maken naar het beheer van stelselvoorzieningen en beheer in de context van het geheel waarbij ook het beheer bij de deelnemers een belangrijke rol speelt.
 
 ### Stelselvoorzieningen
-Het beheer en de monitoring van de stelselvoorzieningen is recht toe en recht aan. Dit wordt uitgevoerd door de partijen die de stelselvoorzieningen leveren en dat conform afspraken en service level agreements (SLA’s). Het is gericht op het functioneren van de stelselvoorzieningen in lijn met deze afspraken, SLA’s en onderliggende functionele en niet-functionele eisen. Organisaties kunnen bij operationele problemen, verstoringen of wijzigingsverzoeken contact opnemen met de beheerpartijen van de stelselvoorzieningen, en voor niet operationele aspecten met de eigenaar/opdrachtgever voor het leveren, beheren en monitoren van de stelselvoorzieningen. Zie de beschrijving van de rollen in het hoofdstuk Governance (@@LINK). 
+Het beheer en de monitoring van de stelselvoorzieningen is recht toe en recht aan. Dit wordt uitgevoerd door de partijen die de stelselvoorzieningen leveren en dat conform afspraken en service level agreements (SLA’s). Het is gericht op het functioneren van de stelselvoorzieningen in lijn met deze afspraken, SLA’s en onderliggende functionele en niet-functionele eisen. Organisaties kunnen bij operationele problemen, verstoringen of wijzigingsverzoeken contact opnemen met de beheerpartijen van de stelselvoorzieningen, en voor niet operationele aspecten met de eigenaar/opdrachtgever voor het leveren, beheren en monitoren van de stelselvoorzieningen. Zie de beschrijving van de rollen in het hoofdstuk [Governance][1].
 
 ### Decentrale voorzieningen
 Omdat sprake is federatief landschap betekent dit dat er niet één beheerpartij is (voor een centrale dienst), maar een landschap van beheerpartijen die in het federatieve landschap alle een eigen verantwoordelijkheid hebben. Concreet betekent dit dat bij problemen, verstoringen of wijzigingsverzoeken het kan zijn dat contact opgenomen moet (kunnen) worden met de een specifieke partij in het landschap en mogelijk meerdere. Dit levert een aantal uitdagingen op:
@@ -43,7 +43,7 @@ Zoals hiervoor geschetst zijn soms interacties nodig tussen partijen. De ervarin
 ### Monitoring
 Monitoring richt zich in eerste instantie op de eigen services en het eigen ICT landschap. In deze context is het echter ook van belang monitoring breder te zien. Voor beheerafdelingen/teams is het van belang een beeld van het functioneren van het landschap te kunnen hebben en zelf validaties te kunnen doen om na te gaan waar zich verstoringen voordoen. Te denken valt het gebruik van een dashboard welke remote (test) services valideert (zie vorige paragraaf) of het gebruik binnen het beheer en monitoring proces van een centraal dashboard.
 
-
+[1]: https://samen-onder-handbereik.github.io/afsprakenstelsel/jekyll/2025-09-24-werking.html#governance
 
 
 
