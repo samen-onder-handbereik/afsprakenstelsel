@@ -9,7 +9,7 @@ layout: post
 > ##### Concept
 {: .block-danger }
 
-Enerzijds is er het beheer en de monitoring van het Afsprakenstelsel zelf, anderzijds het functionele en technische beheer en de monitoring binnen het landschap als geheel.
+Vanwege het stelselkarakter zijn heldere afspraken over het beheer noodzakelijk. Er zijn vaak meerdere partijen bij een wijziging of incident betrokken. In het afsprakenstelsel zijn daarom afspraken opgenomen waaraan partijen moeten voldoen. Omdat in het Afsprakenstelsel meerdere partijen bij beheer betrokken zijn, is het essentieel dat de verschillende partijen gezamenlijk een goed inzicht en overzicht hebben van de status van netwerken, diensten en componenten die samen het Samen het Handbereik stelsel vormen. Enerzijds is er hierbij het beheer en de monitoring van het Afsprakenstelsel zelf, anderzijds het functionele en technische beheer en de monitoring binnen het landschap als geheel. 
 
 Beheer en monitoring Afsprakenstelsel
 -------------
@@ -38,10 +38,48 @@ Zoals hiervoor geschetst zijn soms interacties nodig tussen partijen. De ervarin
 - Optioneel test services (API’s) beschikbaar te stellen waar functioneel kan worden getest, bijvoorbeeld t.a.v. Inzage en Opdracht.
 - (Optioneel?) het uitsturen van gebeurtenissen die service health aangeven op frequente basis en waarbij het niet meer ontvangen daarvan een aanwijzing is dat de service mogelijk niet meer (goed) functioneert, beheerorganisaties kunnen deze gebeurtenissen of het plots ontbreken daarvan nagaan en daar geautomatiseerde acties aan koppelen. 
 - Test services (API’s) beschikbaar te stellen waar ketenvoorzieningen functioneel kunnen worden getest, bijvoorbeeld t.a.v. het publiceren of bevragen van gebeurtenissen, het terug ontvangen van API calls (van test Services), het kunne valideren van event (CloudEvent/PROV) syntax, etc. Dit in de vorm van een Self Service Test en Validatie voorziening.
-- Optioneel een keten dashboard te publiceren dat alle test services bevraagd en de status daarvan toont in een ketenbeeld.
+- Optioneel een keten-dashboard te publiceren dat alle test services bevraagd en de status daarvan toont in een ketenbeeld.
 
 ### Monitoring
 Monitoring richt zich in eerste instantie op de eigen services en het eigen ICT landschap. In deze context is het echter ook van belang monitoring breder te zien. Voor beheerafdelingen/teams is het van belang een beeld van het functioneren van het landschap te kunnen hebben en zelf validaties te kunnen doen om na te gaan waar zich verstoringen voordoen. Te denken valt het gebruik van een dashboard welke remote (test) services valideert (zie vorige paragraaf) of het gebruik binnen het beheer en monitoring proces van een centraal dashboard.
+
+Technische invulling
+-------------
+
+### Probleemstelling
+Binnen het estafettemodel, met een centrale dienst (CORV), benaderen alle partijen als er problemen zijn de centrale dienstverlener. Daar is een probleem en de dienstverlener is bezig dat op te lossen, of het probleem is bij een van de aangesloten partijen. De dienstverlener weet welke partij en treed in contract met die partij. Als het probleem is opgelost wordt het berichtenverkeer automatisch hervat of indien nodig opnieuw aangeboden (door de centrale dienstverlener of op diens aangeven). Bij het netwerkmodel werkt dit anders, hier is ook verkeer tussen partijen direct en zoals de naam netwerkmodel suggereert met een netwerk aan partijen. Als iets niet functioneert is de vraag of dit een stelselvoorziening is (centrale component) of een een probeem bij een van de partijen. De centrale dienstverlener weet dit doorgaans niet en zit ook niet tussen het directe verkeer. Dit is een essentieel verschil. Partijen zullen zelf in staat moeten zijn na te gaan waar zich problemen bevinden en zelf actie moeten nemen die op te (laten) lossen. Zie onderstaande figuur voor een beeld van de situatie. Als er iets niet werkt en de servicedesk van organisatie A gebeld wordt door gebruikers van organisatie A, zal organisatie  A na willen gaan wat er aan de hand is. Er kan een probleem zijn met een stelselvoorziening, infrastructuur bij een ketenpartner, een API bij ketenpartner of het achterliggende zaaksysteem/data infrastructuur (waar de API van afhankelijk is). Stel dat het probleem veroorzaakt wordt door een verstoring bij organisatie P en deze organisatie P informatie levert aan enkele tientallen andere organisaties op een reguliere dag, dan wordt die organisatie mogelijk benaderd door tientallen organisaties en min of meer tegelijkertijd.  Tot slot is het met veel verschillende partijen een uitdaging te weten hoe je deze partijen kan benaderen via het juiste contactpunt en daarover actuele informatie te hebben.
+
+![Alt text]({{ site.baseurl }}/assets/benm1.png)
+
+### Oplossing logging en monitoring
+Als de API organisatie P geen antwoord geeft of een 500 terugstuurt, kan dit worden gelogt door zeg organisatie A. Monitoring tooling kan de logging scannen en een melding in de beheertooling dat er een verstoring is in het verkeer met organisatie P.  
+
+![Alt text]({{ site.baseurl }}/assets/benm2.png)
+
+Daar kan proactief geacteerd worden, ook kan het verband worden gelegd als er meldingen binnen op de servicedesk rond informatieschermen (met informatie normaal afkomstig van organisatie P).
+
+Conclusie: Elke partij zal de logging en monitoring moeten inrichten op dit type van monitoring en dat koppelen aan processen (voor opvolging).
+
+### Oplossing health check
+Voorgaande oplossing werk maar kan leiden tot veel meldingen en false positives.  Een andere oplossing is om te zorgen dat API’s zoals Inzage API’s ook bevraagbaar zijn op health. Zo kan een ‘not healthy’  duiden op niet functioneren van de API of achterliggende systeem en een ‘degraded’  op het niet goed functioneren van de API of achterliggende systeem.
+
+![Alt text]({{ site.baseurl }}/assets/benm3.png)
+
+Op zichzelf voegt deze functie weinig toe aan de oplossing hiervoor en vraag wel een inspanning in het ontwerp en realisatie van de API’s als ook in bevragen daarvan. Deze oplossing is vooral zinvol als deze wordt gecombineerd met centrale of decentrale dashboards. Dergelijke dashboards kunnen een status overview geven en meldingen (push events) sturen van verstoringen of verstoringen bevraagbaar maken (pull).
+
+![Alt text]({{ site.baseurl }}/assets/benm4.png)
+
+### Oplossing melding van verstoring/onderhoud/wijziging
+Om minder blind te zijn, waar ook de andere oplossingen zich op richten, is het ook onwenselijk onnodig veel interacties te hebben tussen beheerpartijen (zie probleembeschrijving). Idealiter is het niet nodig om partijen te bellen, in wachtrijen te vertoeven of e-mail/tickets te sturen, maar kan er eenvoudig worden nagegaan of er onderhoud verstoringen/onderhoud/wijzigingen zijn of zijn geweest door de CORV2 Ketenindex te bevragen waarin organisaties hun verstoringen/onderhoud/wijzigingen hebben gemeld (via events).
+
+![Alt text]({{ site.baseurl }}/assets/benm5.png)
+
+Soms zal een partij dat zelf niet kunnen doen, denk bij een grootschalige uitval, waardoor dit type meldingen ook niet meer werken of gedaan kunnen worden. Door de health polling t.b.v. het centrale dashboard ontstaat echter ook centraal een beeld van dergelijke verstoringen. De centrale health polling zal ook events (van verstoringen) plaatsen in de CORV2 Ketenindex, welke op hun beurt ook opvraagbaar zijn.
+
+### Oplossing onderlinge bereikbaarheid
+Organisaties melden via events hun contactpunt gegevens, geven wijzingen daarin door (via events). Zodoende is altijd actuele informatie op te halen en kan dat geautomatiseerd. Tevens hiermee een actueel centraal overzicht gemaakt worden en dat beschikbaar gemaakt worden via een web-app en via een API (voor geautomatiseerde processen).
+
+![Alt text]({{ site.baseurl }}/assets/benm5.png)
 
 [1]: https://samen-onder-handbereik.github.io/afsprakenstelsel/jekyll/2025-09-24-werking.html#governance
 
