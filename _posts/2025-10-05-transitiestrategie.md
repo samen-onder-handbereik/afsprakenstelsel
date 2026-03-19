@@ -1,0 +1,84 @@
+---
+title: Transitiestrategie en pad
+author: lg
+date: 2025-10-05
+category: Jekyll
+layout: post
+---
+
+> ##### Concept
+{: .block-danger }
+
+Strategie
+-------------
+**Inleiding**
+De benodigde transitie is niet alleen technisch, maar raakt het hele paradigma van gegevensuitwisseling en samenwerking.
+
+De kern van de transitie is de beweging **van een estafettemodel naar een netwerkmodel**.
+
+In het huidige estafettemodel wordt informatie stap voor stap doorgegeven in een keten. Elke partij ontvangt berichten, voegt eigen informatie toe, slaat deze lokaal op en stuurt het geheel door naar de volgende partij. Dit is sterk procesgedreven en lineair ingericht, met berichtenverkeer volgens vaste protocollen en volgordes. De gewenste situatie – het netwerkmodel – doorbreekt dit principe fundamenteel. In plaats van informatie door te geven, blijft informatie bij de bron en wordt deze gedeeld via het netwerk. Partijen raadplegen elkaars gegevens rechtstreeks, op basis van autorisatie, in plaats van kopieën te ontvangen en door te sturen. Daarmee verandert de aard van informatievoorziening van “doorgeven” naar “beschikbaar stellen en raadplegen”.
+
+Als dit nader geanalyseerd wordt, kan de transitie verder geconcretiseerd worden in een aantal samenhangende verschuivingen:
+- Ten eerste is er een verschuiving van ketengerichte processen naar netwerkgerichte samenwerking. In het estafettemodel is de keten leidend en bepaalt de volgorde van berichten het proces. In het netwerkmodel bestaat geen vaste volgorde meer; partijen kunnen informatie ophalen wanneer nodig, wat leidt tot meer flexibiliteit en gelijktijdigheid in samenwerking.
+- Ten tweede verschuift de informatiepositie van kopieën naar bronregistraties. In het netwerkmodel houdt elke deelnemer een eigen register bij, en andere partijen raadplegen die direct. Dit voorkomt duplicatie en inconsistentie en maakt het mogelijk om altijd met actuele gegevens te werken.
+- Ten derde verandert de manier van integratie. De site benoemt expliciet dat organisaties moeten bewegen richting halen bij de bron, REST-API-architecturen en event-driven werken. Tegelijk wordt het gebruik van traditionele berichtprotocollen zoals ebMS geleidelijk uitgefaseerd.  
+Dit betekent concreet een transitie van batch- en berichtgebaseerde koppelingen naar API’s, services en gebeurtenissen.
+- Ten vierde ontstaat een verschuiving van bilaterale koppelingen naar een gedeeld stelsel met generieke afspraken. In plaats van dat elke koppeling apart wordt afgesproken, biedt het afsprakenstelsel uniforme regels, rollen en standaarden die voor alle deelnemers gelden. Dit maakt one-to-many interactie mogelijk in plaats van one-to-one integraties.
+- Ten vijfde verandert de interactievorm tussen organisaties. Naast het klassieke “opdracht”-patroon uit het estafettemodel, introduceert het netwerkmodel aanvullende patronen zoals inzage (direct raadplegen) en notificaties (gebeurtenissen).  
+Hiermee verschuift de samenwerking van asynchroon berichtenverkeer naar een mix van synchroon (raadplegen) en event-driven communicatie.
+- Ten zesde wordt de rol van de burger en ketenregie versterkt. Doordat informatie centraal inzichtelijk wordt (bijvoorbeeld via registers en inzage), ontstaat meer transparantie en kan de burger of professional beter regie voeren over het proces en de gegevens.
+
+Deze transitie vindt incrementeel plaats. Het netwerkmodel wordt niet in één keer gerealiseerd, maar stap voor stap opgebouwd via registers en stelselvoorzieningen, waarbij het afsprakenstelsel steeds wordt uitgebreid.
+
+Samengevat vraagt het Afsprakenstelsel dus om een meervoudige transitie: van lineaire ketens naar een dynamisch netwerk, van berichten naar API’s en events, van kopieën naar brondata, van bilaterale afspraken naar een gedeeld stelsel, en van procesgedreven uitwisseling naar informatiegedreven samenwerking. Dit is een fundamentele herinrichting van zowel de technische architectuur als de manier waarop organisaties samenwerken.
+
+**Aanleiding en richting**
+De transitie van het estafettemodel naar het netwerkmodel is geen klassieke moderniseringsopgave, maar een fundamentele heroriëntatie op hoe organisaties informatie delen en samenwerken. Waar het huidige model uitgaat van lineaire overdracht van informatie via bilaterale koppelingen, verschuift de gewenste situatie naar een dynamisch netwerk waarin informatie bij de bron blijft en opvraagbaar is voor bevoegde partijen. Deze beweging raakt niet alleen de technische inrichting, maar ook governance, samenwerking en de manier waarop organisaties hun rol in het geheel begrijpen.
+
+Het transitieplan vertrekt daarom vanuit een gedeelde visie: een toekomst waarin informatie duurzaam, betrouwbaar en gecontroleerd beschikbaar is, en waarin organisaties gezamenlijk verantwoordelijkheid dragen voor het functioneren van het netwerk. Die visie moet niet abstract blijven, maar vertaald worden naar concrete perspectieven voor bestuurders, professionals en technici. Alleen wanneer zichtbaar wordt hoe het netwerkmodel bijdraagt aan betere dienstverlening, lagere complexiteit en grotere wendbaarheid, ontstaat de basis voor daadwerkelijke beweging.
+
+**Bestuurlijk draagvlak en gezamenlijke ambitie**
+De eerste stap in de transitie ligt in het organiseren van bestuurlijk commitment dat verder gaat dan formele instemming. Bestuurders moeten zich expliciet verbinden aan de richting van het netwerkmodel en de implicaties daarvan accepteren. Dat betekent dat zij bereid moeten zijn om te investeren in generieke voorzieningen, om bestaande werkwijzen ter discussie te stellen en om ketenbelangen zwaarder te laten wegen dan het optimaliseren van de eigen organisatie.
+
+Dit vraagt om een zorgvuldig opgebouwd verhaal waarin urgentie en perspectief samenkomen. De beperkingen van het estafettemodel moeten herkenbaar zijn, bijvoorbeeld in de vorm van inefficiënte koppelingen, vertraagde processen en inconsistentie van gegevens. Tegelijkertijd moet duidelijk worden wat het netwerkmodel oplevert: snellere samenwerking, betere datakwaliteit en een fundament voor toekomstige ontwikkelingen. Het helpt om deze baten niet alleen rationeel te onderbouwen, maar ook zichtbaar te maken in concrete casussen en praktijkvoorbeelden.
+
+Bestuurlijk draagvlak krijgt pas echt betekenis wanneer het wordt vertaald naar sturing. Dat betekent dat de transitie wordt verankerd in strategie, dat middelen beschikbaar worden gesteld en dat er actief wordt gestuurd op voortgang en samenhang. Zonder deze verankering bestaat het risico dat de transitie blijft hangen in losse initiatieven.
+
+**Fundament: modernisering van de informatievoorziening**
+Parallel aan het creëren van draagvlak moeten organisaties hun technologische basis op orde brengen. De beweging naar het netwerkmodel sluit aan bij ontwikkelingen die al langer gaande zijn, zoals het werken met REST-API’s, het toepassen van event-driven architectuur en het hanteren van principes als data bij de bron en Common Ground. Deze ontwikkelingen vormen de bouwstenen van het netwerkmodel en zijn daarmee geen optionele verbeteringen, maar noodzakelijke voorwaarden.
+
+In deze fase ligt de nadruk op het ontsluiten van bestaande systemen via gestandaardiseerde API’s en het inrichten van API-managementvoorzieningen. Dit gaat verder dan techniek alleen; het raakt ook governance, omdat afspraken nodig zijn over gebruik, beveiliging en lifecycle management. Tegelijkertijd ontstaat de behoefte aan functionele bouwstenen die het delen van informatie daadwerkelijk mogelijk maken, zoals voorzieningen voor inzage en autorisatie. Belangrijk in deze fase is dat organisaties niet proberen om hun volledige landschap in één keer te transformeren. Door te werken met ontkoppeling en het toevoegen van een API-laag kan stapsgewijs worden gemoderniseerd, zonder dat de continuïteit van bestaande processen in gevaar komt. Deze incrementele aanpak maakt het mogelijk om snel waarde te realiseren en tegelijkertijd ervaring op te bouwen.
+
+**Implementatie van het Afsprakenstelsel**
+Met een gemoderniseerd fundament kunnen organisaties het Afsprakenstelsel gaan implementeren. Dit stelsel biedt de gemeenschappelijke taal en spelregels die nodig zijn om als netwerk te functioneren. Het invoeren daarvan betekent dat organisaties hun processen, gegevensmodellen en interacties toetsen aan de afgesproken kaders en waar nodig aanpassen. De implementatie vraagt om een iteratieve benadering waarin leren centraal staat. Standaarden en afspraken krijgen pas betekenis in de praktijk en zullen zich verder ontwikkelen op basis van ervaringen. Het is daarom belangrijk dat organisaties actief bijdragen aan deze ontwikkeling en niet wachten tot alles volledig is uitgekristalliseerd.
+
+Stelselvoorzieningen spelen hierbij een cruciale rol. Door generieke functies centraal te organiseren, wordt voorkomen dat elke organisatie zelf oplossingen ontwikkelt voor dezelfde vraagstukken. Het gebruik van deze voorzieningen vraagt vertrouwen, maar ook actieve betrokkenheid, zodat zij blijven aansluiten bij de behoeften van de deelnemers.
+
+**Aansluiten en deelnemen aan het netwerk**
+Het moment waarop een organisatie aansluit op het Afsprakenstelsel markeert een belangrijke overgang. De organisatie committeert zich aan de gezamenlijke afspraken en maakt haar informatie beschikbaar binnen het netwerk. Dit vraagt niet alleen technische aansluiting, maar ook organisatorische inbedding. Rollen en verantwoordelijkheden veranderen. Er ontstaat een expliciete verantwoordelijkheid voor het beheren en beschikbaar stellen van brondata, voor het borgen van kwaliteit en voor het naleven van afspraken. Tegelijkertijd moeten nieuwe competenties worden ontwikkeld, zoals API-design, datagovernance en ketensamenwerking. Aansluiting betekent ook dat een organisatie deel wordt van een ecosysteem waarin samenwerking centraal staat. Dit vraagt om een andere houding, waarin niet alleen wordt gekeken naar de eigen belangen, maar ook naar de impact op het geheel.
+
+**Gefaseerde invoering van samenwerkfuncties**
+Na aansluiting verschuift de focus naar het daadwerkelijk benutten van het netwerkmodel door het implementeren van samenwerkfuncties. Deze functies maken het mogelijk om informatie te delen, processen op elkaar af te stemmen en gebeurtenissen uit te wisselen. De invoering hiervan gebeurt gefaseerd, omdat zij direct ingrijpt op bestaande systemen en werkwijzen. Zaak- en dossiersystemen moeten worden aangepast om informatie beschikbaar te stellen via API’s en om te kunnen reageren op gebeurtenissen. Dit vraagt om een architectuur die gericht is op modulariteit en flexibiliteit, zodat veranderingen beheerst kunnen worden doorgevoerd.
+
+In deze fase wordt de meerwaarde van het netwerkmodel zichtbaar. Door samenwerkfuncties toe te passen in concrete processen ontstaat ervaring en vertrouwen, wat de basis vormt voor verdere opschaling.
+
+**Verandering van cultuur en werkwijze**
+Naast technische en organisatorische veranderingen is er sprake van een diepgaande cultuurverandering. Het netwerkmodel vraagt om een andere manier van denken over informatie, waarin delen de norm wordt en eigenaarschap een andere invulling krijgt. Informatie wordt niet langer gezien als bezit, maar als een gemeenschappelijke bron die onder voorwaarden toegankelijk is. 
+Dit vraagt om aandacht voor de menselijke factor. Medewerkers moeten nieuwe vaardigheden ontwikkelen en wennen aan andere manieren van werken. Verandermanagement speelt hierin een cruciale rol. Het gaat om het creëren van begrip, het bieden van ondersteuning en het stimuleren van experimenteren en leren. Leiderschap is hierin bepalend. Wanneer leidinggevenden het gewenste gedrag niet actief uitdragen, zal de transitie stagneren. Het is daarom belangrijk dat zij zichtbaar betrokken zijn en ruimte creëren voor verandering.
+
+**Risico’s en beheersing**
+De transitie naar het netwerkmodel kent verschillende risico’s. Een belangrijk risico is dat de beweging blijft steken in technische initiatieven zonder dat de organisatie daadwerkelijk verandert. Ook bestaat het gevaar van fragmentatie, waarbij verschillende partijen het model op hun eigen manier invullen, waardoor nieuwe vormen van incompatibiliteit ontstaan. Daarnaast kan weerstand ontstaan vanuit bestaande belangen en structuren. De transitie kan leiden tot verschuivingen in verantwoordelijkheden en budgetten, wat spanning kan veroorzaken. Technisch gezien liggen er risico’s in beveiliging, performance en afhankelijkheid van centrale voorzieningen. Deze risico’s vragen om actieve sturing, duidelijke governance en continue monitoring. Door transparant te zijn over voortgang en knelpunten en door tijdig bij te sturen, kunnen problemen worden voorkomen of beperkt.
+
+**Kansen en baten**
+Tegenover de risico’s staan aanzienlijke kansen. Het netwerkmodel maakt het mogelijk om sneller en flexibeler samen te werken, doordat informatie direct beschikbaar is. Het vermindert de complexiteit van koppelingen en verhoogt de kwaliteit van gegevens, doordat er gewerkt wordt met broninformatie.
+
+Voor burgers en bedrijven leidt dit tot een betere dienstverlening, waarin gegevens niet steeds opnieuw hoeven te worden aangeleverd en processen beter op elkaar aansluiten. Voor organisaties betekent het een grotere wendbaarheid en een fundament voor verdere digitalisering en innovatie.
+
+**Naar volledige participatie en doorontwikkeling**
+De transitie eindigt niet bij aansluiting of implementatie van samenwerkfuncties. Het netwerkmodel is een continu evoluerend geheel waarin deelnemers gezamenlijk verantwoordelijkheid dragen voor doorontwikkeling. Naarmate meer organisaties deelnemen en meer functies worden toegevoegd, groeit de waarde van het netwerk. Volledige participatie betekent dat organisaties niet alleen gebruik maken van het netwerk, maar er ook actief aan bijdragen. Dit vraagt om blijvende investering in samenwerking, innovatie en governance.
+
+De transitie van estafettemodel naar netwerkmodel is daarmee geen project met een einddatum, maar een beweging die zich over jaren ontwikkelt. Het succes ervan hangt af van het vermogen om techniek, organisatie en cultuur in samenhang te veranderen en om gezamenlijk te blijven leren en verbeteren.
+
+Transitiepad
+-------------
+volgt
