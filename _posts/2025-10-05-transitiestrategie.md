@@ -91,7 +91,9 @@ De transitie laat zich schetsen aan de hand van enkele fasen zoals in onderstaan
 **Bestuurlijk commitment**  
 Organisatie hebben de afgelopen periode meegedacht en meegewerkt aan het Jeugd, Zorg en Veiligheid - Samen onder Handbereik Afsprakenstelsel. Hiervoor was reeds bestuurlijk commitment vanuit de verschillende organisaties. Voor de transitie is bestuurlijk commitment nog van een veel groter belang. Transitie vraagt immers inspanning. Die inspanning moet leiden tot de beoogde baten.
 Om de transitie en de implementatie van het Afsprakenstelsel in gang te zetten en de baten daarvan te gaan oogsten is de wil van organisatie nodig hier een succes van te maken, het belang te onderkennen, er voldoende prioriteit aan toe te kennen naast alle andere prioriteiten en funding beschikbaar te maken. De realisatieteams zullen dit hard nodig hebben om efficiënt te kunnen leveren. Dit zal als eerste binnen het transitie-pad geregeld moeten zijn, uitgesproken moeten worden en bekend moeten zijn. Zodat de transitie met wind in de rug en vaste grond onder de voeten kan starten.
+
 Valkuil: vaag, mager, zwak en/of laat invullen van het bestuurlijk commitment
+
 Succesfactoren: duidelijke prioriteit toekennen, funding beschikbaar stellen en communiceren van belang en commitment vanuit de organisatieleiding 
 
 Direct hierop volgend start de transitie met de initiatie van een aantal sporen tegelijkertijd:
