@@ -82,6 +82,9 @@ De transitie van estafettemodel naar netwerkmodel is daarmee geen project met ee
 Transitiepad
 -------------
 
+### Transitiefasen
+De transitie laat zich schetsen aan de hand van enkele fasen zoals in onderstaande figuur afgebeeld.
+
 ![Alt text]({{ site.baseurl }}/assets/tpad.png)
 
 ### A Initiatiefase
