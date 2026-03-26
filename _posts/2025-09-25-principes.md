@@ -203,7 +203,7 @@ En als derde bron de principes van toepassing van het Federatief Datastelsel. Me
 Standaarden
 -------------
 
-Relevant voor afsprakenstelsel zijn de volgende standaarden (in wording) en afspraken over internationale standaarden in de Nederlandse context (zoals bijvoorbeeld -	NL GOV profile for CloudEvents):
+Vanzelfsprekend geldt de toepassing van verplichte standaarden (zie Forum Standaardisatie). Relevant voor afsprakenstelsel zijn de volgende standaarden (in wording) en afspraken over internationale standaarden in de Nederlandse context (zoals bijvoorbeeld -	NL GOV profile for CloudEvents):
 - OAuth en NL GOV Assurance profile for OAuth 2.0 (NLGov OAuth)
 - OIDC en NL GOV Assurance Profile for OIDC (NLGov OpenID connect)
 - SCIM
@@ -216,6 +216,7 @@ Relevant voor afsprakenstelsel zijn de volgende standaarden (in wording) en afsp
 - FTV: Federatieve Toegangsverlening
 - AuthZEN
 - TLS (standaard voor het versleutelen van de connectie waar de API’s gebruik van maken)
+- DNSSEC
 
-Deze lijst is niet limitatief en zal in de tijd nog worden aangevuld.
+Deze lijst is niet limitatief en kan in de tijd nog worden aangevuld. 
 

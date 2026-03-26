@@ -107,7 +107,8 @@ Deze afspraken zijn van toepassing voor de deelnemers aan het afsprakenstelsel. 
 ### Algemeen
 1. Er is sprake van gefedereerde gedistribueerde systemen, waarbij monolithische centralistische concepten worden vervangen door oplossingen die gekenmerkt worden door het terugdringen van afhankelijkheden.
 2. Er worden alleen centrale gedeelde (keten)voorzieningen gerealiseerd wanneer dat nodig is.
-3. Voor alle voorzieningen in het stelsel gelden de [niet-functionele-eisen][4] zoals verderop weergeven.
+3. Alle extern aangeboden services (API's) zijn bereikbaar op FQDN via DNSSEC.
+4. Voor alle voorzieningen in het stelsel gelden de [niet-functionele-eisen][4] zoals verderop weergeven.
 
 ### Gebeurtenissen gerelateerd
 4. Voor het verzamelen, opslaan en distribueren van grote hoeveelheden gebeurtenisgegevens (events) is een centrale Event Provenance Store en Event Hub (ketenindex) nodig binnen het Stelsel. Een Event Provenance Store en Event Hub (ketenindex) is een gedistribueerd streamingplatform dat wordt gebruikt voor het verwerken en beheren van realtime datastreams (van gebeurtenissen/notificaties).
