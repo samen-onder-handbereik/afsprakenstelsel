@@ -161,13 +161,16 @@ Niet functionele eisen voor alle voorzieningen binnen het stelsel, zowel bij dee
 
 | NFE-id | Non-functional | Toelichting | Self assessment |
 | --- | --- | --- | --- |
-| B-01 | De omgeving en services voldoen aan de BIO. | Zie Baseline Informatiebeveiliging Overheid. |  |
+| B-01 | De omgeving en services voldoen aan de BIO dan wel aan NEN 7510 of ISO 27001 (voor organisaties waarvoor de BIO niet verplicht is). | Zie Baseline Informatiebeveiliging Overheid en NEN 7510/ISO27001. |  |
+| B-02 | Software ontwikkeling volgt CIP Secure Software Development (SSD) normen en mmethodiek of een vergelijkbare aanpak |  |
+| B-03 | Webportals/Webapps voldoen minimaal aan OWASP normen |  |
+| B-04 | Webportals/Webapps voldoen aan de ICT beveiligingsrichtlijnen voor webapplicaties van het NCSC  |  |
 | C-01 | De gerelateerde verwerkingen voldoen aan de AVG | Zie AVG. |  |
 | I-01 | Webportals/Webapps functioneren voldoende bij het gebruik van de bekende veel gebruikte moderne browsers tot minimaal een versie daarvan terug | In het kader van compatibiliteit. |  |
 | I-02 | Webportals/Webapps functioneren zonder plugins | In het kader van compatibiliteit wordt het gebruik van plugins niet toegestaan. |  |
-| I-03 | Stelsel API’s kunnen worden getest of beschikbaarheid en functioneren | Andere deelnemers moeten het functioneren van een API kunnen valideren en monitoren. |  |
+| I-03 | Stelsel API’s kunnen worden getest op beschikbaarheid en functioneren | Andere deelnemers moeten het functioneren van een API kunnen valideren en monitoren. |  |
 | I-04 | Stelsel API’s zijn gedocumenteerd op een API Catalog/DevPortal waar ook toegang aanvragen tot de API’s kan worden aangevraagd | Informatie en toegang dient eenvoudig en laagdrempelig te kunnen verlopen. |  |
-| I-05 | De stelsel API’s zijn opgenomen in de domein API Catalog waarbij wordt verwezen naar de decentrale API Catalogs | Decentrale API Catalogs dienen eenvoudig en laagdrempelig kunnen worden gevonden. |  |
+| I-07 | De stelsel API’s zijn opgenomen in de domein API Catalog waarbij wordt verwezen naar de decentrale API Catalogs | Decentrale API Catalogs dienen eenvoudig en laagdrempelig te kunnen worden gevonden. |  |
 | P-01 | Maximale responstijd < 200 ms voor eenvoudige GET-verzoeken voor Stelsel API’s | Responsetijd vereiste. |  |
 | P-02 | Gemiddelde responstijd < 2 seconden voor Stelsel API’s bij normale belasting | Responsetijd vereiste. |  |
 | P-03 | Onder piekbelasting voor Stelsel API’s < 3 seconden | Responsetijd vereiste. |  |
@@ -184,24 +187,24 @@ Aanvullende niet-functionele eisen  voor Stelselvoorzieningen:
 | SA-01 | Er is een solution architectuur beschikbaar | De solution architectuur geeft richting aan de oplossing en bevat richtinggevende uitspraken. |  |
 | SA-02 | Er is een high level design beschikbaar | Het high level design beschrijft hoe de voorziening wordt/is gerealiseerd, welke componenten en software deze bevat en hoe deze in samenhang werken. |  |
 | SA-03 | De Stelselvoorzieningen service(s) zijn beschreven, hun interfaces en gebruik | Documentatie van de services gericht op afname daarvan. |  |
-| SA-04 | Er is beschreven waar de voorzieningen en services zijn gerealiseerd (datacenter, cloud) | Denk aan de voorzieningen en services zijn gehost. |  |
+| SA-04 | Er is beschreven waar de voorzieningen en services zijn gerealiseerd (datacenter, cloud) | Denk aan waar de voorzieningen en services zijn gehost. |  |
 | SA-05 | Er is beschreven welke omgevingen worden geboden, dat dient ten minste een productie en acceptatie omgeving te zijn | De acceptatie omgeving dient ook en sterker vooral gebruikt te kunnen worden door deelnemers in het stelsel, zij moeten aan kunnen sluiten op de acceptatieomgeving zodat een gedistribueerde acceptatieomgeving ontstaat zoals er ook een gedistribueerde productieomgeving is. |  |
-| ST-01 | Er dienst een self-service omgeving beschikbaar te zijn, welke onderdeel van de acceptatieomgeving mag zijn, waar deelnemers zelf zonder hulp voorzieningen en werking van het stelsel kunnen testen. | Denk aan het self service kunnen testen van insturen van events, terug ontvangen van events, inzage kunnen doen, (test)services kunnen triggeren die inzage doen bij de deelnemer. |  |
+| ST-01 | Er dient een self-service omgeving beschikbaar te zijn, welke onderdeel van de acceptatieomgeving mag zijn, waar deelnemers zelf zonder hulp voorzieningen en werking van het stelsel kunnen testen. | Denk aan het self service kunnen testen van insturen van events, terug ontvangen van events, inzage kunnen doen, (test)services kunnen triggeren die inzage doen bij de deelnemer. |  |
 | ST-02 | Voor de voorziening/service(s) is een performance test uitgevoerd en alle response tijden vallen binnen de vereisten | Zie voor de response tijden het algemene deel (de NFR’s voor het stelsel). |  |
 | SB-01 | De voorzieningen voldoen aan de BIO (intern gericht) en ABRO (extern gericht) | Zie Baseline Informatiebeveiliging Overheid en Algemene Beveiligingseisen voor Rijksoverheidsopdrachten (in het geval van externe dienstverleners). |  |
 | SB-01 | De voorzieningen getest middels een pentest/security test van het type white/crystal-box, er mogen geen bevindingen open staan van 7.0 of hoger en alleen bevindingen van 4.0 of hoger als dit expliciet en formeel vastgelegd is toegestaan | Zie Common Vulnerability Scoring System. |  |
 | SC-01 | Er wordt gebruik gemaakt van open standaarden conform de lijst van standaarden van het Forum van Standaardisatie. | Zie Forum Standaardisatie, Lijst open standaarden |  |
-| SC-02 | Er wordt gebruik gemaakt van open source software ten zijn. | Zie het “Open, tenzij” beleid, zie ook Woo en Who (t.a.v. informatie waaronder broncode). |  |
+| SC-02 | Er wordt gebruik gemaakt van open source software tenzij. | Zie het “Open, tenzij” beleid, zie ook Woo en Who (t.a.v. informatie waaronder broncode). |  |
 | SC-03 | In de documentatie wordt aangegeven of sprake is van de verwerking van persoonsgegevens en wie de gegevensverantwoordelijke(n) is(/zijn). | De verwerker moet kunnen aangeven wie de gegevensverantwoordelijke(n) is(/zijn) en houders van de DPIA(s). |  |
 | SC-04 | Indien sprake is van verplichte registratie (cloud/algoritmen) wordt dit opgenomen in de documentatie alsmede een verwijzing naar de registratie en eigenaar van de registratie | De dienstverlener moet kunnen aangeven of sprake is van registraties en wie verantwoordelijk is voor registratie. |  |
 | SR-01 | Er wordt voorzien in een backup en restore beschrijving, de restore procedure wordt minimaal jaarlijks getest. | Beschrijving van backup van data, software, documentatie e.d. om volledige restore uit te kunnen voeren van data en service. |  |
 | SR-02 | Business continuïteit beschrijving. | Beschrijving van te beschermen service(s), (business)impact en disaster recovery maatregelen en procedures. |  |
 | SR-03 | In de Business continuïteit dreigingsscenario’s worden ook cyber dreigingen meegenomen en waar relevant omstandigheden dit uitvoering van exit scenario’s vereisen. | Denk bij cyberdreigingen aan de vercijfering van data (ransom attacks) en aan exit plannen in gevallen waar datacenters of infrastructuur van derden wordt gebruikt. |  |
 | SR-04 | Er is een beschrijving van het exit-plan beschikbaar. Vereisten vanuit beleid rond exit-plannen worden aantoonbaar ingevuld. | Denk aan vereisten als het testen van de exit-plannen. |  |
-| SO-01 | Er is 1e, 2e en 3e lijns-ondersteuning, beheer en monitoring ingericht | De voorzieningen dien adequaat beheerd en gemonitord te worden . |  |
-| SO-02 | De 1e, 2e en 3e lijns-ondersteuningscontactpunten zijn bekend en gepubliceerd | De service organisatie dient eenvoudig en laagdrempel benader te zijn en te kunnen worden gevonden. |  |
+| SO-01 | Er is 1e, 2e en 3e lijns-ondersteuning, beheer en monitoring ingericht | De voorzieningen dienen adequaat beheerd en gemonitord te worden . |  |
+| SO-02 | De 1e, 2e en 3e lijns-ondersteuningscontactpunten zijn bekend en gepubliceerd | De serviceorganisatie dient eenvoudig en laagdrempelig benaderbaar te zijn en te kunnen worden gevonden. |  |
 | SO-03 | Er is een SLA en DAP opgesteld voor de voorzieningen/services | Service niveau afspraken en procedures worden vastgelegd. |  |
-| SO-04 | Er is wel gedefinieerde en verstrekte security incident procedure | Security incidenten vergen speciale aandacht en versnelde reactietijden en vooraf gedefinieerde escalatie mogelijkheden. |  |
+| SO-04 | Er is een gedefinieerde en verstrekte security incident procedure | Security incidenten vergen speciale aandacht en versnelde reactietijden en vooraf gedefinieerde escalatie mogelijkheden. |  |
 | SO-05 | Wijzigingen beheer is beschreven en geïmplementeerd | Voorzieningen en services zullen regelmatig wijzigingen ondergaan, er dient duidelijkheid te zijn dat wijzigingen beheer is ingericht |  |
 | SO-06 | Als onderdeel van wijzigingen beheer is opgenomen de coördinatie van wijzigingen die actie van deelnemers vereisen | Wijzigingen kunnen acties van deelnemers vereisen, onafhankelijk van elkaar tot wijzigingen die een gelijktijdige wijziging en test vereisen bij alle deelnemers of subgroepen daarvan. |  |
 | SP-01 | Maximale responstijd < 200 ms voor alle verzoeken | Responsetijd vereiste. |  |
