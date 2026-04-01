@@ -200,6 +200,20 @@ En als derde bron de principes van toepassing van het Federatief Datastelsel. Me
 | Statement | Data en processen zijn gescheiden zowel in het gezamenlijke domein als binnen de achterliggende ICT-infrastructuren, daar bevindt zich immers de te ontsluiten data. |
 | Implicaties | Scheiding van data en processen leidt tot een efficiënter, veiliger en flexibeler ICT-landschap, maar vraagt ook om nieuwe technische, organisatorische en juridische aanpakken. |
 
+Uitgangspunten
+-------------
+
+| Uitgangspunt | Tegenovergestelde benadering (anti-patroon) |
+| --- | --- |
+| Informatie blijft bij de bron(houder). | Data gekopieerd naar de afnemer. |
+| Gestroomlijnd samenwerkproces en uniforme samenwerkfuncties. | Uniek proces per samenwerking. |
+| Gebruik eigen taaksysteem. | Gebruik centraal systeem. |
+| We spreken een zelfde samenwerktaal. | Unieke taal per samenwerking, geen gemeenschappelijke taal. |
+| Gegevens beschermd door digitale vertrouwenslaag. | Bescherming door vooral (papieren) convenanten. |
+| Gestandaardiseerd en open conform Nederlandse Digitaliseringsstrategie. | Gesloten software en eigen standaarden. |
+| Minimale stelsel functies in het midden. | Centraal opslag systeem. |
+| Transparant en participatief voor de burger. | Losse info op papier, mail of via Mijnomgevingen per partner. |
+
 Standaarden
 -------------
 
