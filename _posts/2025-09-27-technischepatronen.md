@@ -96,7 +96,7 @@ De event variant wordt toegepast wanneer:
 
 In de specificaties van de Samenwerkfuncties is te zien welke variant voor die Samenwerkfunctie en stap daarbinnen is toegepast.
 
-Niveau differentiatie patronen
+Patronen informatieniveau-differentiatie
 -------------
 
 Functioneel bezien bestaat de wens onderscheid te maken in niveau van toegang tot informatie in events en/of aangeboden via API’s. Zo is denkbaar dat een bepaalde organisatie/rol minder detailinformatie hoeft en mag krijgen, en een andere meer. Ook is denkbaar dat dit van omstandigheden en situatie af kan hangen. Denk aan een normale situatie versus een acute situatie en risicovolle situatie. Hieronder worden de verschillend opties beschreven en de keuze voor invulling van deze wens.
