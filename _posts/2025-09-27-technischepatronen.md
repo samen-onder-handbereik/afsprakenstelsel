@@ -101,6 +101,8 @@ Niveau differentiatie patronen
 
 Functioneel bezien bestaat de wens onderscheid te maken in niveau van toegang tot informatie in events en/of aangeboden via API’s. Zo is denkbaar dat een bepaalde organisatie/rol minder detailinformatie hoeft en mag krijgen, en een andere meer. Ook is denkbaar dat dit van omstandigheden en situatie af kan hangen. Denk aan een normale situatie versus een acute situatie en risicovolle situatie. Hieronder worden de verschillend opties beschreven en de keuze voor invulling van deze wens.
 
+Er is in dat geval sprake van verschillende niveaus van informatie beschikbaarheid. Denk aan een 'wat' niveau (er is een gebeurtenis type x) en een 'dat' niveau (welke ging over y). Er zou gewerkt kunnen worden zoals een niveau 0 (wat), niveau 1 (wat met een 'dat' deel, maar niet in detail) en een niveau 2 ('dat' met meer details).
+
 ### Events
 Grofweg zijn er twee opties:
 - Event met alle informatie, maar onderscheid in niveaus 
