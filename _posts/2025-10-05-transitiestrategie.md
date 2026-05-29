@@ -166,3 +166,78 @@ Na alle investeringen is de tijd aangebroken om de redendement binnen te laten v
 Valkuil: effect van de remmende voorsprong laten ontstaan of aanjagen
 
 Succesfactoren: bewaken van waardecreatie en optimaliseren van de werking van het stesel
+
+
+> ##### Concept
+{: .block-danger }
+
+Gedeelde (domein/sector)voorzieningen 
+-------------
+**Inleiding**  
+Binnen het Jeugd, Zorg en Veiligheidsdomein zijn er verschillende entiteiten die één rechts‑ en organisatie‑entiteit vormen, bijvoorbeeld een branchevereniging, maar waarbij sprake kan zijn van vestigingen en aangesloten organisaties die elk de eigen ICT regelen. Daarnaast komen ook landelijke sectoren van regionale organisaties voor, die ook elk de eigen ICT regelen. In sommige gevallen wordt er op bepaalde gebieden samengewerkt, denk aan het doen van gezamenlijke inkoop, hanteren van een dezelfde processen en het gebruiken van dezelfde zaaksystemen etc.
+
+In deze gevallen zou gesproken kunnen worden van een domein waar gelijksoortige organisaties, soms vallend onder één rechts‑ en organisatie‑entiteit of één landelijke sectore, in de context van Samen onder Handbereik allemaal dezelfde technische koppelingen en bijbehorende beveiligingsmaatregelen moeten realiseren. Voor elke afzonderlijke organisatie kan dat ingewikkeld, kostbaar en moeilijk onderhoudbaar zijn. Het zou ook mogelijk te zijn de krachten te bundelen en gebruik te maken van gedeelde voorzieningen. Dit zou sterk vereenvoudigend kunnen werken, kosten kunnen verlagen, drempelwerking voorkomen en implementatie van het Samen onder Handbereik netwerkmodel binnen een korte tijd mogelijk maken.
+
+Binnen dit type domeinen zouden twee scenario’s gevolgd kunnen:
+
+- Scenario 1: elke organisatie regelt zelf de technische koppelingen en bijbehorende beveiligingsmaatregelen
+- Scenario 2: een domein of sector gebruikt een gedeelde voorziening voor het realiseren van technische koppelingen en bijbehorende beveiligingsmaatregelen
+
+De elementen die via een gedeelde voorziening zouden kunnen worden geregeld zijn vooral de generieke elementen, het gaat dan om:
+- technische koppelingen naar de API’s van de partijen binnen het domein of de sector
+- de beveiligingsmaatregelen voor de afscherming van de achterliggende systemen van die partijen
+- generieke elementen in de toegangsverlening tot de systemen en API’s  van de partijen binnen het domein of de sector
+
+Om een beeld te hebben van de potentiële voordelen en baten worden beide scenario’s hieronder geschetst.
+
+Scenario 1: elke organisatie/organisatieonderdeel/vestiging/etc. voor zich
+
+De algemene beweging binnen de overheid naar REST-API betekent dat elke organisatie elke andere organisatie moet kunnen bereiken en adresseren. Dat is impactvol, maar ook niet onlogisch. In de fysieke wereld kan elke organisatie elke andere organisatie ook bereiken (telefonisch, schriftelijk of door fysiek langs te gaan). Digitaal zou dat niet anders moeten zijn.
+
+Hoewel logisch is de impact in de digitale wereld aanzienlijk, een organisatie moet zorgen dat:
+
+- de adressen van de services van de organisatie bekend zijn (FQDN’s, DNS)
+- de services benaderbaar zijn voor geautoriseerde organisaties en alle achterliggende systemen goed beschermd zijn tegen kwaadwillende actoren (d.m.v. Firewalls, IDS/IPS, Monitoring, API Gateways/API Management)
+- de services voorzien van de juiste en geldige PKI certificaten
+- andere organisaties zich succesvol kunnen authentiseren en geautoriseerd zijn zodat toegang verleend kan worden tot de services
+- en andersom dat de organisatie ook services van andere organisaties kan benaderen
+
+De schaal van het aantal onderlinge relaties is groot. Zie onderstaande figuur waar alleen de relaties vanuit twee organisatie(domeinen) zijn geschetst.
+
+![Alt text]({{ site.baseurl }}/assets/domeinr.png)
+
+Hier zijn voor eenvoud entiteiten gebundeld zoals Veilig Thuis (~25 entiteiten), Zorg- en Veiligheidshuizen (~31 entiteiten), etc. Zonder deze vereenvoudiging zou de schets nauwelijks te maken zijn. Neem de illustratie hieronder waarin één domein met slechts 10 entiteiten zou worden uitgevouwen en zou communiceren met een domein met slechts 20 entiteiten. Waarbij om tot een overzichtelijke figuur ook nog eens een groot deel van de mogelijke relaties is weggelaten.
+
+![Alt text]({{ site.baseurl }}/assets/relaties.png)
+
+Ten opzichte van de getallen in het Jeugd, Zorg en Veiligheidsdomein is bovenstaande figuur op zichzelf een sterke vereenvoudiging van de werkelijkheid.
+Het aantal een-op-een relaties zou sterk te reduceren zijn via een knooppunt of ‘gateway’. Zie hiervoor scenario 2.
+
+Scenario 2: gedeelde voorziening
+Wanneer een domein zichzelf toegankelijk zou maken via een knooppunt of ‘gateway’, zou het aantal relaties sterk reduceren. Zie onderstaande figuur.
+
+![Alt text]({{ site.baseurl }}/assets/relatiesgw.png)
+
+Zo’n knooppunt of ‘gateway’ noemen we hier een Gedeelde Domein Voorziening (GDV). Elk domein of sector zou zo’n gedeelde domein voorziening kunnen realiseren. Een dergelijke benadering is gelet de vereenvoudiging welke dit oplevert, dan ook sterk aangeraden.
+
+Zeker als bedacht wordt dat in elke ‘bol’ doorgaans de volgende componenten zitten, zie navolgende figuur, en daar wijzigingen op nodig zijn, beheer en life cycle management etc.
+
+![Alt text]({{ site.baseurl }}/assets/apimgmt.png)
+
+Voor scenario 2 zou dit het volgende beeld geven (voorbeeld):
+
+![Alt text]({{ site.baseurl }}/assets/metgw.png)
+
+In scenario 1 zou dit zijn (voorbeeld):
+
+![Alt text]({{ site.baseurl }}/assets/zondergw.png)
+
+**Conclusie**
+Beide scenario’s zijn in principe haalbaar. Zo is er in scenario 1 weliswaar een enorme hoeveelheid koppelingen/relaties, maar is dat voor computersystemen en bij het gebruik van standaarden ook niet onoverkomelijk (zie de werking van het internet en services daarop). Scenario 2 kan sterk vereenvoudigend werken en in potentie aanzienlijke kostenbesparend werken. De term ‘in principe’ is gebruikt omdat de haalbaarheid van beide scenario’s sterk afhangt van de ICT-volwassenheid van de entiteiten, maar ook van wat er op centraal niveau voor het betreffende domein en sector mogelijk is en of er überhaupt een centrale of regie organisatie is etc. Soms zal een domein en sector scenario 1 prima in kunnen vullen, in andere gevallen kan dat nauwelijks het geval zijn. Andersom geldt dit ook. Soms zal een domein en sector eenvoudig een Gedeelde Domein Voorziening (GDV) kunnen financieren, realiseren en leveren. In andere gevallen kan het vanwege allerlei aspecten volstrekt onmogelijk zijn zo’n voorziening op te tuigen in gezamenlijkheid. Bijvoorbeeld door de inrichting van governance, inrichting van de financiering, autonomie aspecten, gebrek aan draagvlak voor gedeelde voorzieningen enz. Kortom per domein en sector zal moeten worden nagegaan wat de beste aanpak is en daarop worden ingezet.
+
+**Ondersteuning**
+Wanneer een domein en sector tot de conclusie komt dat een Gedeelde Domein Voorziening (GDV) wenselijk of noodzakelijk is, dan kan vanuit het stelsel ondersteuning worden geboden bij de realisatie. Zo zijn er mogelijkheden om mee te denken bij het ontwerp, kunnen er referentie-ontwerpen worden gemaakt, kunnen eerdere ontwerpen vanuit andere domeinen/sectoren (indien aanwezig) worden gedeeld, etc. Mocht er concrete interesse zijn, dan kunnen vanuit het stelsel en via de stelselbeheer initiatieven op dit vlak worden geïnitieerd. Neem daarvoor in dat geval contact op met de stelselbeheer met verwijzing naar de hier beschreven informatie.
+
+
+
+
