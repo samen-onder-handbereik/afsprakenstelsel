@@ -9,6 +9,9 @@ layout: post
 > ##### Consultatie
 {: .block-warning }
 
+Kernpatronen
+-------------
+
 Opdracht, Inzage en Gebeurtenissen zijn functionele patronen. In dit onderdeel zijn de technische patronen beschreven waarmee deze functionele samenwerkpatronen kunnen worden gerealiseerd en op hun beurt daarmee de functionele samenwerkfuncties.
 
 Kortom de samenwerkfuncties zijn op te bouwen uit de samenwerkpatronen en  de samenwerkpatronen uit de volgende technische patronen:
@@ -31,6 +34,7 @@ Het Event patroon geeft aan dat een feit of toestandsverandering heeft plaatsgev
 | Communicatie | request-response | request-response | fire and forget |
 | Actie | Initieert een verandering (state change) | Leesoperatie (read of state) | Beschrijft een toestandsverandering |
 | Return response | Success/failure acknowledgment | Success/failure acknowledgment | Geen directe response verwacht |
+
 
 Binnen het Afsprakenstelsel worden deze patronen concreet toegepast in de vormen:
 
@@ -91,3 +95,155 @@ De event variant wordt toegepast wanneer:
 - en er sprake is van een hoog volume aan end-points voor de betreffende samenwerkfunctie (enkele tot enkele tientallen). 
 
 In de specificaties van de Samenwerkfuncties is te zien welke variant voor die Samenwerkfunctie en stap daarbinnen is toegepast.
+
+Niveau differentiatie patronen
+-------------
+
+Functioneel bezien bestaat de wens onderscheid te maken in niveau van toegang tot informatie in events en aangeboden via API’s. Zo is denkbaar dat een bepaalde organisatie minder detailinformatie hoeft en mag krijgen, en een andere meer. Ook is denkbaard dat dit van omstandigheden en situatie af kan hangen. Denk aan een normale situatie versus een acute situatie en risicovolle situatie. Hieronder worden de verschillend opties beschreven en de keuze voor invulling van deze wens.
+
+### Events
+Grofweg zijn er twee opties.
+- Event met alle informatie, maar onderscheid in niveaus 
+- Event per niveau, dus meerdere events met elk meer of meer informatie
+
+**Event met alle informatie**  
+In dit geval zijn er de volgende benaderingen:
+- Ontvangers filteren zelf
+- Filtering bij de Event Provenance Store en Event Hub (Ketenindex)
+- Eén event met versleutelde delen
+
+De eerste optie valt af omdat dit niet sterk genoeg is vanuit een gegevensbescherming- en beveiligingsoptiek. De tweede optie vraag dat de Ketenindex onderscheid kan maken naar wie de bevraging doet of welke claims (OIDC claims) de partij meestuurt die het event ophaalt. Dit geeft complexiteit (filtering) aan de Ketenindex kant. De laatste variant geeft complexiteit bij alle partijen (sleutelbeheer, cryptografische bewerkingen). Dit is verre van aantrekkelijk, maar kan als PET invulling ook vanuit een andere optiek gewenst of nodig zijn.
+
+Keuze/voorkeur bij deze optie: volgt
+
+**Event per niveau**  
+Hier wordt gewerkt met meerdere events (over dezelfde gebeurtenis) per doelgroep of autorisatieniveau. 
+
+Er is sprake van eenzelfde gebeurtenis in de werkelijkheid, maar vertaald naar:
+- niveau 0 event naar brede groep
+- niveau 1 event naar betrokken ketenpartners
+- niveau 2 event naar bevoegde partij/audit/provenance store
+
+Met toepassing van correlationid (gedeelde correlatie), eventfamilie bijvoorbeeld uuo (uitwisselen-uitkomst-overleg) en informatieniveau, bijvoorbeeld “notification, restricted, full”.
+
+Een niveau 0 event kan bijvoorbeeld aangeven dat er een uitkomst beschikbaar is.
+Een niveau 1 event zegt meer, bijvoorbeeld: welke activiteit heeft de uitkomst gegenereerd, en door welke organisatie/rol is dat gedaan. Maar het bevat nog geen details over personen, brondocumenten, inhoudelijke besluiten of gebruikte gegevens.
+Een niveau 2 event is voorledig en kan bijvoorbeeld additioneel aangeven details over personen, brondocumenten, inhoudelijke besluiten of gebruikte gegevens.
+
+Een mogelijke benadering hierbij zou kunnen zijn:
+1. Publiceer een minimaal notificatie-event naar brede doelgroep.
+2. Publiceer rijkere events alleen naar organisaties/geautoriseerde die dat nodig hebben.
+En (optie)
+3. Zet volledige PROV in een aparte provenance store.
+4. Laat events verwijzen naar die PROV-store met een beveiligde link/reference.
+5. Autoriseer toegang tot de PROV-store per organisatie, rol, doelbinding en casus.
+
+Hierbij zou gewerkt kunnen worden met twee autorisatielagen, namelijk een event- en data autorisatielaag.
+
+Event autorisatielaag voorbeeld:
+Uitkomst-overleg-beschikbaar-gesteld.notification, naar alle ketenpartners
+uitkomst-overleg -beschikbaar-gesteld.restricted , naar betrokken ketenpartners
+uitkomst-overleg -beschikbaar-gesteld.full, naar voorzitter, bevoegde deelnemer
+
+Data autorisatielaag voorbeeld:
+PROV niveau 0, er is een activiteit geweest
+PROV niveau 1, welke organisatie/rol en welke vorige processtap
+PROV niveau 2, welke bronnen, versies, personen, regels en afleidingen
+
+Technisch zou gewerkt kunnen worden met aparte topics/kanalen per niveau, bijvoorbeeld:
+uoo.notification
+uoo.restricted
+uoo.full
+
+Een alternatief is om met één topic te werken en filtering per subscription, bijvoorbeeld:
+uoo.events met attributen zoals "provenancelevel": "restricted" en "audience": "ketenpartner" bijvoorbeeld. Waarbij de filtering wordt gedaan door de Event Provenance Store en Event Hub (Ketenindex).
+
+Keuze/voorkeur bij deze optie: volgt
+
+Keuze
+De keuze uit de twee varianten (één versus meerdere events) is: volgt
+
+### API’s
+Voor REST-API’s is het werken met niveaus beter beheersbaar dan bij events, omdat informatie pas wordt opgehaald op het moment dat een client erom vraagt. Daardoor kun je per organisatie, rol, doelbinding, scope en endpoint bepalen welk informatieniveau wordt teruggegeven.
+Er is dus een zelfde werkelijkheid met meerdere representaties. Eén resource of procesobject, maar verschillende views afhankelijk van autorisatie en doelbinding.
+Kortom er is:
+- één logisch object
+- met meerdere API-representaties
+- autorisatie per client/organisatie/scope
+- optioneel aparte endpoints voor detailniveaus
+
+Er zou bijvoorbeeld gewerkt kunnen worden met een model als in onderstaande tabel:
+
+| Niveau | Doelgroep | Inhoud |
+| --- | --- | --- |
+| Niveau 0 — minimaal | Organisaties die alleen mogen weten dát iets bestaat | id, status, datum, globale referentie |
+| Niveau 1 — beperkt | Betrokken ketenpartners | beperkte metadata, processtatus, abstracte data |
+| Niveau 2 — volledig | Bevoegde deelnemers | inhoud, bronnen, beslissingen, volledige data |
+
+Er zijn verschillende benaderingen om dit in te vullen:
+- Eén endpoint, representatie afhankelijk van autorisatie
+- Aparte endpoints per informatieniveau
+- Eén endpoint met view of projection
+- Content negotiation
+- Links naar detailinformatie: HATEOAS / affordances
+
+**Eén endpoint, representatie afhankelijk van autorisatie**  
+Op basis van de autorisatie zou een response kunnen volgen met (voorbeeld):
+- een geen toegang melding
+- info (niveau 0): er is een uitkomst beschikbaar voor dit casusoverleg (en meer niet)
+- info (niveau 1): procesmatige context, maar nog geen persoonsgegevens, volledige bronnen of inhoudelijke details
+- info (niveau 1): ook persoonsgegevens, volledige bronnen en/of inhoudelijke details
+
+**Aparte endpoints per informatieniveau**  
+Bijvoorbeeld:
+GET /uitkomst-overleg/uoo-001 (mogelijk voor technische check / monitoring)
+GET /uitkomst-overleg/uoo-001/niveau0
+GET /uitkomst-overleg/uoo-001/niveau1
+GET /uitkomst-overleg/uoo-001/niveau2
+
+Met een zelfde inhoudelijke response voor de niveaus als bij de eerdere optie.
+
+**Eén endpoint met view of projection**  
+Bij deze benadering wordt gebruik gemaakt van een queryparameter.
+
+GET /uitkomst-overleg/uoo-001?view=niveau0
+GET /uitkomst-overleg/uoo-001?view=niveau1
+GET /uitkomst-overleg/uoo-001?view=niveau2
+
+Ook hier wordt eenzelfde inhoudelijke response per niveau terug gegeven als beschreven bij de eerste optie (als voorbeeld).
+
+**Content negotiation**  
+Het niveau zou ook meegeven kunnen worden via headers, bijvoorbeeld:
+GET /uitkomst-overleg/uuo-001
+Accept: application/vnd.org.uuo.niveau0+json 
+“Accept” is een standaard HTTP-header waarmee een client aangeeft welke response-formaten de client begrijpt of wil ontvangen. In het voorbeeld dus: Geef de niveau 0 uuo-representatie als JSON. 
+
+Ook hier wordt eenzelfde inhoudelijke response per niveau terug gegeven als beschreven bij de eerste optie (als voorbeeld), waar “application” aangeeft dat het gaat om applicatiedata en “vnd.org” dat het een eigen organisatie- of ketenformaat betreft (en “org” de organisatienaam is).
+
+**Links naar detailinformatie: HATEOAS / affordances**  
+Hierbij worden alleen links (doorverwijzingen) naar informatie die de client mag ophalen teruggegeven.
+ 
+Ook hier wordt eenzelfde inhoudelijke response per niveau terug gegeven, via de doorverwijzing, als beschreven bij de eerste optie (als voorbeeld).
+
+Keuze/voorkeur:
+Gebruik van één canoniek resource-id, met meerdere representaties/views en autorisatie op basis van organisatie, rol, scope, doelbinding, casusbetrokkenheid, etc. 
+Dat zou er als volgt uit kunnen zien:
+GET /uitkomst-overleg/{uuoId}/uitkomst
+GET / uitkomst-overleg/{uuoId }/uitkomst/niveau0
+GET / uitkomst-overleg/{uuoId }/uitkomst/niveau1
+GET / uitkomst-overleg/{uuoId }/uitkomst/niveau2
+
+Met scopes als:
+uoo:read:minimaal
+uoo:read:beperkt
+uoo:read:volledig
+En met de claims (OIDC) in het token, zoals de scope. De server beslist dan:
+- heeft deze organisatie toegang tot deze uitkomst overleg?
+- past het doel bij de opvraag?
+- heeft de client de juiste scope?
+- mag deze rol deze de informatie op dit niveau zien?
+- moeten persoonsgegevens worden gemaskeerd?
+- moeten bronverwijzingen worden geabstraheerd?
+- etc.
+
+
