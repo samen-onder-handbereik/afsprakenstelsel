@@ -212,7 +212,7 @@ Hier zijn voor eenvoud entiteiten gebundeld zoals Veilig Thuis (~25 entiteiten),
 Ten opzichte van de getallen in het Jeugd, Zorg en Veiligheidsdomein is bovenstaande figuur op zichzelf een sterke vereenvoudiging van de werkelijkheid.
 Het aantal een-op-een relaties zou sterk te reduceren zijn via een knooppunt of ‘gateway’. Zie hiervoor scenario 2.
 
-**Scenario 2: gedeelde voorziening** 
+**Scenario 2: gedeelde voorziening**  
 Wanneer een domein zichzelf toegankelijk zou maken via een knooppunt of ‘gateway’, zou het aantal relaties sterk reduceren. Zie onderstaande figuur.
 
 ![Alt text]({{ site.baseurl }}/assets/relatiesgw.png)
